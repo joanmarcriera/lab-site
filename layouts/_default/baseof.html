@@ -3,15 +3,13 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
 <meta name="description" content="{{ .Site.Params.description }}">
-<style>
-body{font:18px/1.6 -apple-system,system-ui,sans-serif;max-width:44rem;margin:2rem auto;padding:0 1rem;color:#1a202c}
-a{color:#0b6e6e} h1,h2{line-height:1.25} header nav a{margin-right:1rem}
-.meta{color:#718096;font-size:.85em} .videowrap{position:relative;padding-bottom:56.25%;height:0}
-.videowrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}
-footer{margin-top:3rem;color:#718096;font-size:.85em;border-top:1px solid #e2e8f0;padding-top:1rem}
-</style></head><body>
-<header><nav><a href="/">Home</a><a href="/leadership/">Leadership</a><a href="/selfhosted/">Self-hosted</a>
-<a href="https://github.com/joanmarcriera/local-ai-lab">Lab repo</a></nav></header>
+<link rel="stylesheet" href="{{ "css/lab-site.css" | relURL }}">
+</head><body>
+<header class="site">
+<a class="brand" href="/">{{ .Site.Title }}</a>
+<nav><a href="/">Home</a><a href="/leadership/">Leadership</a><a href="/selfhosted/">Self-hosted</a>
+<a href="https://github.com/joanmarcriera/local-ai-lab">Lab repo</a></nav>
+</header>
 <main>{{ block "main" . }}{{ end }}</main>
 <footer>AI-assisted content, my real face and words. Pipeline + artefacts:
 <a href="https://github.com/joanmarcriera/local-ai-lab">local-ai-lab</a>.</footer>

@@ -1,4 +1,6 @@
 {{ define "main" }}<h1>{{ .Site.Title }}</h1><p>{{ .Site.Params.description }}</p>
-<ul>{{ range first 30 (where .Site.RegularPages "Type" "in" (slice "leadership" "selfhosted")) }}
-<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="meta">{{ .Date.Format "2 Jan 2006" }}</span></li>{{ end }}</ul>
+<ul class="postlist">{{ range first 30 (where .Site.RegularPages "Type" "in" (slice "leadership" "selfhosted")) }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ with .Params.series }}<span class="series">{{ . }}</span>{{ end }}
+<span class="meta">{{ .Date.Format "2 Jan 2006" }}</span></li>{{ end }}</ul>
 {{ end }}

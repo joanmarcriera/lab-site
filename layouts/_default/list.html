@@ -1,3 +1,6 @@
 {{ define "main" }}<h1>{{ .Title }}</h1>
-<ul>{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="meta">{{ .Date.Format "2 Jan 2006" }}</span></li>{{ end }}</ul>
+<ul class="postlist">{{ range .Pages }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ with .Params.series }}<span class="series">{{ . }}</span>{{ end }}
+<span class="meta">{{ .Date.Format "2 Jan 2006" }}</span></li>{{ end }}</ul>
 {{ end }}
