@@ -1,6 +1,6 @@
 ---
 title: "Nine and a half years to a CMDB we still didn't have"
-date: 2026-07-22
+date: 2026-07-20
 series: "War stories"
 ---
 
