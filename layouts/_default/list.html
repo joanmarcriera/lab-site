@@ -1,4 +1,5 @@
 {{ define "main" }}<h1>{{ .Title }}</h1>
+{{ .Content }}
 <ul class="postlist">{{ range .Pages }}
 <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
 {{ with .Params.series }}<span class="series">{{ . }}</span>{{ end }}
