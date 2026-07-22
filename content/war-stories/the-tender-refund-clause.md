@@ -1,6 +1,6 @@
 ---
 title: "The tender clause nobody had used before"
-date: 2026-07-20
+date: 2026-07-22
 series: "War stories"
 ---
 

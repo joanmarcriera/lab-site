@@ -1,6 +1,6 @@
 ---
 title: "We used to migrate data centres by lorry"
-date: 2026-07-20
+date: 2026-07-22
 series: "War stories"
 ---
 

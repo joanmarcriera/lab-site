@@ -1,6 +1,6 @@
 ---
 title: "The first 15 petabytes took ten years. The next 110 took eight."
-date: 2026-07-20
+date: 2026-07-22
 series: "War stories"
 ---
 
