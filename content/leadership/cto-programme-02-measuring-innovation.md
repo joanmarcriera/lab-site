@@ -1,7 +1,7 @@
 ---
 title: "Measure the work, not just the outcome"
 date: 2026-07-19T21:50:00+01:00
-series: "CTO programme · 2/10"
+tags: [leadership]
 ---
 
 "You get what you measure" is the most repeated line in management. For innovation and novel technical work, it is at best half true — and the reasons collide directly with how engineering organisations actually behave. After years of running services, and of watching measurement done badly and occasionally well, this is the set of principles I keep coming back to.

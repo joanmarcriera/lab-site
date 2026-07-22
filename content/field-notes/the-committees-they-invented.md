@@ -1,7 +1,8 @@
 ---
 title: "They invented committees to slow me down. I fed them my best work."
 date: 2026-07-20
-series: "War stories"
+tags: [leadership]
+aliases: ["/war-stories/the-committees-they-invented/"]
 ---
 
 There is a form of obstruction that never says no. It invents process instead.

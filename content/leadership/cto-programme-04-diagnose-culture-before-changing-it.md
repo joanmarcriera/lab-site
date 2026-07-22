@@ -1,7 +1,7 @@
 ---
 title: "Diagnose the culture before you try to change it"
 date: 2026-07-19T21:30:00+01:00
-series: "CTO programme · 4/10"
+tags: [leadership]
 ---
 
 For years I carried around a puzzle about EMBL-EBI, the scientific institute where I ran infrastructure: nearly everyone left before the nine-year mark. Brilliant people, world-class science, genuinely pleasant campus — and still, a steady conveyor belt out of the door. What I only later appreciated is that this is not drift. It is design. EMBL — the intergovernmental institution, [founded in 1974](https://www.embl.org/about/history/), that EBI belongs to — has regular staff turnover enshrined in its policies. As EMBL itself put it in [written evidence to the UK Parliament](https://committees.parliament.uk/writtenevidence/111157/pdf/): "The principle of regular staff turnover is enshrined in EMBL's policies with a nine-year rule providing Europe and the world with a regular supply of highly trained scientific personnel."

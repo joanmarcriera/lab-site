@@ -2,6 +2,7 @@
 title: "The biggest obstacle to innovation is not budget — it is turf"
 date: 2026-07-19T16:50:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 Whenever an innovation programme stalls, the post-mortem reaches for the comfortable explanations. Not enough budget. The technology was not ready. Leadership did not back it. These are comfortable because they are external — someone else's fault, or nobody's. Scott Kirsner's ["The Biggest Obstacles to Innovation in Large Companies"](https://hbr.org/2018/07/the-biggest-obstacles-to-innovation-in-large-companies) surveyed 270 leaders in strategy, innovation and R&D roles and produced a ranking that quietly demolishes the comfortable stories.

@@ -1,7 +1,8 @@
 ---
 title: "An important GitHub org had no reachable admin. I opened one ticket."
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/one-ticket/"]
 ---
 
 Here is a story with no dramatic recovery in it, and that's the whole point.

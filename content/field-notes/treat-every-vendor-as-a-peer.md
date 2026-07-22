@@ -1,7 +1,8 @@
 ---
 title: "Treat every vendor as a peer — even the ones who treat you badly"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership]
+aliases: ["/war-stories/treat-every-vendor-as-a-peer/"]
 ---
 
 My rule with vendors is simple, and it isn't kindness. Everybody gets peer treatment — the real numbers, the log tables, the honest picture — if they treat me well. Even the ones who treat me badly get it, because my job is to get their best work out of them, and you don't get anyone's best by holding cards back.

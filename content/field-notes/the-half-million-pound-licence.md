@@ -1,7 +1,8 @@
 ---
 title: "The £500,000 licence I didn't buy"
 date: 2026-07-20
-series: "War stories"
+tags: [finance]
+aliases: ["/war-stories/the-half-million-pound-licence/"]
 ---
 
 The cheapest data transfer is the licence you never renew. We were about to be asked for half a million pounds, and we didn't pay it.

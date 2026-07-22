@@ -1,6 +1,7 @@
 ---
 title: "Scott, Amundsen, and the myth of the motivated team"
 date: 2026-07-19T18:20:00+01:00
+tags: [leadership]
 ---
 
 Hiring for motivation and hoping expertise follows is a century-old mistake with a body count. The 1911 race to the South Pole — [Amundsen's success](https://en.wikipedia.org/wiki/Amundsen%27s_South_Pole_expedition), [Scott's disaster](https://en.wikipedia.org/wiki/Terra_Nova_Expedition) — is the classic case, and I find it uncomfortably applicable to how we build technology teams.

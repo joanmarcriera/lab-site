@@ -2,6 +2,7 @@
 title: "Gravitas is not a personality trait — it is a set of behaviours you can change"
 date: 2026-07-19T17:10:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 Early in my career I turned down leadership roles more than once. Part of it was genuine preference for the technical work. Part of it, if I am honest, was a vague sense that I lacked whatever it was that senior people seemed to have and I did not. Nobody could tell me what it was. The feedback was always the fog: "presence", "gravitas", "intangibles". You cannot act on fog.

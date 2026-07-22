@@ -1,7 +1,7 @@
 ---
 title: "Risk, return and the hurdle rate: what engineers get wrong about 'safe' choices"
 date: 2026-07-19T20:30:00+01:00
-series: "Finance for technologists · 2/6"
+tags: [finance, leadership]
 ---
 
 Reliability engineering and finance are the same discipline wearing different clothes. Both estimate the gap between expected and actual outcomes, both price that gap, and both fail in the same way: by assuming failures are independent when they are not. Once I started reading corporate finance seriously, the parallel became impossible to unsee.

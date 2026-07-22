@@ -1,6 +1,7 @@
 ---
 title: "Put your aces on page one: what reviewing a fellow executive's CV taught me about mine"
 date: 2026-07-19T17:55:00+01:00
+tags: [leadership]
 ---
 
 One of the quiet benefits of a strong professional network has nothing to do with networking events: you end up swapping CVs with accomplished peers and marking each other's homework. A fellow technology executive asked me to review their CV. I wrote them several paragraphs of feedback. Then I reread my own CV and discovered I had violated most of my own advice.

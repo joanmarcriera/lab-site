@@ -1,7 +1,8 @@
 ---
 title: "On my first day I was given a second-hand account"
 date: 2026-07-22
-series: "War stories"
+tags: [leadership, operations]
+aliases: ["/war-stories/identity-is-normal-now/"]
 ---
 
 On my first day, I didn't have an account. The IT person I was replacing created one for me, removed the previous holder's alias, and handed it over — recycled, like a locker. I don't know whether that was standard procedure or just how it happened that morning; either way it could not happen today. My contract? Signed a week later. HR saw no relationship between contracts and accounts.

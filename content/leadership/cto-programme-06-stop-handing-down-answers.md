@@ -1,6 +1,7 @@
 ---
 title: "The leader who answers every question becomes the bottleneck"
 date: 2026-07-19T21:10:00+01:00
+tags: [leadership]
 ---
 
 The most dangerous sentence in my vocabulary as an infrastructure leader was: "Just do it like this."

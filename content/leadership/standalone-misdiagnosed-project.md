@@ -1,6 +1,7 @@
 ---
 title: "The most expensive project mistake is made on day one"
 date: 2026-07-19T18:40:00+01:00
+tags: [leadership]
 ---
 
 Projects fail at diagnosis, not at delivery. That is the single most useful idea I have about running projects, and it matches everything I have seen in twenty years of running infrastructure.

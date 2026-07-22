@@ -1,6 +1,7 @@
 ---
 title: "What chemical-industry crisis planning taught me about on-call"
 date: 2026-07-19T17:50:00+01:00
+tags: [leadership, operations]
 ---
 
 Tech did not invent incident response. We are, at best, enthusiastic late adopters.

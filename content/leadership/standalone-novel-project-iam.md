@@ -1,6 +1,7 @@
 ---
 title: "Fifteen years of identity debt, and how we finally paid it down"
 date: 2026-07-19T18:30:00+01:00
+tags: [leadership, operations]
 ---
 
 Nobody volunteers to replace an identity management system. When I took on the IAM overhaul at EMBL-EBI, the project had been left unattended for roughly fifteen years. The internal consensus was that it would take ten more to fix, because it could only be done in tiny pieces. Both beliefs were wrong, but understanding *why* they were wrong took a framework I only later found a proper name for.

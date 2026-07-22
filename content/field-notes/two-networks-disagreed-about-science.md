@@ -1,7 +1,8 @@
 ---
 title: "The ports wouldn't open because two networks disagreed about what \"science\" was"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/two-networks-disagreed-about-science/"]
 ---
 
 Some data transfers just wouldn't go through, and the fix wasn't on our side at all. It was two networks on two continents that had never compared notes. Once I got them in the same conversation, the problem dissolved — and not just for us. It unblocked institutions we'd never even talked to.

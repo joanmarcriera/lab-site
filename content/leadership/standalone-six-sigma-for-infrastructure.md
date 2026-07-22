@@ -1,6 +1,7 @@
 ---
 title: "Six Sigma thinking for infrastructure teams (no belts required)"
 date: 2026-07-19T17:40:00+01:00
+tags: [leadership, operations]
 ---
 
 Infrastructure teams already do Six Sigma. Badly, informally, and under different names — but we do it. So I decided to learn it properly.

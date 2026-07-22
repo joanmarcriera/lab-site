@@ -1,7 +1,8 @@
 ---
 title: "He offered to press the button on his last Friday. I said no."
 date: 2026-07-20
-series: "War stories"
+tags: [leadership, operations]
+aliases: ["/war-stories/the-last-friday-button/"]
 ---
 
 A departing engineer offered to upgrade our single-sign-on on his last Friday at 11am. I told him not to. He did it anyway, and on Monday nothing worked. I still think saying no was right.

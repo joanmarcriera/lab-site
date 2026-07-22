@@ -1,7 +1,7 @@
 ---
 title: "Leadership runs on emotion, even in a room full of engineers"
 date: 2026-07-19T21:20:00+01:00
-series: "CTO programme · 5/10"
+tags: [leadership]
 ---
 
 I spent most of my career in scientific infrastructure believing that good decisions win arguments. Present the benchmark, show the cost model, the room updates. When that failed — and it failed often — I filed it under "politics" and moved on.

@@ -1,6 +1,7 @@
 ---
 title: "People accept decisions they dislike, if the process was fair"
 date: 2026-07-19T19:10:00+01:00
+tags: [leadership]
 ---
 
 Some of the worst fallout I have seen in technology teams followed decisions that were, on the merits, correct. A justified migration, a sensible deprecation, a defensible on-call change — and still resentment, attrition, quiet sabotage. For years I filed this under "people dislike change". Eventually I found a sharper diagnosis: the decisions were fine; the process was unfair. And process fairness, it turns out, is a studied thing with a small, learnable structure.

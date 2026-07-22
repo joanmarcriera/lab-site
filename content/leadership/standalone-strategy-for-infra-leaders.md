@@ -1,6 +1,7 @@
 ---
 title: "Strategy frameworks are wasted on the boardroom"
 date: 2026-07-19T18:00:00+01:00
+tags: [leadership]
 ---
 
 Most strategy education is aimed at people who set corporate direction. Most value from it, I suspect, is captured by people who run things. I have spent years working through the strategy canon — [Porter's Five Forces](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis), network effects, ecosystem thinking, execution — while leading infrastructure and IT services, and the recurring surprise is how directly boardroom frameworks apply to infrastructure and platform leadership, a level where nobody bothers to use them.

@@ -1,7 +1,8 @@
 ---
 title: "Nobody claps for the fire that never started"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership]
+aliases: ["/war-stories/nobody-claps-for-the-fire-that-never-started/"]
 ---
 
 I've worked for leaders who put small problems out while they were still small, and leaders who waited for the inferno so they could be seen fighting it. The second kind often does better. Understanding why is one of the more useful things I've learned in twenty years of infrastructure.

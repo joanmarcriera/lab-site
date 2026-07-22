@@ -1,7 +1,8 @@
 ---
 title: "We used to migrate data centres by lorry"
 date: 2026-07-22
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/migrating-data-centres-by-lorry/"]
 ---
 
 When I arrived, the organisation had just finished a data centre migration. The method: power everything down, put the servers on a lorry, drive the lorry to the new building.

@@ -1,7 +1,7 @@
 ---
 title: "Agency costs in the machine room: governance lessons from boardrooms, open source and my homelab"
 date: 2026-07-19T20:00:00+01:00
-series: "Finance for technologists · 5/6"
+tags: [finance, leadership]
 ---
 
 Corporate governance was the finance topic I expected to skim and ended up rereading. It is nominally about boards and shareholders. It is actually about a problem every engineering leader owns: what happens when the people controlling a system are not the people who suffer its failures.

@@ -1,7 +1,7 @@
 ---
 title: "Debt, equity and the 3% rule: why software companies borrow almost nothing"
 date: 2026-07-19T20:20:00+01:00
-series: "Finance for technologists · 3/6"
+tags: [finance, leadership]
 ---
 
 I used to think capital structure was the one finance topic an engineer could safely ignore. A single contrast convinced me otherwise: software companies typically run on about 3% debt, automotive manufacturers on about 60%. The explanation turns out to be about engineers.

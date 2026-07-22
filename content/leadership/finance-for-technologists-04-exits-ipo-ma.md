@@ -1,7 +1,7 @@
 ---
 title: "The IPO pop and the poison pill: exit mechanics every senior engineer should know"
 date: 2026-07-19T20:10:00+01:00
-series: "Finance for technologists · 4/6"
+tags: [finance, leadership]
 ---
 
 Engineers learn exit mechanics the expensive way: on the day their employer announces one. I took the calmer route and studied the machinery before I needed it, and I wish this material were standard onboarding for anyone paid partly in equity.

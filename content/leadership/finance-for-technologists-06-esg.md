@@ -1,7 +1,7 @@
 ---
 title: "ESG without the halo: correlation, causation and why I still picked the boring index"
 date: 2026-07-19T19:50:00+01:00
-series: "Finance for technologists · 6/6"
+tags: [finance, leadership]
 ---
 
 ESG is the rare subject where the marketing and the evidence live in different postcodes. Corporate sustainability content almost never treats "does this actually work?" as an open empirical question. It is one, and as someone who spends his professional life distinguishing signal from dashboard decoration, I wanted to answer it for myself.

@@ -2,6 +2,7 @@
 title: "It was never about the watercooler"
 date: 2026-07-19T16:30:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 When offices emptied, a particular anxiety spread through management: we are going to lose our culture. It was usually expressed through the missing furniture — the watercooler conversations, the corridor run-ins, the perks. Jennifer Howard-Grenville's ["How to Sustain Your Organization's Culture When Everyone Is Remote"](https://sloanreview.mit.edu/article/how-to-sustain-your-organizations-culture-when-everyone-is-remote/) was written in the thick of that moment, and it argues, convincingly, that the anxiety mistook the props for the play. Read now, with distributed work a permanent fixture rather than an emergency, it holds up better than most of what was written then.

@@ -1,7 +1,7 @@
 ---
 title: "NPV for engineers: why your build-vs-buy gut feeling needs a discount rate"
 date: 2026-07-19T20:40:00+01:00
-series: "Finance for technologists · 1/6"
+tags: [finance, leadership]
 ---
 
 Engineers argue about build-vs-buy with spreadsheets that have no concept of time. I did it for years. A licence costs £40k a year; building takes six months of one engineer; therefore building "pays for itself" in under two years. Case closed.

@@ -1,7 +1,8 @@
 ---
 title: "We killed the Aspera ticket queue by teaching the service desk"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership, operations]
+aliases: ["/war-stories/killing-the-ticket-queue/"]
 ---
 
 We were logging two or three Aspera tickets a week. After we trained the service desk, we logged zero. Not fewer. Zero. That is the whole argument for teaching people, and I'll spend the rest of this post explaining why it was ever an argument at all.

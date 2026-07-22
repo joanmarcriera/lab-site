@@ -1,7 +1,8 @@
 ---
 title: "A month-long rebalance nobody could hold a post-mortem for"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/the-rebalance-nobody-could-post-mortem/"]
 ---
 
 The storage wasn't slow because of the network. The network was saturated because the storage had been quietly rebuilding itself across three data centres for over a month, and nobody had told us. It took me a month of asking the same question every two days, and one uninvited appearance on a vendor call, to get that sentence said out loud.

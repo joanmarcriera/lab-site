@@ -1,6 +1,7 @@
 ---
 title: "The contract sets the price; control rights set the future"
 date: 2026-07-19T21:00:00+01:00
+tags: [leadership]
 ---
 
 No organisation innovates alone any more — [open innovation](https://en.wikipedia.org/wiki/Open_innovation) stopped being a slogan and became a description years ago. Years of vendor deals, collaborations and open-source work have changed how I read a contract, and the conclusion comes first: the financial terms of a partnership are the least interesting part of it. The interesting parts are where the decision rights sit and whether the collaboration architecture lets ideas travel at all.

@@ -1,6 +1,7 @@
 ---
 title: "You can't copy a culture, only its furniture"
 date: 2026-07-19T19:00:00+01:00
+tags: [leadership]
 ---
 
 Every few years a company becomes the one to imitate. Toyota, then Google, then Spotify, then Netflix. Playbooks circulate; rituals get adopted; org charts are redrawn to match a conference talk. The results are reliably disappointing, and I eventually landed on a satisfying explanation of why — one that starts unusually far from management literature.

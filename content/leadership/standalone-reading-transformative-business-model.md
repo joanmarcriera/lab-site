@@ -2,6 +2,7 @@
 title: "A new technology never transformed an industry on its own"
 date: 2026-07-19T16:40:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 Spend any time near infrastructure and you develop an allergy to the phrase "this changes everything". A new model, a faster interconnect, a clever protocol — each arrives wrapped in the claim that the technology itself is the revolution. It almost never is. ["The Transformative Business Model"](https://store.hbr.org/product/the-transformative-business-model/R1610H) by Stelios Kavadias, Kostas Ladas and Christoph Loch is the clearest statement I have found of why, and it gave me a checklist I now use on every hype cycle, including this one.

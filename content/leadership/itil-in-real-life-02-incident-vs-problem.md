@@ -2,6 +2,7 @@
 title: "Incidents get you praised. Problems get you peace."
 date: 2026-07-19T19:30:00+01:00
 series: "ITIL in real life · 2/3"
+tags: [operations, leadership]
 ---
 
 If one distinction from ITIL 4 earns its place on a whiteboard, it is this: incidents are about restoring service, problems are about removing causes. Confuse the two and you will be busy forever and better never.

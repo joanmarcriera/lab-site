@@ -2,6 +2,7 @@
 title: "Continual improvement is a queue, not a quest"
 date: 2026-07-19T19:20:00+01:00
 series: "ITIL in real life · 3/3"
+tags: [operations, leadership]
 ---
 
 Improvement work does not fail for lack of ideas. It fails for lack of a queue.

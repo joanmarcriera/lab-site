@@ -1,7 +1,8 @@
 ---
 title: "I kept my best engineer for £250 a month"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership, finance]
+aliases: ["/war-stories/retaining-the-engineer/"]
 ---
 
 The best engineer I ever worked with was about to leave, and I kept him for £250 a month. That number is a trap. If you read this as a story about a raise, you'll learn the wrong thing — because the raise was almost cosmetic, and I knew it when I asked for it.

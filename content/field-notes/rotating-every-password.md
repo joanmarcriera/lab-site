@@ -1,7 +1,8 @@
 ---
 title: "The week we rotated every password"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership, operations]
+aliases: ["/war-stories/rotating-every-password/"]
 ---
 
 We rotated every credential in the institute in one week. Not because we were clever under pressure, but because of boring work we had finished months earlier: every account was tied to an owner, that owner to a contract, that contract to a manager, and that manager to another manager. When the serious security incident hit, the question "who owns this account?" had an answer for every single account. That is the whole story. Everything else is detail.

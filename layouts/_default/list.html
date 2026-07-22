@@ -3,5 +3,6 @@
 <ul class="postlist">{{ range .Pages }}
 <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
 {{ with .Params.series }}<span class="series">{{ . }}</span>{{ end }}
+{{ range (.GetTerms "tags") }}<a class="series" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
 <span class="meta">{{ .Date.Format "2 Jan 2006" }}</span></li>{{ end }}</ul>
 {{ end }}

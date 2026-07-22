@@ -1,6 +1,7 @@
 ---
 title: "The silo tax: why your smartest engineers produce less than they should"
 date: 2026-07-19T18:50:00+01:00
+tags: [leadership]
 ---
 
 Ask people how creativity is distributed across a population and you will usually get one of two answers: evenly ("everyone can be creative"), or normally ("most people are average, a few are geniuses, a few are hopeless"). Both are wrong. Measured output — patents, publications, citations, improvement suggestions on a factory floor — follows a power law: a long tail of modest contributors and a tiny number of towering outliers. This has been rediscovered often enough to earn two names, [Lotka's law](https://en.wikipedia.org/wiki/Lotka%27s_law) and [Price's law](https://en.wikipedia.org/wiki/Price%27s_law).

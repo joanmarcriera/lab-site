@@ -1,6 +1,7 @@
 ---
 title: "Two NVIDIA courses later: what the AI stack looks like from the infrastructure side"
 date: 2026-07-19T17:30:00+01:00
+tags: [leadership]
 ---
 
 Conclusion first: after working through two of NVIDIA's hands-on Deep Learning Institute courses, I am convinced the AI stack is about 10% model and 90% infrastructure — and that the 90% is where most organisations will succeed or fail.

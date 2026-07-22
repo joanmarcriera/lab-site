@@ -1,7 +1,8 @@
 ---
 title: "The negotiation I lost was my own promotion"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership]
+aliases: ["/war-stories/the-negotiation-i-lost/"]
 ---
 
 Two quick negotiations went well, and the one that mattered most to me personally, I lost. I lost it on purpose, more or less, and I want to be honest about how that happens — because it's rarely one dramatic decision. It's a hundred small ones, all pointing the same way.

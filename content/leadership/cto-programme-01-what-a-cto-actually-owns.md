@@ -1,7 +1,7 @@
 ---
 title: "Nobody owns all of innovation — not even the CTO"
 date: 2026-07-19T22:00:00+01:00
-series: "CTO programme · 1/10"
+tags: [leadership]
 ---
 
 The title "CTO" tells you almost nothing about what the person does. It took me two decades in infrastructure — consultancy, HPC, then leading IT services at [EMBL-EBI](https://www.ebi.ac.uk/about) — to see how much that matters, and it reframed how I think about my own scope.

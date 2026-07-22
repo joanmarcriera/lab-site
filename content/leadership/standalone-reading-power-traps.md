@@ -2,6 +2,7 @@
 title: "The day people stopped telling me the truth"
 date: 2026-07-19T17:00:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 There is a moment, some time after you take a leadership role, when you realise the information reaching you has changed shape. Meetings agree with you a little too readily. Bad news arrives late and pre-softened. Your throwaway suggestion in a review comes back three weeks later as a fully built feature nobody actually wanted. It took me longer than I would like to admit to understand what was happening: I had not gotten smarter. I had gotten authority, and authority distorts the room.

@@ -1,7 +1,8 @@
 ---
 title: "Why I spent my last three years switching things off"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/switching-things-off/"]
 ---
 
 I spent my last years at EMBL-EBI retiring things. Decommissioning endpoints, killing protocols, switching services off. Nobody throws a party when you turn something off. There's no demo, no launch, no screenshot for the all-hands. I did it anyway, and I'd do every hour of it again.

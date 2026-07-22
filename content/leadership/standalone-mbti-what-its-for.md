@@ -1,6 +1,7 @@
 ---
 title: "I'm an ESTJ, apparently. Here is what an MBTI report is actually for."
 date: 2026-07-19T17:45:00+01:00
+tags: [leadership]
 ---
 
 Verdict first: the MBTI is scientifically shaky, and mine was still worth the hour it took.

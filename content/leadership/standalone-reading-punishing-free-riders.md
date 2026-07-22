@@ -2,6 +2,7 @@
 title: "Why cooperation needs someone willing to punish the free-rider"
 date: 2026-07-19T16:20:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 There is a person on every long-lived team who does the quiet work of keeping the free-rider in check. Sometimes it is a manager. More often it is a senior engineer who, without ceremony, will not let someone coast on the group's effort — a pointed question in review, a comment that the shared on-call is not being shared. It is tempting to see this as friction in an otherwise harmonious culture. The more I have read about how cooperation actually survives, the more I think it is the opposite: that quiet enforcement is not a flaw in the culture, it is the load-bearing wall.

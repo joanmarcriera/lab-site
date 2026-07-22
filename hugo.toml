@@ -1,5 +1,7 @@
 baseURL = "https://blog.riera.co.uk/"
 languageCode = "en-gb"
 title = "Marc Riera — Lab Notes"
+[taxonomies]
+  tag = "tags"
 [params]
   description = "Technology leadership and self-hosted AI infrastructure — no hype, just things that work."

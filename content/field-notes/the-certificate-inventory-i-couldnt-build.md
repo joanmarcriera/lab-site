@@ -1,7 +1,8 @@
 ---
 title: "A certificate inventory I couldn't get built"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/the-certificate-inventory-i-couldnt-build/"]
 ---
 
 This one is a failure, and I'll tell it as one. Not a technical failure — the fix was trivial and I designed it twice. It failed because the organisation would rather wait for a vendor to solve a problem someday than solve it itself this year. Certificates kept expiring in production. Every time, they were renewed after they had already failed, and every time by a different person.

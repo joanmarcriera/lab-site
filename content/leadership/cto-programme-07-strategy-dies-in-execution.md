@@ -1,6 +1,7 @@
 ---
 title: "Strategy dies at the operational level (unless you cascade it)"
 date: 2026-07-19T21:05:00+01:00
+tags: [leadership]
 ---
 
 Execution is a design problem, not a willpower problem. It took me years of running IT services — and a lot of watching good strategies evaporate between the slide and the shift rota — to accept that. The turning point was when I stopped nodding along to strategy documents and started rewriting my own team's KPIs.

@@ -1,7 +1,8 @@
 ---
 title: "How I came to own identity — by dumping every password hash in week one"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/the-art-of-switching-things-off/"]
 ---
 
 The oldest thing I ever switched off was ypcat.

@@ -1,7 +1,8 @@
 ---
 title: "A warning ignored is a risk accepted — by the people who ignore it"
 date: 2026-07-20
-series: "War stories"
+tags: [leadership, operations]
+aliases: ["/war-stories/a-warning-ignored/"]
 ---
 
 We had already reported the problem before it became the problem. That's the whole story, really, and it's the part that gets left out of every tidy incident write-up. By the time there was a security incident to respond to, the specific weaknesses at the centre of it had been on the record for a while — raised, written down, handed to the people who owned that system, and not acted on.

@@ -1,7 +1,8 @@
 ---
 title: "1,000 machines in a day, or 3,000 unfinished a month later"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/automation-vs-doing-it-by-hand/"]
 ---
 
 After the incident, we had to get an endpoint agent onto every machine we ran. CrowdStrike, on everything, quickly. That job became the cleanest measurement I've ever seen of the difference between automating work and doing it by hand. Same task, same deadline, same organisation. Two completely different outcomes.

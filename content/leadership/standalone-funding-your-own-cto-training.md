@@ -1,6 +1,7 @@
 ---
 title: "How I got my employer to help fund a five-figure executive programme"
 date: 2026-07-19T17:25:00+01:00
+tags: [leadership, finance]
 ---
 
 [Executive education](https://en.wikipedia.org/wiki/Executive_education) has a pricing problem and a silence problem. The pricing problem is obvious: the six-month, part-time programme I took carried a five-figure tuition fee. The silence problem is subtler: almost nobody talks about how these things actually get paid for, which leaves people assuming the answer is "the company pays for executives, and everyone else pays alone". Neither was true in my case. Here is how it worked, and what I would tell anyone weighing a similar move.

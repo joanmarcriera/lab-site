@@ -1,7 +1,8 @@
 ---
 title: "The first 15 petabytes took ten years. The next 110 took eight."
 date: 2026-07-22
-series: "War stories"
+tags: [operations, finance]
+aliases: ["/war-stories/fifteen-to-125-petabytes/"]
 ---
 
 When I took over FIRE, the archive, at the end of 2017, it held 15 petabytes — the accumulation of ten years. When I handed it on in 2025 it held 125, and in one month it had grown by three petabytes on its own.

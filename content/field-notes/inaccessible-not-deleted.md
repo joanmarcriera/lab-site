@@ -1,7 +1,8 @@
 ---
 title: "\"Inaccessible\", not \"deleted\" — the word that saved 12 petabytes of work"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/inaccessible-not-deleted/"]
 ---
 
 We had to get rid of about 12 petabytes because a contract said so. Most people who hadn't read the contract said "we need to delete the data". The contract didn't say delete. It said we were required to make the data inaccessible. Those are not the same thing, and the difference between them was worth an enormous amount of avoided, pointless work. Reading the exact words is a technical skill.

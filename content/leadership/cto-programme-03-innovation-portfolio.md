@@ -1,7 +1,7 @@
 ---
 title: "Your project portfolio is not a stock portfolio"
 date: 2026-07-19T21:40:00+01:00
-series: "CTO programme · 3/10"
+tags: [leadership]
 ---
 
 The word "portfolio" does a lot of damage in technology organisations. It arrives carrying financial baggage: diversification, risk-return optimisation, maximising yield. Dismantling exactly that framing changed how I look at roadmap decisions more than anything else in my years of running infrastructure.

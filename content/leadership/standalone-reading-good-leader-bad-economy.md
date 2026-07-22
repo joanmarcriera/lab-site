@@ -2,6 +2,7 @@
 title: "The recession playbook that makes the recession worse"
 date: 2026-07-19T17:20:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 There is a standard playbook for leading through a downturn, and most of us reach for it on instinct. Get closer to the team. Set a faster pace. Ask people to carry more. Every one of those moves is defensible. Merete Wedell-Wedellsborg's argument in ["How to Be a Good Leader in a Bad Economy"](https://hbr.org/2022/11/how-to-be-a-good-leader-in-a-bad-economy) is that the playbook is right about direction and dangerously wrong about dose — and that a leader running it at full throttle can turn a difficult quarter into a destructive spiral.

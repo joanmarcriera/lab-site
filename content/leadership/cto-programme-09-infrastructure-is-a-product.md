@@ -1,6 +1,7 @@
 ---
 title: "Your internal platform is a product. Your users just can't churn."
 date: 2026-07-19T20:55:00+01:00
+tags: [leadership]
 ---
 
 Infrastructure people are trained to think in systems. Product people are trained to think in problems. After years of running services, I decided to borrow the second group's habits wholesale — by taking the least glamorous system I own through a full product cycle, exactly as a product manager would run it.

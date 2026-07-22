@@ -1,7 +1,8 @@
 ---
 title: "Don't deprecate — roll"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/dont-deprecate-roll/"]
 ---
 
 We replaced the archive's front door — the public entry point researchers around the world push data through — and kept a set of DNS names that go back to the 1980s alive through the whole thing. Not one of those old addresses broke. That's the headline, and the method behind it is the only part worth copying: don't deprecate, roll.

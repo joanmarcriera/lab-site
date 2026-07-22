@@ -1,7 +1,8 @@
 ---
 title: "Closing the same ticket forty times is not service"
 date: 2026-07-20
-series: "War stories"
+tags: [operations]
+aliases: ["/war-stories/closing-the-same-ticket-forty-times/"]
 ---
 
 We ran a world-class institute on a ticketing system nobody could report on. That was just silly, and I tried to retire it.

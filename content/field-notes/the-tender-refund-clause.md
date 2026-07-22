@@ -1,7 +1,8 @@
 ---
 title: "The tender clause nobody had used before"
 date: 2026-07-22
-series: "War stories"
+tags: [finance, operations]
+aliases: ["/war-stories/the-tender-refund-clause/"]
 ---
 
 I put a clause in a storage tender that made vendors read twice: if the delivered system cannot write one petabyte in a week and read one petabyte back in a week, you take it home and refund us.

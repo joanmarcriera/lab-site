@@ -1,7 +1,8 @@
 ---
 title: "Nine and a half years to a CMDB we still didn't have"
 date: 2026-07-22
-series: "War stories"
+tags: [leadership]
+aliases: ["/war-stories/nine-years-to-a-cmdb/"]
 ---
 
 I have implemented CMDBs before — at Barcelona Media, at the Sant Feliu town council, at the insurer ARAG, at Bull, at Atos. So when I joined a petabyte-scale scientific institution with close to a hundred IT people and found no CMDB and no change management, I said so.

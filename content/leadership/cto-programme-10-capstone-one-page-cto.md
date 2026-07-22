@@ -1,6 +1,7 @@
 ---
 title: "The one-page plan I ask every technology leader to write"
 date: 2026-07-19T20:50:00+01:00
+tags: [leadership]
 ---
 
 Every technology strategy I have watched die, died of length. Forty slides survive the meeting and then dissolve into a folder of PDFs everyone means to reread. So the exercise I now ask of every technology leader I mentor — and repeat myself, on paper, once a year — is deliberately brutal: put your function's next three years on one page.

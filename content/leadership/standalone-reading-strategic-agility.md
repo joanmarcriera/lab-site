@@ -2,6 +2,7 @@
 title: "Agility is not a process — it is knowing what to unlearn"
 date: 2026-07-19T16:10:00+01:00
 series: "Reading reflections"
+tags: [leadership]
 ---
 
 "Agile" has been worn smooth by overuse. For most organisations it now means a set of ceremonies bolted onto software delivery — standups, sprints, a board of sticky notes — and a quiet suspicion that none of it made the company any more able to change direction when the market moved. So I went into ["Cultivating Strategic Agility"](https://doi.org/10.1002/joe.22241) by Kyriakos Christofi, Pieris Chourides and George Papageorgiou expecting another framework, and came out with one idea I have not been able to put down. Usefully, it is an open-access paper, so anyone can read the whole thing rather than take my summary on trust.

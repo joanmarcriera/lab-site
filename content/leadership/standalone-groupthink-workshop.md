@@ -1,6 +1,7 @@
 ---
 title: "How I ran a creativity workshop for infrastructure engineers (and nobody rolled their eyes)"
 date: 2026-07-19T18:10:00+01:00
+tags: [leadership]
 ---
 
 Engineers distrust brainstorming, and they are right to. Most sessions are unstructured opinion exchanges that converge on whatever the loudest person suggested in minute three. So when I needed genuinely new ideas for a stubborn problem — identity and access management at EMBL-EBI — I did not book a "creativity session". I built a structured workshop from the classic idea-generation techniques, and told the team exactly what would happen and why.
