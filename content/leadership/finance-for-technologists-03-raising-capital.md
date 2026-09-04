@@ -20,9 +20,9 @@ The [adjusted present value](https://en.wikipedia.org/wiki/Adjusted_present_valu
 
 If tax were the only friction, firms would leverage to the hilt. They do not, because debt raises the probability of financial distress, and distress destroys value in ways that are mostly indirect:
 
-• Fire sales: needing cash and being known to need it means selling assets below their worth.
-• Incentive rot: management with limited downside starts gambling; or disengages and job-hunts.
-• Stakeholder flight: customers doubt your continuity, suppliers tighten terms, and employees, the mobile ones first, leave.
+- Fire sales: needing cash and being known to need it means selling assets below their worth.
+- Incentive rot: management with limited downside starts gambling; or disengages and job-hunts.
+- Stakeholder flight: customers doubt your continuity, suppliers tighten terms, and employees, the mobile ones first, leave.
 
 [Andrade and Kaplan's study of highly leveraged firms in trouble](https://doi.org/10.1111/0022-1082.00062) puts combined distress costs at roughly 10 to 20% of firm value. The striking part is that the process itself, lawyers and courts, is the minor cost. The major cost is the ecosystem quietly pricing in your possible death long before it happens. Anyone who has run a service through a vendor's public near-collapse has watched this dynamic from the outside: the technical product still worked; the trust did not.
 
@@ -34,9 +34,9 @@ An automotive manufacturer owns plant, land and machines: stable cash flows, and
 
 For technology leaders this lands close to home in three ways:
 
-• Retention risk is a balance sheet quantity. When your CFO resists leverage, they are pricing the fact that the company's value commutes home every evening.
-• Funding structure is context for engineering strategy. A debt-heavy employer has covenant obligations and cash flow commitments that shape how it treats platform investment in a downturn. Read the balance sheet before the roadmap.
-• Open source projects run the same trade-off without money. A project "financed" by a single maintainer's goodwill is leveraged to the hilt against distress: one burnout event and contributors, like customers of a distressed firm, quietly migrate. Foundations, co-maintainers and boring governance are the equity cushion. I fund my homelab projects the same way: spare capacity everywhere, obligations nowhere.
+- Retention risk is a balance sheet quantity. When your CFO resists leverage, they are pricing the fact that the company's value commutes home every evening.
+- Funding structure is context for engineering strategy. A debt-heavy employer has covenant obligations and cash flow commitments that shape how it treats platform investment in a downturn. Read the balance sheet before the roadmap.
+- Open source projects run the same trade-off without money. A project "financed" by a single maintainer's goodwill is leveraged to the hilt against distress: one burnout event and contributors, like customers of a distressed firm, quietly migrate. Foundations, co-maintainers and boring governance are the equity cushion. I fund my homelab projects the same way: spare capacity everywhere, obligations nowhere.
 
 Interestingly, the evidence suggests real firms borrow less than pure tax optimisation would recommend. Executives are more frightened of distress than the spreadsheet says they should be. Having watched engineers over-provision for the failure modes they have personally lived through, I recognise the psychology, and I am not sure it is wrong.
 

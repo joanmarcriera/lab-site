@@ -26,10 +26,10 @@ I adapted five idea-generation techniques into a workshop:
 
 ### Facilitation choices that made it work
 
-• **Start with off-the-chest, then choose only two of the remaining techniques.** Five full rounds would flatten the room. The techniques are a menu; the facilitator's job is portion control.
-• **One person takes notes; everyone else sends theirs RAW.** I asked the team to dump notes into Slack or email and send them unedited — "no filters, please". Polished submissions are censored submissions. The novelty lives in the half-sentences.
-• **Filter afterwards, visibly, on three axes:** feasibility (can we implement it within current systems?), novelty (is it actually new?), and impact (will it move security and usability?). Engineers accept idea-filtering when the criteria are stated before the filtering starts.
-• **Articulate one solution properly at the end** — next steps and stakeholders included. A workshop that ends with a wall of sticky notes and no owner is a team-building exercise pretending to be work.
+- **Start with off-the-chest, then choose only two of the remaining techniques.** Five full rounds would flatten the room. The techniques are a menu; the facilitator's job is portion control.
+- **One person takes notes; everyone else sends theirs RAW.** I asked the team to dump notes into Slack or email and send them unedited — "no filters, please". Polished submissions are censored submissions. The novelty lives in the half-sentences.
+- **Filter afterwards, visibly, on three axes:** feasibility (can we implement it within current systems?), novelty (is it actually new?), and impact (will it move security and usability?). Engineers accept idea-filtering when the criteria are stated before the filtering starts.
+- **Articulate one solution properly at the end** — next steps and stakeholders included. A workshop that ends with a wall of sticky notes and no owner is a team-building exercise pretending to be work.
 
 ### The companion tool: journey mapping the sad paths
 

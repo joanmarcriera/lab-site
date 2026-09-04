@@ -11,11 +11,11 @@ Here's the failure that convinced me. If you close the same ticket forty times, 
 
 Three questions, specifically, that I could not answer with the old tool:
 
-• **How many tickets were raised for the same reason?** If the answer is "forty," you don't have forty incidents. You have one problem and thirty-nine symptoms, and every close is a small lie you're telling yourself about being productive.
+- **How many tickets were raised for the same reason?** If the answer is "forty," you don't have forty incidents. You have one problem and thirty-nine symptoms, and every close is a small lie you're telling yourself about being productive.
 
-• **How many tickets were raised by the same person?** A single frustrated user hitting the same wall over and over looks, in a bad system, like healthy demand. It isn't. It's one unmet need wearing forty costumes.
+- **How many tickets were raised by the same person?** A single frustrated user hitting the same wall over and over looks, in a bad system, like healthy demand. It isn't. It's one unmet need wearing forty costumes.
 
-• **How many tickets were raised in different queues by the same team?** This is the one that hides the most. A team splits its pain across half a dozen queues and no single queue owner ever sees the shape of it. The problem is real and large; the data makes it look like scattered noise.
+- **How many tickets were raised in different queues by the same team?** This is the one that hides the most. A team splits its pain across half a dozen queues and no single queue owner ever sees the shape of it. The problem is real and large; the data makes it look like scattered noise.
 
 You cannot manage what you cannot see, and we couldn't see any of it. A migration to a system that could actually report was worth it for that reason alone — not because reporting is nice, but because reporting is the difference between fixing a problem and re-closing it forever.
 

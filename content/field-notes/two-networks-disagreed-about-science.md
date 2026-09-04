@@ -19,9 +19,9 @@ When they added the missing subnets, the data started flowing. And here's the pa
 
 That's the lesson I keep from this one, and it's short:
 
-• **When something's broken in the space between two systems, your job isn't to fix it — it's to get the two owners into the same room.** Neither JISC nor ESnet could see the gap alone. Both could close it in minutes together.
-• **A missing entry is not a bug on anyone's side.** Everyone's config was internally correct. Stop hunting for the culprit and start hunting for the seam.
-• **Fixing the shared layer fixes it for everyone on it.** A per-institution workaround would have helped one lab. Correcting the classification helped every institution in the range.
+- **When something's broken in the space between two systems, your job isn't to fix it — it's to get the two owners into the same room.** Neither JISC nor ESnet could see the gap alone. Both could close it in minutes together.
+- **A missing entry is not a bug on anyone's side.** Everyone's config was internally correct. Stop hunting for the culprit and start hunting for the seam.
+- **Fixing the shared layer fixes it for everyone on it.** A per-institution workaround would have helped one lab. Correcting the classification helped every institution in the range.
 
 Most of my hardest problems haven't been technical. They've been two competent teams, each holding half the picture, who'd never been introduced. The whole intervention was a phone call and an email. No code, no clever architecture — just noticing that the fault lived in the gap, and that the people who could close it didn't know the other existed.
 

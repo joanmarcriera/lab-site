@@ -13,10 +13,10 @@ What the tender replaced had been a reasonable design when it was built; it just
 
 What we built with the tender:
 
-• Replica A on a geo-dispersed, erasure-coded object store across three data centres — lose an entire centre, every file still reconstructable.
-• Replica B on tape, written as individual files behind a regular S3 interface. Restoring one file reads one file. And when vendor and client disagree about S3 semantics, you point at Amazon's documentation and the discussion is over. A neutral referee is worth a protocol.
-• Two commodity servers replaced: two databases, the staging filesystem, the load-balancer VMs, an in-house API, one entire tape-library brand, and four tape formats retired in one move.
-• Result: the cost per petabyte fell by more than an order of magnitude — roughly one-sixteenth of what it replaced.
+- Replica A on a geo-dispersed, erasure-coded object store across three data centres — lose an entire centre, every file still reconstructable.
+- Replica B on tape, written as individual files behind a regular S3 interface. Restoring one file reads one file. And when vendor and client disagree about S3 semantics, you point at Amazon's documentation and the discussion is over. A neutral referee is worth a protocol.
+- Two commodity servers replaced: two databases, the staging filesystem, the load-balancer VMs, an in-house API, one entire tape-library brand, and four tape formats retired in one move.
+- Result: the cost per petabyte fell by more than an order of magnitude — roughly one-sixteenth of what it replaced.
 
 The politics, as always, were the hard part. A tender that replaces this much at once crosses several teams' territory, and it needs a sponsor with budget and patience for the review rounds; I was lucky to have one. The late requests for extra review felt, at the time, like delay. In hindsight they were the organisation doing exactly what it should with a design that touched so many things — and because the system was keys-in-hand, none of them changed the outcome. The winning bid, by the way, was the shortest one — and the clearest about value delivered per box. Read into that what you will about tender-writing.
 

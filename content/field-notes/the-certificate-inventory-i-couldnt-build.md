@@ -11,10 +11,10 @@ The setup, if you want to reproduce the failure yourself: two different teams bo
 
 The certificate itself carries the one piece of information you need: its expiry date. That's the whole hook. You don't need a vendor, a product, or a platform to read an expiry date. So I proposed something small.
 
-• Find every certificate we have, regardless of which team bought it or from which supplier.
-• Monitor each one against its own expiry date.
-• When a certificate hits 30 days remaining, the service desk raises it and asks the two purchasing teams: is this yours, and does it need renewing or not?
-• Do that for a year. At the end of the year you've touched every certificate at least once, and you have an inventory — who owns what, which team, live or retired.
+- Find every certificate we have, regardless of which team bought it or from which supplier.
+- Monitor each one against its own expiry date.
+- When a certificate hits 30 days remaining, the service desk raises it and asks the two purchasing teams: is this yours, and does it need renewing or not?
+- Do that for a year. At the end of the year you've touched every certificate at least once, and you have an inventory — who owns what, which team, live or retired.
 
 That inventory is the thing I actually wanted. It's a CMDB without calling it a CMDB — because the moment you call it a CMDB in some organisations, you trigger a two-year argument about whether you're big enough to have one. So I didn't call it that. I called it a list of certificates with dates next to them.
 
@@ -24,10 +24,10 @@ And that's where it stopped. The plan was easy and it went nowhere, because the 
 
 Here's what I'd want any technology leader to take from a boring outage like this one:
 
-• Monitoring is not the same as owning. The certificates were technically "monitored" — a supplier emailed a mailbox. Nobody read the mailbox. A monitor that nobody is accountable for is a decoration.
-• An inventory is a control, not paperwork. If you can't produce a list of the things that can expire, revoke, or lapse — certificates, licences, domains, secrets — you don't have a risk you're managing, you have a risk that's managing you.
-• The service desk is the right home for this. It's routine, it's repeatable, it doesn't need a senior engineer, and it's exactly the kind of low-glamour, high-value work a service desk exists to own. Renewals done "by different people each time" is the smell of work that has no home.
-• "Let's wait for the vendor" is a decision, and it has a cost. Deferring to a someday-platform feels prudent and free. It is neither. Every deferral is paid for in the outages that happen between now and the day the platform arrives — if it arrives.
+- Monitoring is not the same as owning. The certificates were technically "monitored" — a supplier emailed a mailbox. Nobody read the mailbox. A monitor that nobody is accountable for is a decoration.
+- An inventory is a control, not paperwork. If you can't produce a list of the things that can expire, revoke, or lapse — certificates, licences, domains, secrets — you don't have a risk you're managing, you have a risk that's managing you.
+- The service desk is the right home for this. It's routine, it's repeatable, it doesn't need a senior engineer, and it's exactly the kind of low-glamour, high-value work a service desk exists to own. Renewals done "by different people each time" is the smell of work that has no home.
+- "Let's wait for the vendor" is a decision, and it has a cost. Deferring to a someday-platform feels prudent and free. It is neither. Every deferral is paid for in the outages that happen between now and the day the platform arrives — if it arrives.
 
 The frustrating thing is that none of this was hard. The design fit on one page. The tooling was "read the expiry date and set an alert at 30 days". The only expensive part was the one I failed to supply: a case compelling enough that fixing a recurring, entirely preventable failure this year beat waiting for someone else to fix it later. That's not a PKI problem. That's a prioritisation problem, and the person raising it owns half of it.
 

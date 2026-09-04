@@ -10,10 +10,10 @@ Hiring for motivation and hoping expertise follows is a century-old mistake with
 
 On the surface the expeditions were similar: the same tactical objective, a clear chain of command in each. The differences sat underneath — the [side-by-side comparison](https://en.wikipedia.org/wiki/Comparison_of_the_Amundsen_and_Scott_expeditions) is worth an evening of any manager's time:
 
-• **Expertise.** Amundsen assembled the highest expertise possible for the specific job — polar travel with dogs and skis. Scott assembled highly motivated people who, collectively, did not have enough of the right expertise.
-• **Motivation type.** Personal reputation drove one venture; a mix of scientific and sporting goals drove the other. Different fuels burn differently under pressure.
-• **Technology bets.** Tested dogs versus novel motor sledges. Betting on novel technology is legitimate — infrastructure people do it constantly. Doing it without a backup plan for its *known* risks is the mistake.
-• **Economics.** Partial self-funding added personal financial risk, which quietly raises the price a leader is willing to pay to avoid turning back. Risk appetite is never just a personality trait; it is a balance sheet.
+- **Expertise.** Amundsen assembled the highest expertise possible for the specific job — polar travel with dogs and skis. Scott assembled highly motivated people who, collectively, did not have enough of the right expertise.
+- **Motivation type.** Personal reputation drove one venture; a mix of scientific and sporting goals drove the other. Different fuels burn differently under pressure.
+- **Technology bets.** Tested dogs versus novel motor sledges. Betting on novel technology is legitimate — infrastructure people do it constantly. Doing it without a backup plan for its *known* risks is the mistake.
+- **Economics.** Partial self-funding added personal financial risk, which quietly raises the price a leader is willing to pay to avoid turning back. Risk appetite is never just a personality trait; it is a balance sheet.
 
 ### Not luck
 

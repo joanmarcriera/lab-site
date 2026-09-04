@@ -11,8 +11,8 @@ Here is the situation. They owned the SAML single-sign-on — the thing that sta
 
 I didn't take the decision. It wasn't mine to take, and I said so: that one belonged with their line management. What I did set out plainly was the condition, because I was the one who'd be left holding it.
 
-• If you upgrade it and it still works on Monday, I'll take it on. I'll own it from there.
-• If you upgrade it and it doesn't work on Monday, there is nobody to hand it back to. You're gone. There's no handover. There's a button.
+- If you upgrade it and it still works on Monday, I'll take it on. I'll own it from there.
+- If you upgrade it and it doesn't work on Monday, there is nobody to hand it back to. You're gone. There's no handover. There's a button.
 
 The decision was taken to upgrade. Friday afternoon, the button was pressed, and everyone went home for the weekend.
 
@@ -24,9 +24,9 @@ What the specialist found is the real lesson, and it's got nothing to do with pr
 
 Three things I took from it:
 
-• Knowledge transfer is not a button pressed on the last day. It's the months set aside and not used. A handover is a person who can answer a question on Tuesday, not a final commit on Friday. If the plan is "they'll do it before they leave," you don't have a plan, you have a countdown.
-• Never run an upgrade you can't support into a weekend. The question is never just "will it work when I press it." The question is "who is awake, paid, and competent to fix it when it doesn't — and are they reachable before Monday." If the honest answer is no one, the upgrade doesn't ship. It waits for a morning with a support rota behind it.
-• Environments that drift apart guarantee this outcome. Dev, test and prod that share nothing aren't three environments, they're three separate systems and one dangerous assumption. You cannot rehearse a change you can only perform live. The rot was invisible right up until it was a wall of tickets.
+- Knowledge transfer is not a button pressed on the last day. It's the months set aside and not used. A handover is a person who can answer a question on Tuesday, not a final commit on Friday. If the plan is "they'll do it before they leave," you don't have a plan, you have a countdown.
+- Never run an upgrade you can't support into a weekend. The question is never just "will it work when I press it." The question is "who is awake, paid, and competent to fix it when it doesn't — and are they reachable before Monday." If the honest answer is no one, the upgrade doesn't ship. It waits for a morning with a support rota behind it.
+- Environments that drift apart guarantee this outcome. Dev, test and prod that share nothing aren't three environments, they're three separate systems and one dangerous assumption. You cannot rehearse a change you can only perform live. The rot was invisible right up until it was a wall of tickets.
 
 I don't tell this as a story about one engineer. They were allowed to be in that position — allowed to hold a critical system alone, allowed to let the set-aside time run down, allowed to press a button into a weekend with no one behind them. That's not a personal failing. That's an organisation — and I was part of it, with a seat close enough to have pushed harder — that treated a single point of human knowledge as if it were a documented service. The button was always going to get pressed by someone. The only question was whether anyone had built the thing that catches it.
 

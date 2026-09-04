@@ -9,12 +9,12 @@ On my first day, I didn't have an account. Someone created one for me from an ac
 
 That should have been the warning. It took years before identity became my problem officially, but the day it did — I was asked to run the data transfer services — the very first question was unanswerable: who owns each of these accounts? To answer it you need a CMDB. To build that you need a relational model of who manages what. And that's when we found the real gem:
 
-• Since HR had no connection to accounts, every manager managed themselves. Having nobody above you in the account tree was, in practice, what identified someone as a manager.
-• None of it related to the actual HR systems. Two parallel realities, one payroll.
-• Several separate directories across the organisation, never merged — and they couldn't be: the same numeric UID meant different people at different sites, with access to different data. Merging as-is would have been an access-control lottery.
-• Accounts "closed" fifteen years earlier still had their data — and the password they were closed with.
-• And why had nobody fixed any of this? Follow the money: HR's budget and IT's budget were completely separate, and joiners-movers-leavers is a problem that lives exactly in the gap. Problems that cross department budgets are orphan problems. Nobody funds the seam.
-• Managers were creating accounts three months before people joined, because everyone believed a new joiner needed their account email to board the bus on day one. I phoned the bus company. Not true. Fixing the wrongly documented page took two more weeks — of a script that nudged the next responsible person every time the previous one didn't reply.
+- Since HR had no connection to accounts, every manager managed themselves. Having nobody above you in the account tree was, in practice, what identified someone as a manager.
+- None of it related to the actual HR systems. Two parallel realities, one payroll.
+- Several separate directories across the organisation, never merged — and they couldn't be: the same numeric UID meant different people at different sites, with access to different data. Merging as-is would have been an access-control lottery.
+- Accounts "closed" fifteen years earlier still had their data — and the password they were closed with.
+- And why had nobody fixed any of this? Follow the money: HR's budget and IT's budget were completely separate, and joiners-movers-leavers is a problem that lives exactly in the gap. Problems that cross department budgets are orphan problems. Nobody funds the seam.
+- Managers were creating accounts three months before people joined, because everyone believed a new joiner needed their account email to board the bus on day one. I phoned the bus company. Not true. Fixing the wrongly documented page took two more weeks — of a script that nudged the next responsible person every time the previous one didn't reply.
 
 Meanwhile the pressure from above was for a quick win: "let's move mail to the cloud." My answer never changed. We should not go to the cloud alone; we should go as one organisation, across all sites. And to do that you need unified identity first — with identity staying home. The cloud authenticates against us, not the other way round. Get that right and there is no overlapping-identity mess, and joiners-movers-leavers finally makes sense. For a long time I failed to translate that into a form that generated a decision — the argument was right and the framing was wrong. Meanwhile the default was to keep nursing the existing stack: a home-grown identity manager in an end-of-life language, held together by several databases and a lot of Bash, permanently one incident away from the whole team "saving the system" again.
 

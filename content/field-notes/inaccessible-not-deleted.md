@@ -13,10 +13,10 @@ Now here's why "inaccessible" was already most of the way done before we started
 
 So the decommission looked like this:
 
-• We deleted the data from the active storage — the online copy people actually reach through.
-• We removed the catalogue entries and flagged the tape fragments as deleted, so nothing could resolve to that data any more.
-• We did not go and overwrite 12 petabytes of physical tape with zeros. That would have been damaging to the media and pointless: with the active copy gone and the catalogue entries removed, the data was already inaccessible in the sense the contract required — and the contract owners agreed.
-• The physical overwrite is scheduled, not skipped. Those tapes carry fragments flagged for deletion. At the next generation of drives, the tapes are reformatted and reused — at which point, if the tape roadmap holds to the pattern of the last decade, they come back roughly 50% bigger — and the old data is physically overwritten as a side effect of work that was going to happen anyway.
+- We deleted the data from the active storage — the online copy people actually reach through.
+- We removed the catalogue entries and flagged the tape fragments as deleted, so nothing could resolve to that data any more.
+- We did not go and overwrite 12 petabytes of physical tape with zeros. That would have been damaging to the media and pointless: with the active copy gone and the catalogue entries removed, the data was already inaccessible in the sense the contract required — and the contract owners agreed.
+- The physical overwrite is scheduled, not skipped. Those tapes carry fragments flagged for deletion. At the next generation of drives, the tapes are reformatted and reused — at which point, if the tape roadmap holds to the pattern of the last decade, they come back roughly 50% bigger — and the old data is physically overwritten as a side effect of work that was going to happen anyway.
 
 That's the whole trick: we satisfied the contract as written, agreed the interpretation with the people it was written for, and let the expensive physical part ride along, for free, on the next hardware refresh. We didn't manufacture a 12-petabyte project to feel thorough.
 

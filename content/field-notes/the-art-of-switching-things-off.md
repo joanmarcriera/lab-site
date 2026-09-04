@@ -19,12 +19,12 @@ Decommissioning is real engineering. This is the part people miss. We celebrate 
 
 So over the years I retired a roster of things, on purpose:
 
-• **ypcat / NIS** — the directory protocol from another era. Twenty-five years past its use-by date.
-• **A home-grown provisioner** — an in-house configuration-management system, a pile of Bash scripts for provisioning machines. Puppet, Ansible, Chef and CFEngine have existed for over twenty years. There is no reason to keep a homegrown thing made of Bash managing your fleet.
-• **An XMPP server** — quietly serving a chat protocol almost nobody used any more.
-• **LSF fronting transfer services** — IBM's batch scheduler, doing a job it was never meant to do.
-• **Kubernetes in front of FTP** — this one still makes me smile. FTP is sticky: when a client reconnects it needs to land on the same container. Putting sticky-session FTP on Kubernetes is fighting the entire design of the platform to recreate a single old server. So we stopped.
-• **Redis caching** — and this is the one I'm proudest of, because of how we killed it.
+- **ypcat / NIS** — the directory protocol from another era. Twenty-five years past its use-by date.
+- **A home-grown provisioner** — an in-house configuration-management system, a pile of Bash scripts for provisioning machines. Puppet, Ansible, Chef and CFEngine have existed for over twenty years. There is no reason to keep a homegrown thing made of Bash managing your fleet.
+- **An XMPP server** — quietly serving a chat protocol almost nobody used any more.
+- **LSF fronting transfer services** — IBM's batch scheduler, doing a job it was never meant to do.
+- **Kubernetes in front of FTP** — this one still makes me smile. FTP is sticky: when a client reconnects it needs to land on the same container. Putting sticky-session FTP on Kubernetes is fighting the entire design of the platform to recreate a single old server. So we stopped.
+- **Redis caching** — and this is the one I'm proudest of, because of how we killed it.
 
 The Redis retirement was honest. We had a team of three developers, and with three people we could not keep that cache healthy. So we didn't quietly let it rot and we didn't pretend it was fine. We gave ourselves a timeline — as a team — to make it healthy. When the deadline came and we hadn't managed it, and we had other, more valuable things to build, we retired it. It was heartfelt. Nobody enjoys switching off something they built. But it was a decision made *with* the team, out loud, against a date we'd set ourselves — not one I imposed from above. That's the difference between an engineering decision and a management edict.
 

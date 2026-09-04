@@ -26,9 +26,9 @@ My conclusion, and I stand by it: at a personal level I liked the screened fund,
 
 Underneath every ESG debate sits a measurement problem that should feel familiar to anyone who has operated systems against SLOs:
 
-• Ratings are models. Different agencies weight different factors and routinely disagree about the same company; [Berg, Kölbel and Rigobon documented the divergence](https://doi.org/10.1093/rof/rfac033) under the apt title "Aggregate Confusion". Choosing a rating is choosing a definition.
-• Proxies get gamed. The moment a disclosure metric drives capital allocation, optimising the metric decouples from optimising the reality. [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) does not care about your intentions.
-• The measurable crowds out the important. Institutional investors concentrate on E and G, emissions and board structure quantify nicely, while S languishes, not because society matters less but because it resists a spreadsheet.
+- Ratings are models. Different agencies weight different factors and routinely disagree about the same company; [Berg, Kölbel and Rigobon documented the divergence](https://doi.org/10.1093/rof/rfac033) under the apt title "Aggregate Confusion". Choosing a rating is choosing a definition.
+- Proxies get gamed. The moment a disclosure metric drives capital allocation, optimising the metric decouples from optimising the reality. [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) does not care about your intentions.
+- The measurable crowds out the important. Institutional investors concentrate on E and G, emissions and board structure quantify nicely, while S languishes, not because society matters less but because it resists a spreadsheet.
 
 I spent years building monitoring for scientific infrastructure at the institute, and the parallel is exact: what you can cheaply measure becomes what you manage, and the gap between metric and mission is where problems hide. ESG is not uniquely broken. It is an early-stage observability stack for corporate behaviour, complete with noisy exporters and disputed dashboards.
 
@@ -36,9 +36,9 @@ I spent years building monitoring for scientific infrastructure at the institute
 
 It would be easy to read the causation caveats as licence for cynicism. Wrong lesson. Three reasons this subject belongs in a technologist's toolkit:
 
-• Infrastructure owns the E. Datacentre energy is a material ESG line for any serious tech company, and the people who control PUE, workload scheduling, hardware refresh cycles and region selection are not the sustainability team. They are us. When my homelab's electricity bill taught me to consolidate workloads onto fewer, more efficient machines, that was ESG optimisation at rack scale; the same maths runs a thousand times larger in production estates.
-• Disclosure is becoming an engineering workload. Emissions reporting needs data pipelines, lineage and auditability. Badly built, it is fiction with a CSV export. This is our kind of problem.
-• Capital reads these signals whether or not they are perfect. Part 5 of this series covered how index-scale investors use voice to press companies on governance and climate disclosure. Their pressure shapes budgets that eventually land on engineering roadmaps. Understanding the mechanism beats being surprised by it.
+- Infrastructure owns the E. Datacentre energy is a material ESG line for any serious tech company, and the people who control PUE, workload scheduling, hardware refresh cycles and region selection are not the sustainability team. They are us. When my homelab's electricity bill taught me to consolidate workloads onto fewer, more efficient machines, that was ESG optimisation at rack scale; the same maths runs a thousand times larger in production estates.
+- Disclosure is becoming an engineering workload. Emissions reporting needs data pipelines, lineage and auditability. Badly built, it is fiction with a CSV export. This is our kind of problem.
+- Capital reads these signals whether or not they are perfect. Part 5 of this series covered how index-scale investors use voice to press companies on governance and climate disclosure. Their pressure shapes budgets that eventually land on engineering roadmaps. Understanding the mechanism beats being surprised by it.
 
 Six parts ago I started this series with the time value of money. The through-line, looking back, is that finance is mostly the discipline of making trade-offs explicit that engineers usually make implicitly: time against money, risk against return, control against accountability, values against fees. The vocabulary was the easy part. The habit of writing the trade-off down before deciding is the part I actually keep.
 

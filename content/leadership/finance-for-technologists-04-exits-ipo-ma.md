@@ -14,9 +14,9 @@ The larger cost is not. Underpricing, the gap between the offer price and the fi
 
 Why does everyone tolerate this? The standard theories are worth knowing because they are all about information:
 
-• Information asymmetry: insiders know more than incoming investors, so newcomers demand a discount as insurance.
-• Book-building: the bank assembles investor demand before pricing, and investors who reveal useful price information (limit orders rather than blank cheques) get rewarded with allocations. Underpriced allocations are, functionally, payment for information.
-• Underwriter conflicts: the bank profits from happy allocated clients and a liquid aftermarket, both of which argue for pricing low. The issuer wants the opposite. Guess who sets the range.
+- Information asymmetry: insiders know more than incoming investors, so newcomers demand a discount as insurance.
+- Book-building: the bank assembles investor demand before pricing, and investors who reveal useful price information (limit orders rather than blank cheques) get rewarded with allocations. Underpriced allocations are, functionally, payment for information.
+- Underwriter conflicts: the bank profits from happy allocated clients and a liquid aftermarket, both of which argue for pricing low. The issuer wants the opposite. Guess who sets the range.
 
 For engineers, the practical reading is this. Your option strike and your lock-up period interact with a pricing process that is structurally tilted toward a first-day pop. Neither celebrating the pop nor raging at it is useful; understanding whose pocket it comes from is.
 
@@ -28,10 +28,10 @@ Spotify's [direct listing](https://en.wikipedia.org/wiki/Direct_listing) showed 
 
 The acquisition side reads like siege warfare. Most bids start friendly. When a target board refuses, the acquirer can go hostile: a tender offer straight to shareholders, over management's heads. Managers resist for reasons ranging from honest valuation disagreement to naked job preservation, and the [defences](https://en.wikipedia.org/wiki/Shareholder_rights_plan) they prepare in advance are wonderfully named:
 
-• Flip-in pills: existing shareholders (except the acquirer) get discounted shares, diluting the raider mid-bid.
-• Flip-over pills: target shareholders get rights to discounted shares of the acquirer post-deal.
-• Golden parachutes: change-of-control payouts that inflate the price of victory.
-• Staggered boards: even a successful acquirer waits years to replace directors.
+- Flip-in pills: existing shareholders (except the acquirer) get discounted shares, diluting the raider mid-bid.
+- Flip-over pills: target shareholders get rights to discounted shares of the acquirer post-deal.
+- Golden parachutes: change-of-control payouts that inflate the price of victory.
+- Staggered boards: even a successful acquirer waits years to replace directors.
 
 I went in expecting to find these absurd. I came out more ambivalent: they are rational deterrents against coercive bids, and simultaneously excellent tools for entrenching mediocre management. Governance, as the next part of this series argues, is about exactly this tension.
 
@@ -41,9 +41,9 @@ The payment currency matters more than most employees realise. Cash deals transf
 
 Three habits worth building before you need them:
 
-• Read the deal structure, not the press release. Cash or stock, friendly or hostile, lock-ups and parachutes: these determine what actually happens to people like us.
-• Price technical due diligence properly. In M&A the target has limited obligation to expose its internals, especially in hostile deals. Acquirers routinely buy systems sight unseen. If you are the engineer asked to assess a target's stack in three days, your report is load-bearing; write it like one.
-• Treat integration as the project. The blunt framing of M&A value: the price you pay is set on deal day, but the value you get is built over the following two years, mostly by engineers and middle managers merging systems nobody documented.
+- Read the deal structure, not the press release. Cash or stock, friendly or hostile, lock-ups and parachutes: these determine what actually happens to people like us.
+- Price technical due diligence properly. In M&A the target has limited obligation to expose its internals, especially in hostile deals. Acquirers routinely buy systems sight unseen. If you are the engineer asked to assess a target's stack in three days, your report is load-bearing; write it like one.
+- Treat integration as the project. The blunt framing of M&A value: the price you pay is set on deal day, but the value you get is built over the following two years, mostly by engineers and middle managers merging systems nobody documented.
 
 I have worked through merger-synergy valuation models myself, and it is a humbling exercise in how few assumptions separate "accretive deal" from "value destruction".
 

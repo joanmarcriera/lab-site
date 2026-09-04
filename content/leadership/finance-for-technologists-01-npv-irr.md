@@ -20,9 +20,9 @@ I ran infrastructure at the institute, where compute and storage decisions routi
 
 The [internal rate of return](https://en.wikipedia.org/wiki/Internal_rate_of_return) is the discount rate at which a project's NPV lands exactly at zero. It is popular because it produces a single seductive percentage: "this project returns 23%". Its failure modes are well documented, and they map beautifully onto infrastructure work:
 
-• Cash flows that change sign more than once can produce multiple IRRs. A platform migration often looks like this: outflow now, savings for years, then a decommissioning or contract-exit cost at the end. Two valid IRRs, no valid decision.
-• Projects where the money arrives before the costs (vendor credits, prepaid commitments) can produce an IRR that points the wrong way entirely.
-• Some perfectly good projects have no IRR at all, because the NPV is positive at every discount rate.
+- Cash flows that change sign more than once can produce multiple IRRs. A platform migration often looks like this: outflow now, savings for years, then a decommissioning or contract-exit cost at the end. Two valid IRRs, no valid decision.
+- Projects where the money arrives before the costs (vendor credits, prepaid commitments) can produce an IRR that points the wrong way entirely.
+- Some perfectly good projects have no IRR at all, because the NPV is positive at every discount rate.
 
 The practical rule I follow: compute NPV first, always. Use IRR as a communication device when the cash flow pattern is simple, and never let it overrule NPV when the two disagree.
 
@@ -36,9 +36,9 @@ Payback still has a use: it is a crude liquidity check. If your budget genuinely
 
 Three habits I have adopted:
 
-• Every proposal above a threshold gets a cash flow timeline, not a totals table. Costs and savings by year, discounted. The discipline of drawing the timeline exposes wishful thinking faster than any review meeting.
-• I ask finance for the discount rate before building the case, not after. It reframes the conversation from "is this cheap?" to "does this beat what the company earns on its money?"
-• Perpetuity maths for steady-state costs. A recurring £20k annual SaaS bill at a 10% discount rate is a £200k liability in present value terms. Saying "we carry a £200k liability for this tool" lands very differently in a budget discussion than "it's only £20k a year".
+- Every proposal above a threshold gets a cash flow timeline, not a totals table. Costs and savings by year, discounted. The discipline of drawing the timeline exposes wishful thinking faster than any review meeting.
+- I ask finance for the discount rate before building the case, not after. It reframes the conversation from "is this cheap?" to "does this beat what the company earns on its money?"
+- Perpetuity maths for steady-state costs. A recurring £20k annual SaaS bill at a 10% discount rate is a £200k liability in present value terms. Saying "we carry a £200k liability for this tool" lands very differently in a budget discussion than "it's only £20k a year".
 
 One honest caveat. The precision of NPV is theatre if your inputs are fiction, and engineering estimates usually are. The model does not rescue bad estimates; it makes their consequences visible. I treat the NPV number as a structured argument, not an oracle. That, I think, is the right level of respect for it.
 

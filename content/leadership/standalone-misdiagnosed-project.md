@@ -10,9 +10,9 @@ The framing is simple. A project is a weapon of organisational change: it exists
 
 ### Three types, three playbooks
 
-• **Execution projects.** Most of the plan is knowable up front. Think a data-centre migration with a fixed inventory. Success is measured against schedule, budget and predefined targets. Discipline wins.
-• **Novel projects.** Significant uncertainty or genuine innovation. You cannot plan your way through the unknown; you experiment, learn and pivot. Success is judged on outcomes *and* on the quality of the process that got you there.
-• **Change projects.** The deliverable is people doing things differently. New processes, new systems, new behaviour. Success is stakeholder buy-in and adoption rates — not the go-live date.
+- **Execution projects.** Most of the plan is knowable up front. Think a data-centre migration with a fixed inventory. Success is measured against schedule, budget and predefined targets. Discipline wins.
+- **Novel projects.** Significant uncertainty or genuine innovation. You cannot plan your way through the unknown; you experiment, learn and pivot. Success is judged on outcomes *and* on the quality of the process that got you there.
+- **Change projects.** The deliverable is people doing things differently. New processes, new systems, new behaviour. Success is stakeholder buy-in and adoption rates — not the go-live date.
 
 Reading that list, most technology leaders nod along. Then they go back to the office and run everything with the execution playbook, because that is the one with the comfortable Gantt chart.
 
@@ -30,9 +30,9 @@ None of the people involved were incompetent, and I include myself. The project 
 
 There is a short list of misdiagnosis symptoms I now use as a checklist:
 
-• People miss deadlines or budgets and it is clearly not their fault — a rigid plan was imposed on work with high uncertainty.
-• An execution team is given the freedom of a novel project — no discipline, scope creep everywhere, "agile" used as an excuse.
-• A business-process project fails because nobody recognised it as a change project — the technology landed, the behaviour did not.
+- People miss deadlines or budgets and it is clearly not their fault — a rigid plan was imposed on work with high uncertainty.
+- An execution team is given the freedom of a novel project — no discipline, scope creep everywhere, "agile" used as an excuse.
+- A business-process project fails because nobody recognised it as a change project — the technology landed, the behaviour did not.
 
 There is a fourth sign I will add from experience: **success theatre**. When a struggling project keeps producing celebrations, ask what type of project the celebrations are measuring. A ticket system that receives tickets is an execution milestone. A ticket system that teams *choose* to use is a change milestone. They are not the same thing, and only one of them pays the bills.
 
@@ -42,9 +42,9 @@ Misdiagnosed projects rarely get re-diagnosed, and the reason is human, not tech
 
 ### What I do differently now
 
-• At intake, I ask one question before any planning: what type of project is this? If the honest answer is "change", the stakeholder map gets built before the technical plan.
-• I define success per type. Execution: schedule and spec. Novel: validated learning per pound spent. Change: adoption, measured monthly, reported to the sponsor.
-• I hunt for the misdiagnosis symptoms in quarterly reviews, not just at kick-off. Projects drift between types; a novel project becomes an execution project once the unknowns resolve, and the management style should follow.
+- At intake, I ask one question before any planning: what type of project is this? If the honest answer is "change", the stakeholder map gets built before the technical plan.
+- I define success per type. Execution: schedule and spec. Novel: validated learning per pound spent. Change: adoption, measured monthly, reported to the sponsor.
+- I hunt for the misdiagnosis symptoms in quarterly reviews, not just at kick-off. Projects drift between types; a novel project becomes an execution project once the unknowns resolve, and the management style should follow.
 
 Diagnosis is free. Misdiagnosis is the most expensive line item you will never see on a budget.
 

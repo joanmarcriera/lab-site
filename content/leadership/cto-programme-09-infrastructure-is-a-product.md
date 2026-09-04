@@ -47,11 +47,11 @@ My honest caveat: product frameworks assume more freedom than an internal platfo
 
 ### What I took away
 
-• Define the challenge as a problem someone has, investigated to root cause, before proposing anything.
-• Build the persona. Feel silly. Use it anyway — it will win arguments your diagrams cannot.
-• Map stakeholders honestly and give every detractor an action plan.
-• Ship in public: visible board, open feedback loop, short cycles.
-• Write the proposition for your internal platform as if users could leave. Functionally, via workarounds, they can.
+- Define the challenge as a problem someone has, investigated to root cause, before proposing anything.
+- Build the persona. Feel silly. Use it anyway — it will win arguments your diagrams cannot.
+- Map stakeholders honestly and give every detractor an action plan.
+- Ship in public: visible board, open feedback loop, short cycles.
+- Write the proposition for your internal platform as if users could leave. Functionally, via workarounds, they can.
 
 Next and last in this series: the one-page exercise I now ask every technology leader to do — the whole job on a single sheet of paper.
 

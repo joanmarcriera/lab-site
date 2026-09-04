@@ -42,11 +42,11 @@ Here scientific infrastructure has a head start. Open-source communities are eco
 
 ### What I took away
 
-• Creativity is exponentially distributed; networks lift the whole curve. Build the connections, not just the team.
-• Diagnose collaboration failures against the four barriers before proposing another reorg.
-• Read contracts as risk allocation. Fixed price for the known; cost-plus for the uncertain; suspicion for any bonus large enough to change behaviour.
-• Negotiate control rights as hard as price. Timing your deal from strength is part of the deal.
-• Manage alliances as a portfolio with exits. A partnership no longer serving its purpose is a cost centre with a logo.
+- Creativity is exponentially distributed; networks lift the whole curve. Build the connections, not just the team.
+- Diagnose collaboration failures against the four barriers before proposing another reorg.
+- Read contracts as risk allocation. Fixed price for the known; cost-plus for the uncertain; suspicion for any bonus large enough to change behaviour.
+- Negotiate control rights as hard as price. Timing your deal from strength is part of the deal.
+- Manage alliances as a portfolio with exits. A partnership no longer serving its purpose is a cost centre with a logo.
 
 The invoice is paid once. The governance clause is paid every quarter, forever.
 

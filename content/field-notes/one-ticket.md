@@ -19,8 +19,8 @@ That's it. That's the story. A ticket, a relayed message, one admin grant, and a
 
 I keep coming back to this one because it's a small, honest example of a rule I'd argue for anywhere:
 
-• The boring correct move beats the clever one. Opening a ticket is not impressive. It worked in days, disclosed nothing it shouldn't, and left the platform's trust model intact. A clever workaround would have been a better anecdote and a worse outcome.
-• A single point of human failure is exactly as real as a single point of machine failure. We build redundancy into disks, power supplies, network paths, availability zones — and then we let one unreachable person be the only human who can administer a critical account. That's a single point of failure wearing a lanyard. The fix is the same as it is for hardware: add a second one.
+- The boring correct move beats the clever one. Opening a ticket is not impressive. It worked in days, disclosed nothing it shouldn't, and left the platform's trust model intact. A clever workaround would have been a better anecdote and a worse outcome.
+- A single point of human failure is exactly as real as a single point of machine failure. We build redundancy into disks, power supplies, network paths, availability zones — and then we let one unreachable person be the only human who can administer a critical account. That's a single point of failure wearing a lanyard. The fix is the same as it is for hardware: add a second one.
 
 The reason I added the second admin in the same breath as accepting the first is that fixing the incident and fixing the cause are two different jobs, and most people stop after the first. Getting access solved my Tuesday. Adding a second admin solved every future Tuesday. If I'd walked away the moment I was in, I'd have simply moved the single point of failure from a stranger to me — and one day I'd be the unreachable name, and someone else would be opening the ticket.
 

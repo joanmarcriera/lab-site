@@ -10,9 +10,9 @@ Nobody volunteers to replace an identity management system. When I took on the I
 
 Identity is where technical debt and organisational debt compound each other. Ours had reached an uncomfortable state:
 
-• Account creation had grown up outside any single joiner process, so ownership and entitlements were not always traceable afterwards.
-• The business logic was undocumented, and there were more exceptions than rules. Some rules applied to a pair of two accounts only; even then, the two accounts implemented the exception differently.
-• Nobody understood the whole. Parts of the identity lifecycle had drifted from HR into IT without anyone formally deciding they should. Every team touched identity; no team owned it.
+- Account creation had grown up outside any single joiner process, so ownership and entitlements were not always traceable afterwards.
+- The business logic was undocumented, and there were more exceptions than rules. Some rules applied to a pair of two accounts only; even then, the two accounts implemented the exception differently.
+- Nobody understood the whole. Parts of the identity lifecycle had drifted from HR into IT without anyone formally deciding they should. Every team touched identity; no team owned it.
 
 At the scale of tens of thousands of accounts guarding hundreds of petabytes of research data, "we will get to it someday" stops being an option. It is a security incident waiting for a date. Anyone who wants to see what disciplined identity management looks like can read the [NIST Digital Identity Guidelines](https://pages.nist.gov/800-63-3/); our legacy system predated most of that thinking.
 
@@ -28,10 +28,10 @@ One entry in that table deserves a highlight: "Appetite for change in IT managem
 
 The approach was iterative and social far more than it was technical:
 
-• **Secure the cost first.** Once a budget range was accepted and IT management offered air cover, the conversation changed from "should we" to "how".
-• **Push in all directions.** We asked every team who would help. From the willing, we documented the business logic. Then we went round again, validating that we had understood it. Each loop produced more logic, more feedback, and — importantly — more allies.
-• **Set a date and a rollback.** We told everyone the flip date, built a tested rollback, and asked application owners to validate beforehand.
-• **Push responsibility outward when silence answers.** Nobody validated, of course. So we went owner by owner and handed the responsibility back explicitly. That produced the feedback and the validations. The change shipped.
+- **Secure the cost first.** Once a budget range was accepted and IT management offered air cover, the conversation changed from "should we" to "how".
+- **Push in all directions.** We asked every team who would help. From the willing, we documented the business logic. Then we went round again, validating that we had understood it. Each loop produced more logic, more feedback, and — importantly — more allies.
+- **Set a date and a rollback.** We told everyone the flip date, built a tested rollback, and asked application owners to validate beforehand.
+- **Push responsibility outward when silence answers.** Nobody validated, of course. So we went owner by owner and handed the responsibility back explicitly. That produced the feedback and the validations. The change shipped.
 
 Loch, De Meyer and Pich make an argument that maps exactly onto this: when you have not yet made the case to your sponsors that you are running a novel project, do not ask them to fund the whole journey. Define the budget for the first milestone, aim that budget at answering one question, and let the answer decide the next step. That is how you buy permission to learn.
 

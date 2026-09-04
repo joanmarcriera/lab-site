@@ -18,8 +18,8 @@ Engineers make an equivalent trade daily and rarely name it. The "safe" choice, 
 
 The most transferable idea in the whole subject is the split between idiosyncratic and [systematic risk](https://en.wikipedia.org/wiki/Systematic_risk).
 
-• Idiosyncratic risk is specific: one company's product flops, one disk dies, one engineer resigns. Hold many uncorrelated assets and these wash out. Because it can be diversified away for free, the market pays nobody for carrying it.
-• Systematic risk is shared: recessions, rate rises, pandemics. It survives diversification. This is the risk that commands a premium.
+- Idiosyncratic risk is specific: one company's product flops, one disk dies, one engineer resigns. Hold many uncorrelated assets and these wash out. Because it can be diversified away for free, the market pays nobody for carrying it.
+- Systematic risk is shared: recessions, rate rises, pandemics. It survives diversification. This is the risk that commands a premium.
 
 In infrastructure terms: nobody should reward you for running a service that dies with one disk, because replication is cheap. Surviving correlated failure, a region outage, a supply chain shock, a cloud provider incident, is the expensive capability, and it should be justified the way an investor justifies systematic risk exposure: with an explicit view on likelihood, cost and compensation. At the institute we ran services where the honest answer to "what happens if the site loses power?" had a price tag attached. Deciding not to pay it is a legitimate decision. Not knowing the price is negligence.
 
@@ -37,9 +37,9 @@ Here is the sentence that most changed how I frame proposals. Your project does 
 
 Practical consequences for technical leaders:
 
-• A platform investment promising 6% efficiency gains at a company whose cost of capital is 10% destroys value, however elegant the architecture.
-• Riskier projects deserve higher hurdle rates. A speculative ML platform and a routine hardware refresh should not be discounted at the same rate, and pretending otherwise flatters the speculative one.
-• "We saved headcount" claims should survive the question: saved relative to what alternative use of the spend?
+- A platform investment promising 6% efficiency gains at a company whose cost of capital is 10% destroys value, however elegant the architecture.
+- Riskier projects deserve higher hurdle rates. A speculative ML platform and a routine hardware refresh should not be discounted at the same rate, and pretending otherwise flatters the speculative one.
+- "We saved headcount" claims should survive the question: saved relative to what alternative use of the spend?
 
 At one point I pulled [Robert Shiller's public historical market data](http://www.econ.yale.edu/~shiller/data.htm) and estimated risk premia myself, spreadsheet and all. Recommended exercise: nothing builds respect for the equity risk premium like computing how noisy it is.
 

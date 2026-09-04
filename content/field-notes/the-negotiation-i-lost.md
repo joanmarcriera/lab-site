@@ -21,9 +21,9 @@ I want to be careful here, because this is the part people get wrong when they t
 
 Here's what I'd genuinely weigh differently, and what I wouldn't.
 
-• **I'd invest earlier in the relationships, not later.** I treated politics as overhead — a tax on real work. It isn't. It's how the real work gets funded, staffed, and defended when you're not in the room. I learned that too late to spend it on myself.
-• **I'd separate "being right" from "needing to be seen to be right."** I was often right. I didn't always need to win the argument in public to get the outcome. Some of my antagonising bought me nothing but the satisfaction of the antagonising.
-• **I would not trade the outcomes back.** The systems I fought for are better for the fight. The retirements happened, the isolation happened, the cloud trap got avoided. If the cost of all that was a title I didn't get, that is a price I can look at squarely and still pay.
+- **I'd invest earlier in the relationships, not later.** I treated politics as overhead — a tax on real work. It isn't. It's how the real work gets funded, staffed, and defended when you're not in the room. I learned that too late to spend it on myself.
+- **I'd separate "being right" from "needing to be seen to be right."** I was often right. I didn't always need to win the argument in public to get the outcome. Some of my antagonising bought me nothing but the satisfaction of the antagonising.
+- **I would not trade the outcomes back.** The systems I fought for are better for the fight. The retirements happened, the isolation happened, the cloud trap got avoided. If the cost of all that was a title I didn't get, that is a price I can look at squarely and still pay.
 
 That last point is the one I hold onto. Because the tempting version of this story is the bitter one — the one where you were robbed, where the political operator won and the honest engineer lost. That story is a comfort and it's a lie. The truer, less flattering version is that I optimised for the thing I cared about most, and got exactly what that optimisation pays out. More impact, less title. I knew the shape of the trade. I just didn't fully feel the cost until it landed.
 

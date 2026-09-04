@@ -15,11 +15,11 @@ And when the gap came up, the explanation was a version of a line I have heard m
 
 Sit with that for a second, because it's the whole post.
 
-• **"We can't do it faster" is almost never true.** What's true is "we haven't built the thing that would let us go faster." Those are different sentences with different owners. The first blames the work. The second is a decision an organisation made, or failed to make, months ago.
+- **"We can't do it faster" is almost never true.** What's true is "we haven't built the thing that would let us go faster." Those are different sentences with different owners. The first blames the work. The second is a decision an organisation made, or failed to make, months ago.
 
-• **The gap was never about talent or hours.** Both teams had capable engineers working hard. One team had spent its earlier time building the machinery to move at scale; the other had spent that same time doing today's tickets by hand, which guarantees you'll be doing tomorrow's by hand too. Manual work doesn't just cost you today. It borrows against every future day.
+- **The gap was never about talent or hours.** Both teams had capable engineers working hard. One team had spent its earlier time building the machinery to move at scale; the other had spent that same time doing today's tickets by hand, which guarantees you'll be doing tomorrow's by hand too. Manual work doesn't just cost you today. It borrows against every future day.
 
-• **A crisis doesn't create the gap. It reveals it.** On a calm Tuesday, "we install things by hand" and "we install things with automation" look like style preferences. Then you're told to touch 4,000 machines this week, and one approach finishes and the other is still going a month later. The incident didn't make one team slow. It made an existing slowness impossible to hide.
+- **A crisis doesn't create the gap. It reveals it.** On a calm Tuesday, "we install things by hand" and "we install things with automation" look like style preferences. Then you're told to touch 4,000 machines this week, and one approach finishes and the other is still going a month later. The incident didn't make one team slow. It made an existing slowness impossible to hide.
 
 That's the real lesson, and it isn't really about the agent, or even about automation as a tool. It's about what a team's response to scale tells you about the team. When you ask an organisation to do something large and fast, you find out instantly which parts built for scale before they needed it and which parts were quietly relying on there never being a bad week. The bad week always comes.
 

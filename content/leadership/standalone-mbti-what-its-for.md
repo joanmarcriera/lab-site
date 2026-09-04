@@ -36,9 +36,9 @@ Nobody on my teams was going to say "you overlap airspace". The PDF said it. Onc
 
 Three rules I would offer anyone handed one of these reports:
 
-• Read it looking for the two or three claims that sting slightly. Those are the useful ones. The flattering pages are decoration.
-• Convert each sting into a mechanical habit, not an aspiration. "Listen more" fails; "ask the quietest person first" works.
-• Never weaponise it. The moment types are used to explain other people ("she's such a P, of course the plan slipped") the tool has become an instrument for laziness.
+- Read it looking for the two or three claims that sting slightly. Those are the useful ones. The flattering pages are decoration.
+- Convert each sting into a mechanical habit, not an aspiration. "Listen more" fails; "ask the quietest person first" works.
+- Never weaponise it. The moment types are used to explain other people ("she's such a P, of course the plan slipped") the tool has become an instrument for laziness.
 
 The sixteen boxes are a fiction. The mirror is real. Use the mirror, ignore the boxes.
 

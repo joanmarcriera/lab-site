@@ -23,10 +23,10 @@ We didn't deprecate. We rolled. For an external user hitting a transfer service 
 
 Here's the trick that made it manageable:
 
-• **Every historical DNS name survives.** Names going back to the 80s were carried forward untouched, so every old URL out in the wild still resolves and still works.
-• **Build an alias matrix instead of a service per name.** A lot of those 39 names were really the same service wearing different labels — one per protocol, one per historical process. We mapped them out and collapsed 39 DNS names down to 9 actual services, with the DNS names as aliases pointing at the right one.
-• **One endpoint now serves what many used to.** Where an old DNS name historically saw one folder on the FTP server, it now sees twenty folders on one consolidated server — but the folder that name always pointed at is still there, in the same place, so the old URL behaves exactly as it always did.
-• **The user sees continuity; we get consolidation.** Nothing changed for the outside world. Everything changed for us: 9 services to maintain instead of 39. Easier. Cheaper. Fewer things to break.
+- **Every historical DNS name survives.** Names going back to the 80s were carried forward untouched, so every old URL out in the wild still resolves and still works.
+- **Build an alias matrix instead of a service per name.** A lot of those 39 names were really the same service wearing different labels — one per protocol, one per historical process. We mapped them out and collapsed 39 DNS names down to 9 actual services, with the DNS names as aliases pointing at the right one.
+- **One endpoint now serves what many used to.** Where an old DNS name historically saw one folder on the FTP server, it now sees twenty folders on one consolidated server — but the folder that name always pointed at is still there, in the same place, so the old URL behaves exactly as it always did.
+- **The user sees continuity; we get consolidation.** Nothing changed for the outside world. Everything changed for us: 9 services to maintain instead of 39. Easier. Cheaper. Fewer things to break.
 
 That's the whole philosophy. Deprecation is a message you send to your users: stop what you're doing, come change your scripts, on my timetable. For a public research service that message mostly gets ignored and then something silently breaks. Rolling is the opposite — you take on the burden of continuity yourself so the user never has to act. You keep the promise the old address made, forever, and quietly rearrange everything behind it.
 

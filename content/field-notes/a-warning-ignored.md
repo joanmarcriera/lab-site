@@ -23,9 +23,9 @@ And I own a share of that. I had raised the risk in the language of the people w
 
 That swing is worth staring at, because it teaches the thing I most want people to take away:
 
-• **A warning ignored is not neutral. It's a decision.** Choosing not to act on a known, documented risk is choosing to accept that risk. The acceptance is silent and it's rarely written down, but it's real, and it belongs to the organisation as a whole — the people who could have acted, and the people who could have made it impossible not to.
-• **The cost of a fix doesn't disappear when you defer it. It moves — and it grows.** The identity work was cheaper, calmer, and entirely schedulable before. After, it came bundled with an incident, overtime, and a scramble. Same work. Much worse conditions.
-• **Vindication is a terrible way to be proven right.** I'd rather have been wrong. Being the person who said "this will hurt us" and then watching it hurt us is not a win. Nobody on my team celebrated. They were exhausted, and quietly frustrated that it had taken a breach to make an old warning suddenly worth listening to.
+- **A warning ignored is not neutral. It's a decision.** Choosing not to act on a known, documented risk is choosing to accept that risk. The acceptance is silent and it's rarely written down, but it's real, and it belongs to the organisation as a whole — the people who could have acted, and the people who could have made it impossible not to.
+- **The cost of a fix doesn't disappear when you defer it. It moves — and it grows.** The identity work was cheaper, calmer, and entirely schedulable before. After, it came bundled with an incident, overtime, and a scramble. Same work. Much worse conditions.
+- **Vindication is a terrible way to be proven right.** I'd rather have been wrong. Being the person who said "this will hurt us" and then watching it hurt us is not a win. Nobody on my team celebrated. They were exhausted, and quietly frustrated that it had taken a breach to make an old warning suddenly worth listening to.
 
 I made sure the people who did the recovery were recognised for it, properly, because heroics that go unacknowledged are how you lose your best engineers. But recognition after the fact is a patch on a wound that a decision months earlier would have prevented.
 

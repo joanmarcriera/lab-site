@@ -19,8 +19,8 @@ Here's the line I'll die on: seniority does not entitle you to fast replies. If 
 
 So I did two things, and only one of them was the raise.
 
-• I got the £250 a month. I had to go up the chain and make the case, and I made it. It mattered as a signal — the institution putting something on the table — but as a reason to stay, it was close to nothing. Nobody that good stays for £250.
-• I gave them hard problems. That was the real retention. They weren't leaving for money and they weren't leaving because of any one person — those were symptoms. They were leaving because they were under-challenged and being treated like a lookup service. So I handed over the difficult, interesting, high-blast-radius work they were built for. That's what they actually wanted. That's what kept them.
+- I got the £250 a month. I had to go up the chain and make the case, and I made it. It mattered as a signal — the institution putting something on the table — but as a reason to stay, it was close to nothing. Nobody that good stays for £250.
+- I gave them hard problems. That was the real retention. They weren't leaving for money and they weren't leaving because of any one person — those were symptoms. They were leaving because they were under-challenged and being treated like a lookup service. So I handed over the difficult, interesting, high-blast-radius work they were built for. That's what they actually wanted. That's what kept them.
 
 Now the economics, because this is where it becomes a leadership lesson and not just a nice anecdote about being kind to talented people.
 

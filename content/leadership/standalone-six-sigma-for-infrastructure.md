@@ -26,13 +26,13 @@ Lean's eight wastes come with a mnemonic that could have been invented for opera
 
 Translate each into infrastructure and the list turns into an audit checklist:
 
-• Defects — rework: failed changes, rollbacks, tickets reopened.
-• Overproduction — environments, replicas and reports nobody consumes.
-• Waiting — the big one. Approval queues, CAB meetings, "waiting on the other team". Usually the largest waste and the least visible, because everyone is individually busy while the work sits still.
-• Non-utilised talent — senior engineers performing manual restarts a script should own. This waste line item is why toil-reduction budgets exist.
-• Transportation and Motion — data copied between systems that could share a source; humans swivel-chairing between consoles.
-• Inventory — work in progress: the half-finished migrations accumulating risk in every backlog.
-• Extra-processing — the manufacturing name for gold-plating. Building five nines for a service whose users need three. I have committed this one personally and can confirm the diagnosis.
+- Defects — rework: failed changes, rollbacks, tickets reopened.
+- Overproduction — environments, replicas and reports nobody consumes.
+- Waiting — the big one. Approval queues, CAB meetings, "waiting on the other team". Usually the largest waste and the least visible, because everyone is individually busy while the work sits still.
+- Non-utilised talent — senior engineers performing manual restarts a script should own. This waste line item is why toil-reduction budgets exist.
+- Transportation and Motion — data copied between systems that could share a source; humans swivel-chairing between consoles.
+- Inventory — work in progress: the half-finished migrations accumulating risk in every backlog.
+- Extra-processing — the manufacturing name for gold-plating. Building five nines for a service whose users need three. I have committed this one personally and can confirm the diagnosis.
 
 The insight is not that waste exists; every engineer feels it. The insight is that naming waste categories makes it discussable without blame — the training is explicit that waste conversations are about the process, never about an individual's performance. That framing predates blameless postmortems by decades.
 

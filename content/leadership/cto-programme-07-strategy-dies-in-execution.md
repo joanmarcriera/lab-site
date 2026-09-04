@@ -50,11 +50,11 @@ The caveat I would add from the infrastructure trenches: none of these cases sho
 
 ### What I took away
 
-• Cascade in both directions, or do not bother. Top-down alone is theatre.
-• Your metrics are your real strategy. Audit them for the behaviour they reward.
-• Prefer forward-looking measures (detection, prevention) over backward-looking ones (resolution time) where you can.
-• Match the process to the uncertainty of the work. One pipeline cannot serve both.
-• Most execution wins come from integrating and retiring, not from buying.
+- Cascade in both directions, or do not bother. Top-down alone is theatre.
+- Your metrics are your real strategy. Audit them for the behaviour they reward.
+- Prefer forward-looking measures (detection, prevention) over backward-looking ones (resolution time) where you can.
+- Match the process to the uncertainty of the work. One pipeline cannot serve both.
+- Most execution wins come from integrating and retiring, not from buying.
 
 Eighteen months on, "internal detection rate" remains the single most useful number I have argued for.
 

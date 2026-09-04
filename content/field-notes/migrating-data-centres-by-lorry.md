@@ -13,9 +13,9 @@ Some context. The institution leased its data centres on roughly five-year terms
 
 And yet:
 
-• No live migration of running machines; we moved them by truck.
-• No resource pools, no stretched networking, no host profiles. Most of what the licence was for, unused.
-• The migration window was chosen by polling users for the least-bad date, and people were pleased that users were involved in the planning. I understand the instinct, and I think it's backwards. Users should never see a migration. It should be invisible.
+- No live migration of running machines; we moved them by truck.
+- No resource pools, no stretched networking, no host profiles. Most of what the licence was for, unused.
+- The migration window was chosen by polling users for the least-bad date, and people were pleased that users were involved in the planning. I understand the instinct, and I think it's backwards. Users should never see a migration. It should be invisible.
 
 The previous move had put machines down for two to three weeks. Thousands of machines. Multiply machines by hours and the number stops being an IT inconvenience and becomes stolen research time.
 
@@ -27,10 +27,10 @@ The objection, when it finally came, was almost a compliment: yes, we know you'l
 
 You don't migrate petabytes that way. That's the point:
 
-• The virtual machines move live across the stretched network.
-• The data goes read-only where it sits. Nothing copies under pressure.
-• Flip priority to the replica in the destination centre. Change DNS. Remount.
-• Done. The petabytes never got on the lorry either way.
+- The virtual machines move live across the stretched network.
+- The data goes read-only where it sits. Nothing copies under pressure.
+- Flip priority to the replica in the destination centre. Change DNS. Remount.
+- Done. The petabytes never got on the lorry either way.
 
 The way to actually staff it, I'd learned at Bull: when you have thousands of machines to move, you don't build a committee, you ask for volunteers. People sign up for a day, you hand them a tested process, and it gets done.
 

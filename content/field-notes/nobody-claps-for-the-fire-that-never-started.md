@@ -15,11 +15,11 @@ The arithmetic is perverse and worth stating plainly. The early fix was cheap an
 
 Here is what that inversion does to a technical organisation:
 
-• **It rewards drama over prevention.** The engineer who quietly patches the thing before it breaks has, by definition, no incident to show for it. Their best work looks like a quiet week. The one who lets it break and then heroically restores service has a narrative, a timeline, and a visible win.
+- **It rewards drama over prevention.** The engineer who quietly patches the thing before it breaks has, by definition, no incident to show for it. Their best work looks like a quiet week. The one who lets it break and then heroically restores service has a narrative, a timeline, and a visible win.
 
-• **It turns leadership into a checkbox exercise.** When appearances are what get rewarded, people optimise for appearances. The meeting happens, the box is ticked, the slide is green — and the underlying problem is untouched, because touching it early was never the thing being measured.
+- **It turns leadership into a checkbox exercise.** When appearances are what get rewarded, people optimise for appearances. The meeting happens, the box is ticked, the slide is green — and the underlying problem is untouched, because touching it early was never the thing being measured.
 
-• **It quietly punishes your most valuable people.** The person who kept things from ever catching fire is the one you most want to keep, and the one your reward system is least equipped to see. Do this for long enough and they stop bothering, or they leave.
+- **It quietly punishes your most valuable people.** The person who kept things from ever catching fire is the one you most want to keep, and the one your reward system is least equipped to see. Do this for long enough and they stop bothering, or they leave.
 
 I won't pretend I always fought this cleanly. I learned a tactic in that environment that I'll describe honestly, because it's real and it works. When I could not win an argument on its merits — when the smoke was obvious to me and invisible to the person who needed to act — I stopped pitching harder. Pitching harder made it worse; the more I pushed, the less they bought. So instead I stopped selling my fix and started asking about their constraints. Then I'd bring the same fix back with their constraints built in, as one option among a couple, and let them choose it — and when they did, the credit was theirs, out loud, in front of their peers.
 

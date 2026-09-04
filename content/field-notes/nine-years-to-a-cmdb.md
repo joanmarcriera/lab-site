@@ -9,10 +9,10 @@ I have implemented CMDBs before — at Barcelona Media, at the Sant Feliu town c
 
 I got four answers, in sequence, over years. Learn this ladder — you will meet it too:
 
-• First answer: silence. Nothing. The proposal simply did not exist.
-• Second, when I pushed a week later and asked why nobody was responding: "We're not big enough. We don't do change management." Dozens of IT professionals, petabytes of data — not big enough.
-• Third: "The others won't buy in. It will be very difficult." Note the shift — no longer wrong, merely hard.
-• Fourth, and my favourite: impossible within the horizon of whoever was answering. Not wrong, not hard: inconvenient for one person's calendar.
+- First answer: silence. Nothing. The proposal simply did not exist.
+- Second, when I pushed a week later and asked why nobody was responding: "We're not big enough. We don't do change management." Dozens of IT professionals, petabytes of data — not big enough.
+- Third: "The others won't buy in. It will be very difficult." Note the shift — no longer wrong, merely hard.
+- Fourth, and my favourite: impossible within the horizon of whoever was answering. Not wrong, not hard: inconvenient for one person's calendar.
 
 At no point did anyone say the CMDB was a bad idea. The ladder never does.
 
@@ -42,9 +42,9 @@ Final score when I left, nine and a half years in: incident management arriving,
 
 Three things I'd tell any technology leader from this:
 
-• You cannot manage change if you don't know what you have. Not my opinion — the verdict of someone who literally wrote the book on the subject, under repeated questioning.
-• Learn the ladder of no: silence → we're too small → others won't buy in → not in my remaining tenure. None of these is an argument. All of them are answers you'll get instead of one.
-• Assign critical work by competence, not title. Seniority is a fine default for accountability and a poor one for expertise; confusing the two costs you years.
+- You cannot manage change if you don't know what you have. Not my opinion — the verdict of someone who literally wrote the book on the subject, under repeated questioning.
+- Learn the ladder of no: silence → we're too small → others won't buy in → not in my remaining tenure. None of these is an argument. All of them are answers you'll get instead of one.
+- Assign critical work by competence, not title. Seniority is a fine default for accountability and a poor one for expertise; confusing the two costs you years.
 
 What's the longest your organisation has argued about something this basic? Am I missing something?
 

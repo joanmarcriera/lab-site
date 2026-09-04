@@ -19,10 +19,10 @@ Meanwhile, the tickets coming in didn't say "storage is degraded". They complain
 
 What I take from the incident itself:
 
-• The symptom and the cause were on different teams' dashboards. The users saw "transfers are failing". The truth was dozens of dead disks and a rebalance nobody had surfaced. If your monitoring and your ownership are split across silos, the person feeling the pain and the person holding the cause never meet.
-• "No" is not a diagnosis. A month of "no" cost us weeks we could have spent planning around the rebalance instead of arguing about whether it existed. And a month of my asking the same question the same way was not a diagnosis either.
-• You get the experts in the room by being specific and by lowering the cost of saying yes. I didn't demand escalation. I asked to be invited to one meeting.
-• Ego is an outage multiplier — mine included. The fastest path was never to be right; it was to get the vendor to check what they needed to check, and the way to do that was an invitation, not an argument.
+- The symptom and the cause were on different teams' dashboards. The users saw "transfers are failing". The truth was dozens of dead disks and a rebalance nobody had surfaced. If your monitoring and your ownership are split across silos, the person feeling the pain and the person holding the cause never meet.
+- "No" is not a diagnosis. A month of "no" cost us weeks we could have spent planning around the rebalance instead of arguing about whether it existed. And a month of my asking the same question the same way was not a diagnosis either.
+- You get the experts in the room by being specific and by lowering the cost of saying yes. I didn't demand escalation. I asked to be invited to one meeting.
+- Ego is an outage multiplier — mine included. The fastest path was never to be right; it was to get the vendor to check what they needed to check, and the way to do that was an invitation, not an argument.
 
 But the part that actually kept me up wasn't the incident. It was what happened after. I tried to run a post-mortem. I tried to raise a major incident. And I found we didn't yet have the machinery for either: no configuration record we all agreed on, no major-incident process, no established way to get the right people in a room and say "this was major, let's learn from it". The organisation — including me, in a role that should have owned a share of this — hadn't built it yet. So we didn't learn from it the way we should have.
 
