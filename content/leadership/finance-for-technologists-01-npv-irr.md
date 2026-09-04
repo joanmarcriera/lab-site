@@ -14,7 +14,7 @@ It took an executive finance programme I took at Oxford's Saïd Business School 
 
 The part that changes engineering conversations is the discount rate. Say your company's cost of capital is 10%. A saving of £100k arriving in year four is worth roughly £68k today. Suddenly the self-built tool that "saves £400k over four years" against £300k of upfront engineering time is a much closer call, and that is before you price the maintenance tail, which in my experience nobody prices honestly.
 
-I ran infrastructure at EMBL-EBI, where compute and storage decisions routinely spanned five-year horizons. We were disciplined about capacity models and refresh cycles. We were far less disciplined about the fact that money spent in procurement year one and money saved in operations year five are different currencies. NPV gives you the exchange rate.
+I ran infrastructure at the institute, where compute and storage decisions routinely spanned five-year horizons. We were disciplined about capacity models and refresh cycles. We were far less disciplined about the fact that money spent in procurement year one and money saved in operations year five are different currencies. NPV gives you the exchange rate.
 
 ### Where IRR bites back
 

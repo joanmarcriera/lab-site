@@ -40,4 +40,3 @@ If your promotion depended on being smoother about the politics than about the w
 - [Rundeck](https://www.rundeck.com/)
 - [PagerDuty](https://www.pagerduty.com/)
 - [Google Cloud Storage pricing (egress)](https://cloud.google.com/storage/pricing)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

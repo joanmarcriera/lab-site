@@ -8,7 +8,7 @@ Tech did not invent incident response. We are, at best, enthusiastic late adopte
 
 I was reminded of this reading a [crisis and disaster response article by Caroline Brooks](https://www.pcimag.com/articles/113441-best-practices-for-crisis-and-disaster-response) of the Alliance for Chemical Distribution, published in Paint & Coatings Industry magazine. It is written for facilities that handle hazardous chemicals — hurricanes, spills, evacuations, the lot. It is one of the pieces I kept from my leadership reading pile, and it aged better than most of the management literature next to it. Reading it as an infrastructure person was uncomfortable, because an industry that plans for actual disasters keeps reaching conclusions we in tech keep rediscovering after every messy outage.
 
-Here is what translated, through the lens of a decade running production infrastructure at EMBL-EBI — petabyte-scale archives, thousands of users, and a pager that did not care what time it was in Cambridge.
+Here is what translated, through the lens of a decade running production infrastructure at the institute — petabyte-scale archives, thousands of users, and a pager that did not care what time it was.
 
 ### Plans decay faster than systems
 

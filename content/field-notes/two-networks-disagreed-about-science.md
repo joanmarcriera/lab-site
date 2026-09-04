@@ -31,4 +31,3 @@ When something on your estate is broken and your own side checks out clean: are 
 
 - [JISC](https://www.jisc.ac.uk/)
 - [ESnet (Energy Sciences Network)](https://www.es.net/)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

@@ -12,13 +12,13 @@ The cycle has four steps, each producing a working document: identify and define
 
 The discipline of the first step is refusing to solve anything. Pick an unmet problem, investigate its root cause, ask why it has not already been fixed — too expensive? too political? previous attempts failed, and why? — quantify roughly what fixing it is worth, and identify the most senior person who benefits, because that person is your sponsor. I covered the misdiagnosis trap earlier in this series; this was the systematic antidote.
 
-My challenge: identity and access management across [EMBL](https://www.embl.org/). Behind the acronym sits a genuinely tangled system — HR records feeding LDAP schemas, business logic deciding group memberships, and a fan-out into everything from the HPC cluster and storage to email, wikis, cloud accounts and chat. Every new joiner at any of six European sites flows through it. So does every leaver, every role change, every permission grant. It is the circulatory system of the organisation, and like most circulatory systems it was noticed mainly when blocked.
+My challenge: identity and access management across a six-site European research organisation. Behind the acronym sits a genuinely tangled system — HR records feeding LDAP schemas, business logic deciding group memberships, and a fan-out into everything from the HPC cluster and storage to email, wikis, cloud accounts and chat. Every new joiner at any of six European sites flows through it. So does every leaver, every role change, every permission grant. It is the circulatory system of the organisation, and like most circulatory systems it was noticed mainly when blocked.
 
 ### The persona that changed the argument
 
 Product people insist you build a [persona](https://www.nngroup.com/articles/persona/) — a fictitious person who benefits most from a solution, carried through the whole process as a lens. Engineers roll their eyes at this. I did too, briefly.
 
-Mine was a PhD student joining EMBL. Walk through their expectations for a moment. They chose a world-leading European laboratory. Transparency and knowledge-sharing are not perks to them; they are the ethics of their profession. They expect cross-site collaboration because their science demands it. And their very first structured experience of this organisation — before any science happens — is our onboarding: accounts, access, tools.
+Mine was a PhD student joining the organisation. Walk through their expectations for a moment. They chose a world-leading European laboratory. Transparency and knowledge-sharing are not perks to them; they are the ethics of their profession. They expect cross-site collaboration because their science demands it. And their very first structured experience of this organisation — before any science happens — is our onboarding: accounts, access, tools.
 
 That reframing did more for the project's priority than any architecture diagram I have ever drawn. A slow, inconsistent onboarding is not an IT inconvenience. It is the organisation's first and loudest statement of its culture, delivered to exactly the people whose expectations are highest. First impressions are a product surface. Ours happened to be a login flow.
 
@@ -60,4 +60,3 @@ Next and last in this series: the one-page exercise I now ask every technology l
 - [Personas in UX — why the fictional user wins real arguments (Nielsen Norman Group)](https://www.nngroup.com/articles/persona/)
 - [The lean startup principles: build-measure-learn](https://theleanstartup.com/principles)
 - [Shadow IT — what churn looks like when the exit is blocked](https://en.wikipedia.org/wiki/Shadow_IT)
-- [EMBL — the six-site European laboratory behind the example](https://www.embl.org/)

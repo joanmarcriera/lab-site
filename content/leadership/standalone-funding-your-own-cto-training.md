@@ -8,7 +8,7 @@ tags: [leadership, finance]
 
 ### Find the scheme that already exists
 
-I worked at [EMBL](https://www.embl.org/about/), an intergovernmental research institution — publicly funded, founded in 1974. Like many large employers, it ran a professional development sponsorship scheme through HR: a formal application for tuition fee support, with a form, a review, and an annual budget. I would guess most colleagues have never read the page it lives on.
+I worked at an intergovernmental research organisation — publicly funded. Like many large employers, it ran a professional development sponsorship scheme through HR: a formal application for tuition fee support, with a form, a review, and an annual budget. I would guess most colleagues have never read the page it lives on.
 
 That is lesson one, and it is embarrassingly simple: before treating a course fee as a personal expense or a fantasy, spend thirty minutes finding out what your employer already offers. Tuition support, study leave, professional development allowances — these schemes are typically documented, budgeted, and undersubscribed. The application form is the easy part. The scarce resource is people who ask properly. ([Harvard's professional development blog](https://professional.dce.harvard.edu/blog/how-to-convince-your-boss-to-pay-for-professional-development/) gives much the same advice, which suggests the pattern is universal.)
 
@@ -61,4 +61,3 @@ The worst realistic outcome is a documented no and a manager who now knows you a
 
 - [Executive education — what these programmes are and how they work](https://en.wikipedia.org/wiki/Executive_education)
 - [Harvard DCE on convincing your employer to pay for professional development](https://professional.dce.harvard.edu/blog/how-to-convince-your-boss-to-pay-for-professional-development/)
-- [EMBL, the intergovernmental research institution where I worked](https://www.embl.org/about/)

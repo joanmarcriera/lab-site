@@ -26,7 +26,7 @@ And underneath both sits [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart
 
 ### Applying it: from reactive KPIs to proactive ones
 
-I put all of this into a strategic plan I wrote for our leadership, about the estate I actually run at EMBL-EBI, the European Bioinformatics Institute.
+I put all of this into a strategic plan I wrote for our leadership, about the estate I actually ran at the institute.
 
 Our reality was recognisable to anyone in scientific infrastructure: ITIL processes in place, monitoring spread across several tools, headline KPIs of incident resolution time and system uptime, and escalation happening through weekly meetings. Nothing broken. Everything reactive.
 

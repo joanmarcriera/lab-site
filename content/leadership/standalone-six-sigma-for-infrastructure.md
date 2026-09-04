@@ -18,7 +18,7 @@ Define the problem from the customer's perspective, not the system's. Measure th
 
 Tech is decent at the middle three and terrible at the bookends. We define problems from the infrastructure's point of view ("the cluster is slow") rather than the user's ("submissions take four hours to appear"). And we almost never close the loop with a control plan. We ship the fix, write the postmortem, and move on; six months later the same class of failure returns wearing a different hat. The Six Sigma answer is unglamorous: every improvement gets a metric, a threshold, an owner and an alert. If you cannot say how you would know the problem came back, you have not finished fixing it.
 
-At EMBL-EBI, the improvements that stuck — in archive operations, in identity management across thousands of users — were precisely the ones where we had built the "did it stay fixed" instrumentation. The ones that regressed were the ones we celebrated and abandoned.
+At the institute, the improvements that stuck — in archive operations, in identity management across thousands of users — were precisely the ones where we had built the "did it stay fixed" instrumentation. The ones that regressed were the ones we celebrated and abandoned.
 
 ### DOWNTIME is the best description of toil I have read
 

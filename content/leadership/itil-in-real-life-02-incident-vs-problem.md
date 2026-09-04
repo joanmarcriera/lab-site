@@ -7,7 +7,7 @@ tags: [operations, leadership]
 
 If one distinction from ITIL 4 earns its place on a whiteboard, it is this: incidents are about restoring service, problems are about removing causes. Confuse the two and you will be busy forever and better never.
 
-Some context for why I care. I ran infrastructure services at EMBL-EBI, including identity and the joiners-movers-leavers (JML) lifecycle, through the rollout of a new HR system feeding our accounts pipeline. And I run a homelab with enough real storage and real users, my family, that failures are not hypothetical.
+Some context for why I care. I ran infrastructure services at the institute, including identity and the joiners-movers-leavers (JML) lifecycle, through the rollout of a new HR system feeding our accounts pipeline. And I run a homelab with enough real storage and real users, my family, that failures are not hypothetical.
 
 ### Two clocks
 
@@ -19,7 +19,7 @@ The trap is cultural, not conceptual. Incident response is visible and dramatic;
 
 ### A real one: the accounts that would not work
 
-During the HR integration at EBI, a steady stream of new starters could not log in. Each case looked slightly different: a temporary password that had been overwritten, an onboarding email pointing at the wrong credentials, an account locked for no visible reason. The service desk handled each one competently. The stream did not slow.
+During the HR integration at the institute, a steady stream of new starters could not log in. Each case looked slightly different: a temporary password that had been overwritten, an onboarding email pointing at the wrong credentials, an account locked for no visible reason. The service desk handled each one competently. The stream did not slow.
 
 Treated as incidents, these were dozens of unrelated annoyances. Treated as a problem, they had one sentence at the bottom: people were being hired into the system with start dates in the past. Every automated step that assumed "onboarding happens before day one" fired retrospectively, out of order, or not at all. The onboarding email was correct for the process as designed and wrong for the process as lived.
 

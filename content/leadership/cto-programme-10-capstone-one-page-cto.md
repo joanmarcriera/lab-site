@@ -32,10 +32,10 @@ A one-page canvas is a packing exercise. That is why it is hard, and that is why
 
 ### Closing the series
 
-Ten entries in, a summary of the summary. What a decade and a half of running infrastructure — HPC, scientific computing, consultancy, and finally leading IT services at EMBL-EBI — distils into:
+Ten entries in, a summary of the summary. What a decade and a half of running infrastructure — HPC, scientific computing, consultancy, and finally leading IT services at a large research institute — distils into:
 
 - **A sequence, not a toolbox.** Strategy before culture, culture before execution, execution before partnerships, partnerships before product. Each stage assumes the previous one. Most leadership failure I have witnessed comes from running these out of order — reorganising before diagnosing, partnering before knowing what you need.
-- **The habit of writing to my own organisation.** Every framework in this series earned its place the same way: applied to my institute, my services, my stakeholders. The ones I still use are the ones that survived contact with EMBL-EBI's reality.
+- **The habit of writing to my own organisation.** Every framework in this series earned its place the same way: applied to my institute, my services, my stakeholders. The ones I still use are the ones that survived contact with the institute's reality.
 - **Permission to treat leadership as a discipline.** Engineers respect practice. Stakeholder maps, cascades, personas and canvases are to leadership what runbooks and post-mortems are to operations: unglamorous, repeatable, and the difference between intention and outcome.
 - **A healthy scepticism.** Not every celebrated case survives contact with a publicly funded scientific institute, and I have flagged the overreaches throughout this series. A body of ideas that trains you to argue with it has, in my view, worked.
 

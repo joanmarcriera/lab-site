@@ -38,4 +38,3 @@ If you run a public-facing service with addresses older than some of your engine
 
 - [IBM Aspera](https://www.ibm.com/products/aspera)
 - [DNS (Domain Name System)](https://en.wikipedia.org/wiki/Domain_Name_System)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

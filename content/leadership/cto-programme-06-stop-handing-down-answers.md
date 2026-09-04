@@ -34,7 +34,7 @@ What separates this from management poetry is the evidence. My favourite public 
 
 [Amazon's restructuring into small autonomous "two-pizza" teams](https://aws.amazon.com/executive-insights/content/amazon-two-pizza-team/) points the same way: when coordination overheads strangled innovation, the answer was not better coordination from the centre but removing the need for it — small teams, clean interfaces, authority pushed down. Different industry, same physics of search.
 
-I saw the domestic version at EMBL-EBI. Every durable improvement I can credit myself with came from framing a problem and getting out of the way; my monuments to "just do it like this" mostly needed rework within two years. The frontline knew things about the workload that no architecture diagram captured.
+I saw the domestic version at the institute. Every durable improvement I can credit myself with came from framing a problem and getting out of the way; my monuments to "just do it like this" mostly needed rework within two years. The frontline knew things about the workload that no architecture diagram captured.
 
 ### What I actually changed
 

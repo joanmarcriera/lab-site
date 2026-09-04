@@ -30,7 +30,7 @@ Underneath every ESG debate sits a measurement problem that should feel familiar
 • Proxies get gamed. The moment a disclosure metric drives capital allocation, optimising the metric decouples from optimising the reality. [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) does not care about your intentions.
 • The measurable crowds out the important. Institutional investors concentrate on E and G, emissions and board structure quantify nicely, while S languishes, not because society matters less but because it resists a spreadsheet.
 
-I spent years building monitoring for scientific infrastructure at EMBL-EBI, and the parallel is exact: what you can cheaply measure becomes what you manage, and the gap between metric and mission is where problems hide. ESG is not uniquely broken. It is an early-stage observability stack for corporate behaviour, complete with noisy exporters and disputed dashboards.
+I spent years building monitoring for scientific infrastructure at the institute, and the parallel is exact: what you can cheaply measure becomes what you manage, and the gap between metric and mission is where problems hide. ESG is not uniquely broken. It is an early-stage observability stack for corporate behaviour, complete with noisy exporters and disputed dashboards.
 
 ### Why engineers should care anyway
 

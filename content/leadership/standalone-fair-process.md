@@ -39,7 +39,7 @@ Translate the four conditions into the decisions infrastructure leaders actually
 - **Changing on-call.** Nothing generates resentment faster than compensation and rota changes announced from orbit. The people carrying the pager have the most current knowledge of where the load really falls; engagement here is not politeness, it is data collection.
 - **Choosing a standard.** When two teams champion different tools, a fair-process bake-off with published criteria beats a quiet decision after the meeting, even when the outcome is identical. Especially then.
 
-My own experience backs the theory. At EMBL-EBI I spent years pushing changes — ITIL practices, shared metrics, identity system consolidation — from a position with limited formal authority. The changes that stuck were the ones where the affected teams had been genuinely heard and the rationale was written down and repeated. The ones that bounced were usually procedurally rushed, whatever their technical merit. I would not have used the phrase "procedural justice" at the time. I would now.
+My own experience backs the theory. At the institute I spent years pushing changes — ITIL practices, shared metrics, identity system consolidation — from a position with limited formal authority. The changes that stuck were the ones where the affected teams had been genuinely heard and the rationale was written down and repeated. The ones that bounced were usually procedurally rushed, whatever their technical merit. I would not have used the phrase "procedural justice" at the time. I would now.
 
 ### The caveat
 

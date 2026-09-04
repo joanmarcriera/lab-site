@@ -24,7 +24,7 @@ Robert Trivers described [reciprocal altruism](https://en.wikipedia.org/wiki/Rec
 
 Leaders accumulate this capital at scale, and the dark side deserves equal billing. Relationship-based dealing shades into cronyism gradually: first you answer your allies' tickets faster, then you route the interesting projects to people who owe you, and eventually you are a hostage to your own obligation network. History offers spectacular public examples — from politicians jailed for steering contracts to friends, to the well-documented contrast between [Chrysler's cosy, innovation-rich supplier relationships](https://hbr.org/1996/07/how-chrysler-created-an-american-keiretsu) and the ruthless procurement regimes that replaced that model across the industry, which cut costs and then quietly cost manufacturers their suppliers' best ideas. Both failure modes are real: all relationships and you get corruption; no relationships and you get compliance without generosity.
 
-My own audit question: whose requests do I answer first, and would I be comfortable explaining the pattern out loud? At EMBL-EBI, proximity was the silent criterion — the people in our own buildings got the fastest service. Nobody decided that. The reciprocity machinery decided it for us.
+My own audit question: whose requests do I answer first, and would I be comfortable explaining the pattern out loud? At the institute, proximity was the silent criterion — the people in our own buildings got the fastest service. Nobody decided that. The reciprocity machinery decided it for us.
 
 ### Followers have emotional needs; strategy does not exempt you
 

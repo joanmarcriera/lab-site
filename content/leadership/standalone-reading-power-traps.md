@@ -15,7 +15,7 @@ They name five traps. I will take them through the lens of running technical tea
 
 Being the identified authority pulls you toward giving advice, having all the answers, and being endlessly helpful. It curdles into being the person who solves everyone's problem, micromanages, and weighs in on things outside their competence.
 
-This one is mine. It is the specific disease of people who got promoted because they were good at fixing things. At EMBL-EBI I ran services other people depended on, and the reflex that made me useful as an engineer — see problem, solve problem — made me a bottleneck as a leader. When you are busy saving everyone, you are a single point of failure, you starve the team of the chance to develop, and you quietly train people to be less accountable because you will always catch it. Their fix is almost embarrassingly simple and it works: ask one question before you give an answer. "What have you tried?" "What do you think the problem is?" It breaks the reflex and hands the problem back to its owner.
+This one is mine. It is the specific disease of people who got promoted because they were good at fixing things. At the institute I ran services other people depended on, and the reflex that made me useful as an engineer — see problem, solve problem — made me a bottleneck as a leader. When you are busy saving everyone, you are a single point of failure, you starve the team of the chance to develop, and you quietly train people to be less accountable because you will always catch it. Their fix is almost embarrassingly simple and it works: ask one question before you give an answer. "What have you tried?" "What do you think the problem is?" It breaks the reflex and hands the problem back to its owner.
 
 ### The Complacency trap
 

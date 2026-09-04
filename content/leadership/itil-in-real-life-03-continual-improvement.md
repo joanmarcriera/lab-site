@@ -11,7 +11,7 @@ This is the last of three pieces on the [ITIL 4](https://en.wikipedia.org/wiki/I
 
 ### What my own notes say
 
-While studying the material, I kept scrappy logseq notes alongside my day job at EMBL-EBI. My continual improvement page boils down to four lines: [kaizen](https://en.wikipedia.org/wiki/Kaizen) means improvement in small pieces; service delivery is a series of building blocks, and improving blocks improves the whole; the model is flexible, agile or waterfall, it does not matter; and when one improvement ends, find the next, it is not the end of anything.
+While studying the material, I kept scrappy logseq notes alongside my day job at the institute. My continual improvement page boils down to four lines: [kaizen](https://en.wikipedia.org/wiki/Kaizen) means improvement in small pieces; service delivery is a series of building blocks, and improving blocks improves the whole; the model is flexible, agile or waterfall, it does not matter; and when one improvement ends, find the next, it is not the end of anything.
 
 That last line is the whole practice. Improvement is not a project with a closing ceremony. It is a permanent, prioritised queue with a heartbeat.
 
@@ -27,7 +27,7 @@ None of this is impressive individually. Collectively it is the difference betwe
 
 If teams already improve things, why bother with ITIL's continual improvement model at all? Because ad-hoc improvement has three predictable failure modes, and the model exists to counter exactly these.
 
-**Improvements without direction.** The model insists you start from vision and a clear picture of where you are versus where you want to be, before choosing what to fix. My #paydebt tag had no such filter; it accumulated whatever annoyed me. The model forced a better question: which of these items moves the service towards where the organisation is going? At EBI, that meant retirements tied to the strategic consolidation of transfer services scored above pet refactors. Prioritising by strategic alignment sounds like management-speak until you watch a team spend a quarter polishing something the organisation was about to switch off.
+**Improvements without direction.** The model insists you start from vision and a clear picture of where you are versus where you want to be, before choosing what to fix. My #paydebt tag had no such filter; it accumulated whatever annoyed me. The model forced a better question: which of these items moves the service towards where the organisation is going? At the institute, that meant retirements tied to the strategic consolidation of transfer services scored above pet refactors. Prioritising by strategic alignment sounds like management-speak until you watch a team spend a quarter polishing something the organisation was about to switch off.
 
 **Improvements without evidence.** The model brackets the doing with measurement: know your baseline, then check whether the improvement worked. This is where I was weakest, and I suspect most operations teams are. We upgraded, migrated, retired, and rarely went back to confirm the promised benefit had arrived. My study notes contain a small confession in the form of a to-do: "Find information about Balanced Scorecard." Measurement was the bit I had to be taught. Leading indicators, not just after-the-fact counts, are the part I now insist on: a backlog that is shrinking is evidence; a feeling that things are better is not.
 
@@ -43,7 +43,7 @@ If that sounds obsessive for a home network, it is also why the discipline survi
 
 First, the model can become ritual. Seven steps, dutifully documented, wrapped around improvements nobody needed. The step most worth protecting is the first one, the why. If you cannot connect an improvement to a service outcome or a risk, it is a hobby. Hobbies are fine; just fund them as hobbies.
 
-Second, ITIL guidance undersells stopping. Retirement is the highest-leverage improvement an infrastructure team can make, because every system you switch off pays dividends in attention forever. Yet it demos badly, nothing new exists afterwards, so it loses priority fights. As a lead, I learned to celebrate decommissions as loudly as launches. Some of my proudest work at EBI was absence.
+Second, ITIL guidance undersells stopping. Retirement is the highest-leverage improvement an infrastructure team can make, because every system you switch off pays dividends in attention forever. Yet it demos badly, nothing new exists afterwards, so it loses priority fights. As a lead, I learned to celebrate decommissions as loudly as launches. Some of my proudest work at the institute was absence.
 
 ### The queue test
 

@@ -4,7 +4,7 @@ date: 2026-07-19T22:00:00+01:00
 tags: [leadership]
 ---
 
-The title "CTO" tells you almost nothing about what the person does. It took me two decades in infrastructure — consultancy, HPC, then leading IT services at [EMBL-EBI](https://www.ebi.ac.uk/about) — to see how much that matters, and it reframed how I think about my own scope.
+The title "CTO" tells you almost nothing about what the person does. It took me two decades in infrastructure — consultancy, HPC, then leading IT services at a large publicly funded research institute — to see how much that matters, and it reframed how I think about my own scope.
 
 ### The same title, five different jobs
 
@@ -22,7 +22,7 @@ That sounds abstract until you apply it to your own scope. The exercise I recomm
 
 ### Doing the exercise on my own job
 
-I ran the exercise against my role at EMBL-EBI, where I coordinated service and data management infrastructure. Writing it down forced precision I had been avoiding:
+I ran the exercise against my role at the institute, where I coordinated service and data management infrastructure. Writing it down forced precision I had been avoiding:
 
 - We ran an in-house software-defined object storage backend for scientific archives above 100PB — essentially a self-hosted S3, cheaper than public cloud at that scale, hiding hardware lifecycles so that data URLs from the 1990s still resolve today. That last property quietly supports peer review of decades-old papers.
 - We ran the transfer services moving roughly 4PB of data in and out per month.
@@ -50,4 +50,3 @@ If you lead technology at any level — you do not need the C-title — take thi
 
 - [Richard Rumelt, Good Strategy/Bad Strategy](https://www.penguinrandomhouse.com/books/207137/good-strategy-bad-strategy-by-richard-rumelt/)
 - [Richard Rumelt](https://en.wikipedia.org/wiki/Richard_Rumelt)
-- [EMBL-EBI, where I ran infrastructure services](https://www.ebi.ac.uk/about)
