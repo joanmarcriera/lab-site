@@ -8,7 +8,7 @@ tags: [leadership, finance]
 
 ### Find the scheme that already exists
 
-I worked at an intergovernmental research organisation — publicly funded. Like many large employers, it ran a professional development sponsorship scheme through HR: a formal application for tuition fee support, with a form, a review, and an annual budget. I would guess most colleagues have never read the page it lives on.
+I worked at a large, publicly funded research organisation. Like many large employers, it ran a professional development sponsorship scheme through HR: a formal application for tuition fee support, with a form, a review, and an annual budget. I would guess most colleagues have never read the page it lives on.
 
 That is lesson one, and it is embarrassingly simple: before treating a course fee as a personal expense or a fantasy, spend thirty minutes finding out what your employer already offers. Tuition support, study leave, professional development allowances — these schemes are typically documented, budgeted, and undersubscribed. The application form is the easy part. The scarce resource is people who ask properly. ([Harvard's professional development blog](https://professional.dce.harvard.edu/blog/how-to-convince-your-boss-to-pay-for-professional-development/) gives much the same advice, which suggests the pattern is universal.)
 
@@ -24,7 +24,7 @@ The form itself was two pages. Its questions are a useful checklist for anyone b
 
 ### The manager's section is the application
 
-My supervisor had to write her own justification for the sponsorship. That requirement transformed the exercise. It meant the real persuasion happened in conversation with my manager, before HR ever saw paper — and it meant that by the time the form was submitted, the organisation's side of the argument had been made by the organisation itself.
+My manager had to write a separate justification for the sponsorship, in their own words. That requirement transformed the exercise. It meant the real persuasion happened in conversation with my manager, before HR ever saw paper — and it meant that by the time the form was submitted, the organisation's side of the argument had been made by the organisation itself.
 
 Making that conversation easy is your actual job as the applicant. I mapped the programme's content directly onto my remit: process and execution material against my service management responsibilities; organisation and partnership material against cross-site coordination; product management against the internal platforms I ran. The pitch was never "this makes me more senior". It was "this makes the function I already run better, on a defined timeline, for a known cost". (The fact that the coursework was applied to my own organisation helped — it produced strategy plans my leadership actually saw. The training paid interest before it matured.)
 

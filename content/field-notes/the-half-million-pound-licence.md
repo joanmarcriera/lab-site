@@ -13,11 +13,11 @@ We had two products doing broadly the same thing. One, built by the research com
 
 The trigger was simple. The per-volume product was maxed out. To keep going, we were looking at a new licence costing roughly eight times what we were paying for both products combined — and then renting more capacity on top of that. The real number in this story was never the annual fees. It was the new licence we avoided.
 
-The first time I said we should move off the per-volume product, the answer was, "To what?" To the flat-licence one. "But we don't have it." Yes we do. We had forty servers of it already — forty badly-installed, underused virtual machines. I just needed to do it properly.
+The first time I said we should move off the per-volume product, the fair question came back: "To what?" To the flat-licence one. "But we don't have it." We did — sort of. We had forty servers of it already: forty scattered, underused virtual machines that nobody, me included, had ever treated as a service. I needed to build it properly.
 
 Here is how it went:
 
-• **Used the vendor as free consultancy.** I asked the flat-licence vendor directly what a proper deployment should look like. They advised on sizing. We consolidated forty badly-installed VMs down to three physical servers — properly built this time. It took a year just to get the hardware.
+• **Used the vendor as free consultancy.** I asked the flat-licence vendor directly what a proper deployment should look like. They advised on sizing. We consolidated forty scattered VMs down to three physical servers, built to that sizing. It took a year just to get the hardware.
 
 • **Kept the per-volume product inside its licence.** It ran as a virtual machine. I moved it onto a hypervisor with a link capped at the throughput we had actually licensed, so usage stayed within the contract we already had while everyone migrated. No surprise overage, no trigger for the new licence.
 
@@ -25,7 +25,7 @@ Here is how it went:
 
 • **Turned parallel-running into leverage.** With a working alternative already carrying traffic, I told the commercial vendor plainly: if you want to keep the contract, the product has to perform better — fewer reconnects, fewer errors — and we want managed services for the same price. We got it, delivered through a partner. That only worked because we weren't bluffing; the replacement was already running.
 
-• **Won the users with arithmetic, not opinions.** The per-volume product is well-loved in genomics, and those users trusted it. I didn't argue about software. I showed them the numbers. That much money is a lot for researchers — money that buys sequencing, not licences. They were happy to start moving.
+• **Won the users with arithmetic, not opinions.** The per-volume product is well-loved in the research community, and those users trusted it. I didn't argue about software. I showed them the numbers. That much money is a lot for researchers — money that buys science, not licences. They were happy to start moving.
 
 The lesson I keep from this one isn't "one product good, the other bad". Both are fine products and the per-volume model suits plenty of organisations. The lesson is that you have to match the pricing model to your mission before you match the features. If your reason to exist is moving more data every year, a contract that charges you more for moving more data will eventually corner you. It doesn't matter how good the transfers are.
 

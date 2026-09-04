@@ -13,7 +13,7 @@ If you read the earlier field note about making identity normal — https://blog
 
 What can I say publicly about the incident? Deliberately little, and I will keep it that way. It was serious. The root cause was mundane in the way these things always are — a configuration gap of the kind every large estate has somewhere — and it was closed. We had a lot of very knowledgeable, very organised outside help, and I learned a great deal from how they communicated, but I am not going to name responders or dramatise it. The useful, honest lesson is a management one: it is very hard to say certain things from inside an organisation, and much easier to say them from outside during a crisis. A crisis makes previously unsayable things obvious, and a surprising amount of overdue modernisation moved forward on the back of it.
 
-Now the part everyone asks about, because a chart of it looks strange. The password-compliance curve that sat around 45% for weeks and then climbed to roughly 99% — the slow, famous one — was the **second** rotation, not the first.
+Now the part everyone asks about, because a chart of it looks strange. The password-compliance curve that sat around 45% for weeks and then climbed to the high nineties — the slow, famous one — was the **second** rotation, not the first.
 
 - The **first** rotation was the incident-driven one. It was fast and it was blunt. Change your password now, or your account is closed. We got through everyone in a week.
 - The **second** rotation was the one we let breathe. Because we already knew from the first round that we *could* change every password in a week, we deliberately relaxed. We let people take their time, let it run through the summer, and did not push.
@@ -21,11 +21,11 @@ Now the part everyone asks about, because a chart of it looks strange. The passw
 
 So the scary-looking flat line was not panic or failure. It was a choice. We had already proven the fast path worked, so the second time we optimised for calm instead of speed.
 
-The closures are where the culture of the place showed itself. Not everyone with an account was staff. Plenty were collaborators on loose agreements rather than contracts. When we enforced that every account must map to a contract or an agreement with a responsible manager, a couple of hundred accounts turned out to have no one willing to claim them. They had been renewed and extended for years — friends of someone, favours that never expired. Close to a third of our "users" were accounts nobody would own once ownership carried a cost. I do not think anyone believed we would actually close them, because closing them risked cutting off someone important. We closed them anyway. That was the point.
+The closures are where the culture of the place showed itself. Not everyone with an account was staff. Plenty were collaborators on loose agreements rather than contracts. When we enforced that every account must map to a contract or an agreement with a responsible manager, a surprising number of accounts turned out to have no one willing to claim them. They had been renewed and extended for years — friends of someone, favours that never expired. Close to a third of our "users" were accounts nobody would own once ownership carried a cost. I do not think anyone believed we would actually close them, because closing them risked cutting off someone important. We closed them anyway. That was the point.
 
 Some of those closures exposed how much informal process had quietly grown up around dormant accounts — old mailboxes doubling as shared archives, access that existed because it had always existed. None of it was malicious. All of it was invisible until an account had to have an owner. Each closure was a conversation, and each conversation made the graph a little more honest.
 
-The holdout in the final 99.88%? I genuinely do not remember who it was. Probably a rounding error. I have made my peace with the missing 0.12%.
+The one holdout who kept us from a clean 100%? I do not remember who it was. Probably a rounding error. I have made my peace with it.
 
 The lesson I keep coming back to is unglamorous. The heroics people remember — rotate everything in a week — were only possible because of the unloved identity plumbing nobody thanks you for. Owners, contracts, managers, a clean graph. Do that work when there is no crisis, and the crisis becomes a scheduling problem instead of an archaeology dig.
 

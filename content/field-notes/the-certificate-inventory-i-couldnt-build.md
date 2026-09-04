@@ -1,5 +1,5 @@
 ---
-title: "A certificate inventory I couldn't get built"
+title: "The certificate inventory I failed to sell"
 date: 2026-07-20
 tags: [operations]
 aliases: ["/war-stories/the-certificate-inventory-i-couldnt-build/"]
@@ -31,7 +31,7 @@ Here's what I'd want any technology leader to take from a boring outage like thi
 
 The frustrating thing is that none of this was hard. The design fit on one page. The tooling was "read the expiry date and set an alert at 30 days". The only expensive part was the one I failed to supply: a case compelling enough that fixing a recurring, entirely preventable failure this year beat waiting for someone else to fix it later. That's not a PKI problem. That's a prioritisation problem, and the person raising it owns half of it.
 
-I left the drawing behind. I hope someone picked it up; I no longer have any way of knowing, and the people there now may well have solved it better than I proposed.
+All of this is as it stood years ago. I left the drawing behind, and I hope someone picked it up; I no longer have any way of knowing, and the people there now may well have solved it better than I proposed.
 
 What's the smallest, most preventable failure your organisation keeps having, purely because everyone's waiting for a vendor to make it someone else's job?
 

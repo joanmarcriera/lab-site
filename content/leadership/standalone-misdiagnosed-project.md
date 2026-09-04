@@ -20,11 +20,11 @@ Reading that list, most technology leaders nod along. Then they go back to the o
 
 Asked once to describe a misdiagnosed project I had lived through, I did not have to think hard.
 
-I have watched an ITIL tooling implementation at a research organisation run for years past its intended timeline. The pattern was textbook. The product was selected partly because comparable institutions had it — if a bigger lab uses it, it must be good. The project was managed on schedule alone, so quality questions had nowhere to land. Concerns from the IT teams who would live with the result were noted and dismissed. And when licensing reality collided with budget reality, the answer was to drop the capability rather than reconsider the tool.
+I have watched an ITIL tooling implementation at a research organisation run for years past its intended timeline, and I was close enough to it to share the blame. The pattern was textbook. The project was managed on schedule alone, so quality and adoption questions had nowhere to land. The IT teams who would live with the result, mine included, had concerns, and none of us — me included — turned them into a decision the project could act on. And when budget constraints forced trade-offs, the reflex was to trim scope rather than revisit what kind of project we were running.
 
-The outcome? The legacy system it was meant to replace kept running in parallel, because not every client of the old system made it into the migration plan. Milestones were celebrated — an MVP that could receive tickets, then a "minimal usable product" that could route them, mostly. The schedule was defensible at every step. The adoption never came.
+The outcome? The legacy system it was meant to replace kept running in parallel, because not every client of the old system made it into the migration plan. Milestones were celebrated — an MVP that could receive tickets, then a "minimal usable product" that could route them, mostly. The schedule was defensible at every step. By the time I left, the adoption had not come.
 
-None of the people involved were incompetent. The project was simply diagnosed as an execution project — buy tool, configure, deploy — when it was a change project wearing an execution project's clothes. Every IT team was being asked to change how they worked and what they measured. Nobody managed that part, because the plan had no line for it.
+None of the people involved were incompetent, and I include myself. The project was simply diagnosed as an execution project — buy tool, configure, deploy — when it was a change project wearing an execution project's clothes. Every IT team was being asked to change how they worked and what they measured. Nobody managed that part, because the plan had no line for it.
 
 ### The signs to watch for
 
@@ -38,7 +38,7 @@ There is a fourth sign I will add from experience: **success theatre**. When a s
 
 ### The sunk cost trap
 
-Misdiagnosed projects rarely get re-diagnosed, and the reason is human, not technical. Once a project has consumed years and budget, a new project manager inherits a Catch-22: changing direction means owning the admission that the direction was wrong. So investment continues on sunk-cost momentum. I have asked a version of this question aloud — can one person turn such a project around, or is it wiser to let it run its course? The honest answer is that some cultural corrections need critical mass before they can even be discussed. If you are the only person in the room saying "change management without a CMDB is not change management", you are probably early, not wrong.
+Misdiagnosed projects rarely get re-diagnosed, and the reason is human, not technical. Once a project has consumed years and budget, a new project manager inherits a Catch-22: changing direction means owning the admission that the direction was wrong. So investment continues on sunk-cost momentum. I have asked a version of this question aloud — can one person turn such a project around, or is it wiser to let it run its course? The honest answer is that some cultural corrections need critical mass before they can even be discussed. If you are saying "change management without a CMDB is not change management" and nobody is agreeing yet, you are probably early, not wrong. Being early is not a virtue on its own, though; the job is then to build the critical mass rather than wait to be proved right.
 
 ### What I do differently now
 

@@ -15,7 +15,7 @@ I keep this ranking because it corrects the instinct of most technical leaders, 
 
 Start at the bottom of the list, because it is the most liberating finding. Only one in ten respondents said the CEO was constraining innovation. Kirsner's line is exactly right: the CEO does not wield a sledgehammer that can demolish any obstacle blocking a team with a good idea. If you have been waiting for executive air cover to unstick your initiative, you may be waiting on the wrong person. The friction is lateral.
 
-I have lived this. The times my technical initiatives stalled, it was almost never because someone senior said no. It was because a peer function felt encroached upon, or two teams were quietly competing for the same territory, and the whole thing died of a thousand small non-decisions. Which brings us back to the top of the list.
+I have lived this. The times my technical initiatives stalled, it was almost never because someone senior said no. It was because a peer function felt encroached upon, or two teams were quietly competing for the same territory — usually because I had launched before mapping whose ground I was stepping on — and the whole thing died of a thousand small non-decisions. Which brings us back to the top of the list.
 
 ### Turf is the real enemy
 

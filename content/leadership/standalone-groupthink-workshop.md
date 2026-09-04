@@ -8,7 +8,7 @@ Engineers distrust brainstorming, and they are right to. Most sessions are unstr
 
 ### The problem worth a workshop
 
-Our challenge statement was concrete: how might we eliminate the chaos and uncontrolled access around account creation, management and closure for employees, so that we reduce the overhead on HR and IT? Years of accumulated identity debt meant everyone had opinions. That was precisely the issue. When a team has lived with a problem for years, they do not lack ideas — they lack *new* ideas. Working closely together makes people think similarly. [Groupthink](https://en.wikipedia.org/wiki/Groupthink) — the term [Irving Janis](https://en.wikipedia.org/wiki/Irving_Janis) coined studying how cohesive groups talk themselves into bad decisions — is not a character flaw; it is the natural sediment of collaboration.
+Our challenge statement was concrete: how might we bring order to account creation, management and closure for employees, so that we reduce the overhead on HR and IT? Years of accumulated identity debt meant everyone had opinions. That was precisely the issue. When a team has lived with a problem for years, they do not lack ideas — they lack *new* ideas. Working closely together makes people think similarly. [Groupthink](https://en.wikipedia.org/wiki/Groupthink) — the term [Irving Janis](https://en.wikipedia.org/wiki/Irving_Janis) coined studying how cohesive groups talk themselves into bad decisions — is not a character flaw; it is the natural sediment of collaboration.
 
 ### The recipe
 

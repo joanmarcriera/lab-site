@@ -17,11 +17,11 @@ So we went after the source. Two moves:
 
 • **Document only what can't be Googled.** My documentation rule is strict and I've never regretted it: if you can Google it, I don't write it down. Public tools have public manuals — I'm not going to maintain a worse copy of IBM's docs that rots the moment they update theirs. What I document is the in-house logic. The bits that are specific to us: why this queue feeds that box, which path a transfer takes, the local wiring nobody outside can know. That's the knowledge that actually walks out the door when a person leaves. The Googleable stuff never does.
 
-Now the exchange that stuck with me. When I pushed to spend engineer time on this, the resistance wasn't about the teaching — it was about the learning. I heard the old worry: "if we spend time teaching the service desk, they'll leave."
+Now the part that stuck with me. When I pushed to spend engineer time on this, the resistance wasn't about the teaching — it was about the learning. I heard the old worry, the one I have since heard in more than one organisation: if we spend time teaching the service desk, they'll leave.
 
-It's an old joke, and it has a second half. A CFO asks, "What if we train them and they leave?" The CEO answers, "What if we don't, and they stay?" When I said the second part, the reply was a candid one: "but then they wouldn't know what to do." And I said: fine, but at least they stay, and we don't have to hire anyone else.
+It's an old joke, and it has a second half. A CFO asks, "What if we train them and they leave?" The CEO answers, "What if we don't, and they stay?" The joke lands because the second half is the one nobody wants to say out loud.
 
-Sit with that for a second. It's a preference many organisations hold without ever saying it out loud: untrained people who stay put over trained people who might leave. Hearing it said plainly laid the whole problem bare in one sentence, and I was grateful for the candour — you can't argue with a belief nobody will state.
+Sit with that for a second. It's a preference many organisations hold without ever stating it: untrained people who stay put over trained people who might leave. You can't argue with a belief nobody will state, so the first job was to state it, in the open and without blame, and then put a number next to it.
 
 That fear — "if we teach them they'll leave" — is the quiet engine behind a lot of bad infrastructure. It's why knowledge stays locked in three senior heads. It's why the service desk is treated as a bounce-board that reads scripts instead of a first line that can actually resolve things. It's why the same ticket gets closed forty times instead of once. You keep people under-skilled to keep them, and then you pay for it every single week in a queue that never drains.
 

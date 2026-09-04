@@ -12,7 +12,7 @@ Start with an uncomfortable fact: creativity in organisations is not normally di
 
 Four barriers stop ideas travelling, and I recognise every one from years in infrastructure teams: status (we do not respect them, so we do not listen), hoarding (knowledge is power, so it stays put), search (we do not even know what the other team does), and transfer (no shared language or channel even when goodwill exists). I wrote about the silo tax earlier in this series; these four barriers are the itemised bill.
 
-The well-known distributed-innovation stories — Huawei running parallel technology bets across labs on multiple continents, L'Oréal pushing R&D out of Paris into the markets it wanted to win — share one design choice: decision power moved to the edge. The centre funded and connected; it did not adjudicate every bet. The intergovernmental research organisation where I worked is itself a six-site European laboratory, and I can confirm the corollary from the inside: distributing people without distributing decisions just gives you slower meetings across more time zones.
+The well-known distributed-innovation stories — Huawei running parallel technology bets across labs on multiple continents, L'Oréal pushing R&D out of Paris into the markets it wanted to win — share one design choice: decision power moved to the edge. The centre funded and connected; it did not adjudicate every bet. The research organisation where I worked was itself spread across several European sites, and I can confirm the corollary from the inside: distributing people without distributing decisions just gives you slower meetings across more time zones.
 
 ### The contract menu, and what each item really buys
 

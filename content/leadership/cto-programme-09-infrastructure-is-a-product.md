@@ -12,13 +12,13 @@ The cycle has four steps, each producing a working document: identify and define
 
 The discipline of the first step is refusing to solve anything. Pick an unmet problem, investigate its root cause, ask why it has not already been fixed — too expensive? too political? previous attempts failed, and why? — quantify roughly what fixing it is worth, and identify the most senior person who benefits, because that person is your sponsor. I covered the misdiagnosis trap earlier in this series; this was the systematic antidote.
 
-My challenge: identity and access management across a six-site European research organisation. Behind the acronym sits a genuinely tangled system — HR records feeding LDAP schemas, business logic deciding group memberships, and a fan-out into everything from the HPC cluster and storage to email, wikis, cloud accounts and chat. Every new joiner at any of six European sites flows through it. So does every leaver, every role change, every permission grant. It is the circulatory system of the organisation, and like most circulatory systems it was noticed mainly when blocked.
+My challenge: identity and access management across a multi-site European research organisation. Behind the acronym sits a genuinely tangled system — HR records feeding directory schemas, business logic deciding group memberships, and a fan-out into everything from the HPC cluster and storage to email, wikis, cloud accounts and chat. Every new joiner at any site flows through it. So does every leaver, every role change, every permission grant. It is the circulatory system of the organisation, and like most circulatory systems it was noticed mainly when blocked.
 
 ### The persona that changed the argument
 
 Product people insist you build a [persona](https://www.nngroup.com/articles/persona/) — a fictitious person who benefits most from a solution, carried through the whole process as a lens. Engineers roll their eyes at this. I did too, briefly.
 
-Mine was a PhD student joining the organisation. Walk through their expectations for a moment. They chose a world-leading European laboratory. Transparency and knowledge-sharing are not perks to them; they are the ethics of their profession. They expect cross-site collaboration because their science demands it. And their very first structured experience of this organisation — before any science happens — is our onboarding: accounts, access, tools.
+Mine was a PhD student joining the organisation. Walk through their expectations for a moment. They chose a world-leading research institute. Transparency and knowledge-sharing are not perks to them; they are the ethics of their profession. They expect cross-site collaboration because their science demands it. And their very first structured experience of this organisation — before any science happens — is our onboarding: accounts, access, tools.
 
 That reframing did more for the project's priority than any architecture diagram I have ever drawn. A slow, inconsistent onboarding is not an IT inconvenience. It is the organisation's first and loudest statement of its culture, delivered to exactly the people whose expectations are highest. First impressions are a product surface. Ours happened to be a login flow.
 
@@ -37,7 +37,7 @@ The implementation proposal borrowed the [lean startup playbook](https://thelean
 - An information radiator — a public Kanban board on tools we already owned — so progress and priorities are visible without asking.
 - A monthly IAM users group open to anyone, where we report progress, take feedback, and reorder priorities in the open.
 
-And the cost case, which is where product thinking earns its keep with a chief executive: no new posts. Existing tooling. Roughly ten extra licences. The project was already a commitment under a broader one-organisation initiative; the proposal simply argued that doing it collaboratively would deliver three things for the price of one — the IAM system, a measurable step in innovation culture, and the integration of teams that had never shipped anything together.
+And the cost case, which is where product thinking earns its keep with a chief executive: no new posts. Existing tooling. Roughly ten extra licences. The project was already a commitment under a broader organisation-wide integration initiative; the proposal simply argued that doing it collaboratively would deliver three things for the price of one — the IAM system, a measurable step in innovation culture, and the integration of teams that had never shipped anything together.
 
 ### What product marketing taught an infrastructure engineer
 

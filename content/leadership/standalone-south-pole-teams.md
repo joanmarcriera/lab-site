@@ -33,7 +33,7 @@ Here is the part I find genuinely useful for engineering leadership: **that muti
 
 Years of leading technical teams have made me honest about high performers. They know the value of their skills and are not shy about it. They seek status, sometimes in small, insidious ways — special work patterns, flexibility others cannot get. They crave engagement and will move teams when they do not get it. They understand the organisation and its networks, and they will use both.
 
-None of that makes them difficult. It makes them *legible*. An expert's demands are usually a well-priced invoice for value delivered; the manager's job is to decide openly what is affordable, rather than resent the negotiation. I once handled a classic dilemma — two experts wanting incompatible flexibility — with conditions: alternate the days off, and the senior one trains the team so his absence stops being a single point of failure. Trading privileges for de-risking is usually a deal experts accept, because it raises their standing while lowering your risk.
+None of that makes them difficult. It makes them *legible*. An expert's demands are usually a well-priced invoice for value delivered; the manager's job is to decide openly what is affordable, rather than resent the negotiation. I once handled a classic dilemma — two experts wanting incompatible flexibility — with conditions: alternate the days off, and the senior one trains the team so their absence stops being a single point of failure. Trading privileges for de-risking is usually a deal experts accept, because it raises their standing while lowering your risk.
 
 ### High performance has a decay curve
 

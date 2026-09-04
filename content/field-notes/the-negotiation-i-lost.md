@@ -11,7 +11,7 @@ First, the two that went well, because they set the scene.
 
 We stopped renewing PagerDuty and moved our on-call and operational automation onto open-source Rundeck. It did what we needed, we already had the skills, and it took a recurring licence off the books. Not a heroic call — just the sort of unglamorous substitution that quietly frees up budget every year if you're willing to do the work.
 
-Then the cloud maths. There was a serious pull towards putting our data in the public cloud, and the ingress story always sounds wonderful — getting data *in* is cheap or free. It's getting it back out that ends you. We ran the egress numbers for restoring at our scale, and even at a 66% discount, pulling 100 petabytes back out of the cloud in 2030 would need an insurance company to underwrite it, not a budget line. That single figure reframed the whole conversation. Cheap to enter, ruinous to leave, is not a home for a hundred-petabyte archive that has to outlive all of us.
+Then the cloud maths. There was a serious pull towards putting our data in the public cloud, and the ingress story always sounds wonderful — getting data *in* is cheap or free. It's getting it back out that ends you. We ran the egress numbers for restoring at our scale, and even after a generous negotiated discount, pulling 100 petabytes back out of the cloud in 2030 would need an insurance company to underwrite it, not a budget line. That single figure reframed the whole conversation. Cheap to enter, ruinous to leave, is not a home for a hundred-petabyte archive that has to outlive all of us.
 
 So I could read a contract and I could read a bill. The negotiation I couldn't win was the one about my own career.
 

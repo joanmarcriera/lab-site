@@ -31,7 +31,7 @@ Internal platforms obey the same law. An internal tool at low adoption is in a d
 
 ### Ecosystems: nobody dominates alone
 
-Ecosystem thinking argues that industry boundaries are dissolving and value is created by constellations of partners. For a research infrastructure provider, this is simply true rather than metaphorical: data resources, funders, member institutions, cloud providers and thousands of downstream services form an ecosystem in which no single operator controls the experience. Strategising means choosing your role in it, and knowing which relationships you are ignoring. When I mapped ours, the neglected connections were exactly where the friction lived.
+Ecosystem thinking argues that industry boundaries are dissolving and value is created by constellations of partners. For a research infrastructure provider, this is simply true rather than metaphorical: data resources, funders, partner institutions, cloud providers and thousands of downstream services form an ecosystem in which no single operator controls the experience. Strategising means choosing your role in it, and knowing which relationships you are ignoring. When I mapped ours, the neglected connections were exactly where the friction lived.
 
 ### The honest caveats
 

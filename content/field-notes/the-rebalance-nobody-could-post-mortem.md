@@ -1,13 +1,13 @@
 ---
-title: "A month-long rebalance nobody could hold a post-mortem for"
+title: "A month-long rebalance, and the post-mortem we weren't ready to hold"
 date: 2026-07-20
 tags: [operations]
 aliases: ["/war-stories/the-rebalance-nobody-could-post-mortem/"]
 ---
 
-The storage wasn't slow because of the network. The network was saturated because the storage had been quietly rebuilding itself across three data centres for over a month, and nobody had told us. It took me a month of asking the same question every two days, and one uninvited appearance on a vendor call, to get that sentence said out loud.
+The storage wasn't slow because of the network. The network was saturated because the storage had been quietly rebuilding itself across three data centres for over a month, and nobody — vendor, infrastructure team, or me — had joined that up with what users were feeling. It took a month of asking the same question every two days, and one vendor call I asked to sit in on, to get that sentence said out loud.
 
-I'd been given responsibility for the archive. The infrastructure team, reasonably, trusted the vendor's first answer; they had the relationship and the vendor had the telemetry. My position was simple and, I thought, well-evidenced: something was wrong with the storage. We had massive monitoring across everything, and it was telling us the storage network was saturated. I wanted to know whether that saturation was causing the problem, or was a symptom of it. The answer I kept getting was "no". Not "let's check" — just "no".
+I'd been given responsibility for the archive. The infrastructure team, reasonably, trusted the vendor's first answer; they had the relationship and the vendor had the telemetry. My position was simple and, I thought, well-evidenced: something was wrong with the storage. We had massive monitoring across everything, and it was telling us the storage network was saturated. I wanted to know whether that saturation was causing the problem, or was a symptom of it. The answer I kept getting was "no". And, in fairness to everyone, I kept asking it the same way, which is not the same thing as making progress.
 
 So I asked for permission to drop into one of the regular vendor calls the infrastructure team held. I didn't ambush anyone. I said what I'd already said many times: the network is saturated, please look for packet loss, please look at the logs, please tell me whether this is hurting the storage. Do you have monitoring? Can you look? They looked. And then, in real time, someone said: "Oh — there's something here we need to look at."
 
@@ -24,11 +24,11 @@ What I take from the incident itself:
 • You get the experts in the room by being specific and by lowering the cost of saying yes. I didn't demand escalation. I asked to be invited to one meeting.
 • Ego is an outage multiplier — mine included. The fastest path was never to be right; it was to get the vendor to check what they needed to check, and the way to do that was an invitation, not an argument.
 
-But the part that actually kept me up wasn't the incident. It was what happened after. I tried to run a post-mortem. I tried to raise a major incident. And I couldn't — because there was no CMDB, no incident process, nothing. There was no mechanism to get the right people in a room, no shared record of what we owned, no agreed way to say "this was major, let's learn from it". So we didn't learn from it.
+But the part that actually kept me up wasn't the incident. It was what happened after. I tried to run a post-mortem. I tried to raise a major incident. And I found we didn't yet have the machinery for either: no configuration record we all agreed on, no major-incident process, no established way to get the right people in a room and say "this was major, let's learn from it". The organisation — including me, in a role that should have owned a share of this — hadn't built it yet. So we didn't learn from it the way we should have.
 
-Several months later, after I'd spent that time trying to build the processes that would have let us learn, it happened again. Another huge batch of disks pending replacement, another rebalance. The one improvement was that this time the vendor's experts joined the meeting directly, and it was solved in three or four weeks instead of dragging. But it happened again because nothing structural had changed. You cannot do a post-mortem on an organisation that has no memory.
+Several months later, after I'd spent that time trying to build the processes that would have let us learn, it happened again. Another huge batch of disks pending replacement, another rebalance. The one improvement was that this time the vendor's experts joined the meeting directly, and it was solved in three or four weeks instead of dragging. It happened again because, in those months, none of us had yet turned the first incident into a structural change. A post-mortem needs an organisational memory to live in, and building that memory was still the work in front of us.
 
-That is what pushed me, hard, toward two things I kept arguing for afterwards: real incident management, and capacity planning for storage. I could not present service levels to my own internal data-resource customers if the layer underneath me presented none. The only mitigation I had in the meantime was human: monthly meetings with every internal customer, so at least they heard from me exactly what was happening and what my team was doing about it.
+That is what pushed me, hard, toward two things I kept arguing for afterwards: real incident management, and capacity planning for storage. I couldn't credibly promise service levels to my own internal customers until the layer beneath me could promise them to me. In the meantime the mitigation was human: monthly meetings with every internal customer, so at least they heard from me exactly what was happening and what my team was doing about it.
 
 An incident is a bad day. An incident you can't hold a post-mortem for is a bad day you've agreed to repeat.
 

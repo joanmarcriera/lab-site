@@ -4,9 +4,9 @@ date: 2026-07-19T21:30:00+01:00
 tags: [leadership]
 ---
 
-For years I carried around a puzzle about the large publicly funded research institute where I ran infrastructure: nearly everyone left before a fixed-term limit. Brilliant people, world-class science, genuinely pleasant campus — and still, a steady conveyor belt out of the door. What I only later appreciated is that this is not drift. It is design. Some international research organisations build regular staff turnover into policy — a fixed-term rule intended to keep circulating trained scientists back into the wider research community.
+For years I carried around a puzzle about the large publicly funded research institute where I ran infrastructure: nearly everyone left before a fixed-term limit. Brilliant people, world-class science, genuinely pleasant campus — and still, a steady conveyor belt out of the door. What I only later appreciated is that this is not drift. It is design. Some research organisations build regular staff turnover into policy — a fixed-term staff rule intended to keep trained people circulating back into the wider research community.
 
-I also knew a second fact that I never connected to the first: annual pay rises were almost identical whether you had carried a datacentre migration on your back or quietly coasted. I was probably a bit naive about how corrosive that is. If effort and reward are decoupled, disengagement is not a character flaw. It is the rational response. The interesting question is not "why do people leave" — the institution answers that by design. The interesting question is what that design, combined with flat rewards, teaches the people who stay.
+I also knew a second fact that I never connected to the first: annual pay rises were largely uniform — a common feature of public-sector pay scales — whether you had carried a datacentre migration on your back or quietly coasted. I was probably a bit naive about how corrosive that is. If effort and reward are decoupled, disengagement is not a character flaw. It is the rational response. The interesting question is not "why do people leave" — the institution answers that by design. The interesting question is what that design, combined with flat rewards, teaches the people who stay.
 
 Reading [Edgar Schein](https://en.wikipedia.org/wiki/Edgar_Schein) finally gave me the vocabulary for what I had been observing.
 
@@ -18,9 +18,9 @@ The second lesson: artifacts are easy to misread. A leadership team can preach c
 
 ### The institute that science built
 
-The institute's culture made perfect sense historically. The site was set up by scientists to serve science, inside a publicly funded international organisation, and it inherited the norms of academia: autonomy, rigour, peer credibility, suspicion of anything that smells of corporate management. Funding arrived in large lumps on multi-year cycles, so a belief settled in that I would summarise as: as long as the money keeps flowing, things will somehow work. And because almost nothing was measured, everything looked fine. The institute's benefit to the world was estimated at many multiples of what it cost. With a ratio that flattering, who needs metrics?
+The institute's culture made perfect sense historically. It was set up by scientists to serve science, with public funding, and it inherited the norms of academia: autonomy, rigour, peer credibility, suspicion of anything that smells of corporate management. Funding arrived on multi-year cycles, and the organisation's value to the world was, by any reasonable estimate, many multiples of its cost. With a ratio that flattering, internal service metrics were never going to be anyone's first priority — mine included, for longer than I would like to admit.
 
-The result, on the ground: legacy systems defended past any sensible retirement date; silos rebuilding the same tooling twice; plenty of soft-skills training but no feedback loop telling anyone which technical skills the organisation would need in five years. None of this was malice. It was a culture doing exactly what cultures do — reproducing itself.
+The result, on the ground, will be familiar to anyone who has run infrastructure in academia, and I was part of it: legacy systems I defended past their sensible retirement date; teams, mine among them, rebuilding tooling that already existed two corridors away; plenty of training but no feedback loop telling any of us which technical skills the organisation would need in five years. None of this was malice. It was a culture doing exactly what cultures do — reproducing itself.
 
 ### Repurpose before you replace
 
@@ -36,7 +36,7 @@ Two caveats, because the textbooks are sunnier than reality.
 
 First, cultural inertia is stronger than any framework makes it look. A decades-old organisation has decades of evidence that it can safely ignore the new initiative, because it has outlived every previous one. Expect the culture to defend itself, politely and indefinitely.
 
-Second, some things genuinely are structural, not cultural. Flat pay rises were partly a constraint of being an international public organisation, not just a belief; the fixed-term staff rule is likewise institutional design, not cultural drift. Diagnosis matters precisely because the remedy differs: beliefs respond to changed practices; structures respond to negotiation with whoever owns the structure. Confuse the two and you will spend years running culture workshops against a rule written into the organisation's founding statutes.
+Second, some things genuinely are structural, not cultural. Flat pay rises were partly a constraint of public-sector pay scales, not just a belief; the fixed-term staff rule is likewise institutional design, not cultural drift. Diagnosis matters precisely because the remedy differs: beliefs respond to changed practices; structures respond to negotiation with whoever owns the structure. Confuse the two and you will spend years running culture workshops against a rule that sits well above anyone in the building.
 
 The diversity side of that same structure, by the way, was a genuine strength — international hiring gave us teams most companies could only dream of. Honest diagnosis means writing down what the culture gets right, too, or nobody will believe the rest of your assessment.
 

@@ -15,7 +15,7 @@ The one that actually happened is this. I opened a support ticket with GitHub. I
 
 And then I did the one thing that mattered more than getting in. I immediately added a second admin. So that this exact situation — an important org with a single, unreachable owner — could never happen again.
 
-That's it. That's the story. A ticket, a relayed message, one admin grant, and a second admin grant. No drama. I believe in simple things.
+That's it. That's the story. A ticket, a relayed message, one admin grant, and a second admin grant. No drama. I believe in simple things. (All of this is years old, was fixed the same week, and I have no current view of that estate.)
 
 I keep coming back to this one because it's a small, honest example of a rule I'd argue for anywhere:
 

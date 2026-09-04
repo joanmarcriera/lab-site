@@ -29,9 +29,9 @@ ITIL 4's change enablement practice is often caricatured as CAB bureaucracy. Rea
 
 **Authority belongs where the risk can be judged.** This is the point I keep coming back to about decision-making generally: put the decision at the lowest level with the competence and context to make it. Applied to change, it means the person who can read the diff and knows the blast radius approves it. A senior panel that cannot evaluate the technical content adds latency, not safety.
 
-**Scrutiny is a scarce resource; spend it on the big stuff.** While I was there, the organisation was planning genuine heavy lifting, including data-centre moves to new sites. That is what senior review time is for. If your change board spends its hour debating a firewall rule, the data-centre migration gets the leftovers.
+**Scrutiny is a scarce resource; spend it on the big stuff.** While I was there, the organisation had genuine heavy lifting on its plate, of the data-centre-migration kind. That is what senior review time is for. If your change board spends its hour debating a firewall rule, the data-centre migration gets the leftovers.
 
-One small, honest note from my own logseq journal at the time: in the middle of the operational noise I wrote, "Where do I put future changes? Like the EMPIAR storage change." That is the unglamorous foundation of the whole practice. Before you can classify or authorise anything, every planned change needs one obvious home. If your engineers do not know where a future change gets recorded, you do not have a change practice, you have folklore.
+One small, honest note from my own logseq journal at the time: in the middle of the operational noise I wrote, "Where do I put future changes? Like the archive storage change." That is the unglamorous foundation of the whole practice. Before you can classify or authorise anything, every planned change needs one obvious home. If your engineers do not know where a future change gets recorded, you do not have a change practice, you have folklore.
 
 ### The homelab version
 
