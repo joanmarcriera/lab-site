@@ -17,13 +17,13 @@ Here are the moments that taught me the rule.
 
 • **The tape tender, run with open cards.** When we tendered for the tape system, I told every bidder the truth. That I was speaking to others. What the others were bringing to the table. And exactly where each of them needed to improve to win. No secret favourite, no theatre. Open cards to everyone. You'd think that weakens your position. It doesn't — it sharpens everyone's offer, because they know precisely what they're being measured against, and they stop guessing and start competing.
 
-• **Aspera, where honesty bought us capacity.** By giving the vendor a clear, real picture we ended up with double the licence for the same price, plus managed services that took the servers off my team's hands entirely. That freed my people to work on things only they could do, and we wired the Aspera service desk straight into the EBI service desk so users had one door to knock on. None of that comes from playing hard to read.
+• **The transfer vendor, where honesty bought us capacity.** By giving the vendor a clear, real picture we ended up with a materially better licence for the same money, plus managed services that took the servers off my team's hands entirely. That freed my people to work on things only they could do, and we wired the vendor's service desk straight into the institute's service desk so users had one door to knock on. None of that comes from playing hard to read.
 
 Then there's the behaviour I had to shut down — and it was on my own side, not the vendor's.
 
-I inherited an internal channel where the systems infrastructure team treated the vendor as always right and themselves as always wrong. The vendor could do no wrong; our own people just weren't doing the job. That is a broken relationship, and it's broken in the direction people rarely spot. We talk endlessly about vendors who over-promise. We talk far less about internal teams who've quietly decided the supplier is infallible and their own judgement doesn't count.
+I inherited an internal channel where the habit had become to assume the vendor was always right and our own side always wrong. The vendor could do no wrong; the problem must be us. That is a broken relationship, and it's broken in the direction people rarely spot. We talk endlessly about vendors who over-promise. We talk far less about internal teams who've quietly decided the supplier is infallible and their own judgement doesn't count.
 
-The thing that finally forced my hand was a working practice, and I'll describe it as a practice because that's what matters here, not who did it. Someone was analysing log files in Microsoft Excel. We're talking millions of rows an hour. Excel cannot do that — it isn't a question of skill or effort, the tool physically cannot hold or process that volume. So the analysis was worthless, and worse, it was being used to tell us the vendor was right and we were wrong. I asked the vendor to take that person off our work. Not as a punishment. Because the method was wrong, it was producing conclusions that were actively misleading us, and I'm accountable for what my side of the relationship puts on the table.
+The thing that finally forced my hand was a working practice, and I'll describe it as a practice because that's what matters here, not who did it. Log analysis was being done in a spreadsheet, at volumes no spreadsheet can hold — millions of rows an hour. It isn't a question of skill or effort; the tool physically cannot process that volume. So the analysis was worthless, and worse, its conclusions were being used to tell us the vendor was right and we were wrong. I asked for the analysis to be redone with tooling that could hold the data, and for the conclusions to be set aside until it was. Not as a punishment. Because the method was wrong, it was producing conclusions that were actively misleading us, and I'm accountable for what my side of the relationship puts on the table.
 
 That's the whole philosophy, really. Peer treatment isn't softness and bluntness isn't aggression. They're the same thing seen from two sides: you give the other party enough truth to do their best work, and you expect enough rigour from your own side to deserve theirs. Discounts are the least interesting part of any vendor relationship. The interesting part is whether both sides are being honest about what's actually true — the real numbers, the real limits of the tool, the real state of the tender.
 
@@ -33,7 +33,5 @@ When you deal with a supplier, are you holding your own team to the same honesty
 
 ## Sources
 
-- [IBM Aspera](https://www.ibm.com/products/aspera)
 - [Red Hat Identity Management / FreeIPA](https://www.freeipa.org/)
 - [Datadog](https://www.datadoghq.com/)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

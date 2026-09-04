@@ -5,13 +5,13 @@ tags: [operations]
 aliases: ["/war-stories/switching-things-off/"]
 ---
 
-I spent my last years at EMBL-EBI retiring things. Decommissioning endpoints, killing protocols, switching services off. Nobody throws a party when you turn something off. There's no demo, no launch, no screenshot for the all-hands. I did it anyway, and I'd do every hour of it again.
+I spent my last years at the institute retiring things. Decommissioning endpoints, killing protocols, switching services off. Nobody throws a party when you turn something off. There's no demo, no launch, no screenshot for the all-hands. I did it anyway, and I'd do every hour of it again.
 
-The reason is the only reason that ever mattered here, and it isn't a technical one. This is not a normal company. It's research infrastructure for the human genome — the data plumbing underneath people studying cancer in children, people working on rare diseases. Important things that, if nobody takes care of them, simply do not get done. So none of this was ambition. I wasn't fighting for anything for myself. I was fighting for work that would quietly stop existing if I didn't do it, and that nobody outside would ever see.
+The reason is the only reason that ever mattered here, and it isn't a technical one. This is not a normal company. It's life-science research infrastructure — the data plumbing underneath people studying cancer, people working on rare diseases. Important things that, if nobody takes care of them, simply do not get done. So none of this was ambition. I wasn't fighting for anything for myself. I was fighting for work that would quietly stop existing if I didn't do it, and that nobody outside would ever see.
 
 There's a strange tax on doing this near the end. When you announce you're leaving, your proposals are taken *less* seriously, not more. The unspoken read is: you don't care any more, you're on your way out, you should already have your feet up. I heard the same thing pointed at others — someone would say "I've only got three years left here," as if three years were a rounding error. Three years is a massive amount of time. You can build or break an enormous amount in three years. I still don't understand not doing. And there's a hard fact underneath it: I knew, better than someone who'd joined a few months earlier, exactly what needed doing and in what order. Leaving didn't erase that. If anything it made it more urgent to write it all down.
 
-Some of it was fighting inertia I couldn't wait out. One deliverable — turning our ITSM tool into the web front end for identity management — was promised to me five years running by a team that had a long history of missed deadlines and blocked projects. By the third year I stopped waiting and built the capability another way, with open-source Rundeck. What made me smile, grimly, is that the promise stayed on the roadmap for a fourth year and a fifth, long after we'd already worked around it. You don't need to deliver something the rest of us stopped needing two years ago. That's the cost of a project that's held up for years: eventually the world routes around it, and the only person who hasn't noticed is the one still promising it.
+Some of it was working around dependencies I couldn't wait for. One deliverable — turning our ITSM tool into the web front end for identity management — sat on a roadmap for years, behind other priorities that were, from where the owning team stood, entirely reasonable. Eventually I stopped waiting and built the capability another way, with open-source Rundeck. What made me smile, a little ruefully, is that the item stayed on the roadmap long after we'd worked around it. That's the cost of a project held up for years: eventually the world routes around it, and the roadmap is the last thing to find out. The lesson is for the person waiting as much as the person promising — say out loud when you've stopped needing something.
 
 Here are the retirements I'm proudest of landing.
 
@@ -33,4 +33,3 @@ If you left your job in three months, would your best work be the shiny thing yo
 - [Globus](https://www.globus.org/)
 - [rsync](https://rsync.samba.org/)
 - [Rundeck](https://www.rundeck.com/)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

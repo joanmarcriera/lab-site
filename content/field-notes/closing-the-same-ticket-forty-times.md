@@ -5,7 +5,7 @@ tags: [operations]
 aliases: ["/war-stories/closing-the-same-ticket-forty-times/"]
 ---
 
-We ran a world-class institute on a ticketing system nobody could report on. That was just silly, and I tried to retire it.
+A world-class research institute was running on a ticketing system nobody could report on. That is far more common than it sounds, and I tried to retire it.
 
 Here's the failure that convinced me. If you close the same ticket forty times, you have not provided service forty times. You've failed to fix something forty times and called it work. But the old system couldn't show you that, because it couldn't answer the questions that would have exposed it.
 
@@ -31,13 +31,12 @@ Then the economics, because this is what makes it land with management. A servic
 
 I'll be honest about what didn't work, because the honest part is the useful part.
 
-I went and got myself ITIL certified, thinking it would give the argument weight. It bought me exactly zero internal credibility. They really didn't care. A certificate on my side of the table changed nobody's mind, because credibility in a science institute is earned by fixing their actual problems, not by naming the framework you used to do it.
+I went and got myself ITIL certified, thinking it would give the argument weight. It bought me exactly zero internal credibility, and rightly so. A certificate on my side of the table changed nobody's mind, because credibility in a science institute is earned by fixing their actual problems, not by naming the framework you used to do it.
 
-And the buy-in never fully arrived. I pushed service management from the very beginning, and I'm not sure they've bought it even now. It stayed a thing the operations team did, rather than a thing the institute believed. I'd still make every one of these arguments again — the reporting, the pain-first sell, the service desk as knowledge capture — because they're right. But I'd tell any leader trying the same thing: your certification is for you, not for them. Lead with their biggest pain, in their own words, and never once say the word "ITIL" if the word is what's getting in the way.
+And the buy-in never fully arrived while I was there. I pushed service management from the very beginning, and by the time I left it was still more a thing the operations team did than a thing the institute believed. That may well have changed since; I'm no longer in a position to know. I'd still make every one of these arguments again — the reporting, the pain-first sell, the service desk as knowledge capture — because they're right. But I'd tell any leader trying the same thing: your certification is for you, not for them. Lead with their biggest pain, in their own words, and never once say the word "ITIL" if the word is what's getting in the way.
 
 If you had to justify a service desk to people who think it's bureaucracy, what's the one pain you'd lead with — and would you dare start with the people you're quietly losing every year?
 
 ## Sources
 
 - [ITIL (IT service management framework)](https://en.wikipedia.org/wiki/ITIL)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

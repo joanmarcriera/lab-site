@@ -7,9 +7,9 @@ aliases: ["/war-stories/killing-the-ticket-queue/"]
 
 We were logging two or three Aspera tickets a week. After we trained the service desk, we logged zero. Not fewer. Zero. That is the whole argument for teaching people, and I'll spend the rest of this post explaining why it was ever an argument at all.
 
-At one point I had a boss who told me to focus on the tickets. Reasonable-sounding instruction. Work the queue, close the queue. I said no — not out of stubbornness, but because we had no SLA, which meant nobody was contractually waiting on a clock. So I was going to spend my time on the root cause first: stop new tickets being created, then clear the ones already sitting there. He was not happy about it. He wanted the queue worked in order, top to bottom, forever.
+At one point the instruction I was given was to focus on the tickets. Reasonable-sounding instruction. Work the queue, close the queue. I pushed back — not out of stubbornness, but because we had no SLA, which meant nobody was contractually waiting on a clock. So I was going to spend my time on the root cause first: stop new tickets being created, then clear the ones already sitting there. That was not a popular position, and I understand why: a visible queue going down is reassuring in a way that root-cause work never is.
 
-Here is the thing that settled it for me. He had been at it for years, and the same problems were still there. Years of closing tickets and the tickets kept coming back. My system worked and his didn't — and the proof was that his had already had years to work and hadn't. Closing a ticket is not fixing anything. It's tidying. The ticket comes back next week wearing a slightly different hat.
+Here is the thing that settled it for me. The queue had been worked diligently for years, and the same problems were still there. Years of closing tickets and the tickets kept coming back. That's not a criticism of anyone who worked it; it's the nature of queues. Closing a ticket is not fixing anything. It's tidying. The ticket comes back next week wearing a slightly different hat.
 
 So we went after the source. Two moves:
 
@@ -17,13 +17,13 @@ So we went after the source. Two moves:
 
 • **Document only what can't be Googled.** My documentation rule is strict and I've never regretted it: if you can Google it, I don't write it down. Public tools have public manuals — I'm not going to maintain a worse copy of IBM's docs that rots the moment they update theirs. What I document is the in-house logic. The bits that are specific to us: why this queue feeds that box, which path a transfer takes, the local wiring nobody outside can know. That's the knowledge that actually walks out the door when a person leaves. The Googleable stuff never does.
 
-Now the exchange that stuck with me. When I pushed to spend engineer time on this, the resistance wasn't about the teaching — it was about the learning. I heard, from senior managers, the line: "if we spend time teaching the service desk, they'll leave."
+Now the exchange that stuck with me. When I pushed to spend engineer time on this, the resistance wasn't about the teaching — it was about the learning. I heard the old worry: "if we spend time teaching the service desk, they'll leave."
 
-It's an old joke, and it has a second half. A CFO asks, "What if we train them and they leave?" The CEO answers, "What if we don't, and they stay?" I was waiting for someone to say the second part. And they did — they got there themselves — and then, remarkably, they landed on the wrong side of it. "Yes, we want them to stay — but then they wouldn't know what to do." And I said: fine, but at least they stay, and we don't have to hire anyone else.
+It's an old joke, and it has a second half. A CFO asks, "What if we train them and they leave?" The CEO answers, "What if we don't, and they stay?" When I said the second part, the reply was a candid one: "but then they wouldn't know what to do." And I said: fine, but at least they stay, and we don't have to hire anyone else.
 
-Sit with that for a second. The stated preference was untrained people who stay put over trained people who might leave. An organisation actively choosing that its staff not know how to do their jobs, because ignorant-and-present felt safer than capable-and-mobile. I didn't have the word for what I felt. Something between astonished and delighted, because it laid the whole problem bare in one sentence.
+Sit with that for a second. It's a preference many organisations hold without ever saying it out loud: untrained people who stay put over trained people who might leave. Hearing it said plainly laid the whole problem bare in one sentence, and I was grateful for the candour — you can't argue with a belief nobody will state.
 
-That fear — "if we teach them they'll leave" — is the quiet engine behind a lot of bad infrastructure. It's why knowledge stays locked in three senior heads. It's why the service desk is treated as a bounce-board that reads scripts instead of a first line that can actually resolve things. It's why the same ticket gets closed forty times instead of once. You keep people deliberately under-skilled to keep them, and then you pay for it every single week in a queue that never drains.
+That fear — "if we teach them they'll leave" — is the quiet engine behind a lot of bad infrastructure. It's why knowledge stays locked in three senior heads. It's why the service desk is treated as a bounce-board that reads scripts instead of a first line that can actually resolve things. It's why the same ticket gets closed forty times instead of once. You keep people under-skilled to keep them, and then you pay for it every single week in a queue that never drains.
 
 The maths is not subtle. A service desk is far cheaper than a senior SRE. Every ticket the first line can genuinely close is an interruption that never reaches an expensive engineer. Teaching them isn't charity or staff development for its own sake — it's the cheapest capacity you can buy. You already employ these people. Teaching them what the tools do is the highest-return training in the building, and it shows up immediately: two or three tickets a week, gone.
 
@@ -35,4 +35,3 @@ If your team is drowning in a repeating ticket queue: are you working the queue,
 
 - [IBM Aspera](https://www.ibm.com/products/aspera)
 - [Puppet](https://www.puppet.com/)
-- [EMBL-EBI](https://www.ebi.ac.uk/)

@@ -1,4 +1,14 @@
 {{ define "main" }}<h1>{{ .Site.Title }}</h1><p>{{ .Site.Params.description }}</p>
+<h2>Start here</h2>
+<p>Five pieces that, together, say what I do: scale, commercial judgement, people, delegation, and what I got wrong.</p>
+<ul class="postlist">
+<li><a href="/field-notes/fifteen-to-125-petabytes/">The first 15 petabytes took ten years. The next 110 took eight.</a> <span class="series">scale &amp; organisation</span></li>
+<li><a href="/field-notes/the-tender-refund-clause/">The tender clause nobody had used before</a> <span class="series">commercial judgement</span></li>
+<li><a href="/field-notes/retaining-the-engineer/">I kept my best engineer for £250 a month</a> <span class="series">people</span></li>
+<li><a href="/leadership/cto-programme-06-stop-handing-down-answers/">The leader who answers every question becomes the bottleneck</a> <span class="series">delegation</span></li>
+<li><a href="/field-notes/the-negotiation-i-lost/">The negotiation I lost was my own promotion</a> <span class="series">self-awareness</span></li>
+</ul>
+<h2>Latest</h2>
 <ul class="postlist">{{ range first 30 .Site.RegularPages }}
 <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
 {{ with .Params.series }}<span class="series">{{ . }}</span>{{ end }}
