@@ -2,7 +2,7 @@
 title: "A tmux estate for running Claude everywhere at once"
 date: 2026-09-05
 tags: [engineering, ai-tooling]
-draft: true
+draft: false
 ---
 
 I run one Claude Code session per active project, and lately that's meant five or six terminal

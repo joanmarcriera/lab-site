@@ -1,8 +1,8 @@
 ---
 title: "Why my site-screening tool refuses to give you a score"
-date: 2026-09-05
+date: 2026-09-03
 tags: [geospatial, ai-infrastructure, evidence]
-draft: true
+draft: false
 ---
 
 Screening a site for something like an AI data centre means pulling together grid capacity,

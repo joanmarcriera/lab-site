@@ -1,8 +1,8 @@
 ---
 title: "The EV charger that lied about being asleep"
-date: 2026-09-05
+date: 2026-08-26
 tags: [home-automation, reliability]
-draft: true
+draft: false
 ---
 
 We got back from holiday to find the car hadn't charged overnight, and the charger's status

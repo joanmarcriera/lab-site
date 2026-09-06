@@ -1,8 +1,8 @@
 ---
 title: "Shipping a Mac App Store release through an API, not a human"
-date: 2026-09-05
+date: 2026-08-11
 tags: [macos, app-store, ci-cd]
-draft: true
+draft: false
 ---
 
 App Store review has a way of being invisible right up until it isn't. You sign a build, upload
