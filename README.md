@@ -29,3 +29,8 @@ hugo --minify  # outputs to ./public
 4. Commit and push to `main` — GitHub Actions auto-builds and deploys via GitHub Pages
 
 Posts must pass gitleaks scanning (no secrets in the content or git history).
+
+<!-- vikunja-tracking -->
+## Tracking
+
+Vikunja project **66 · Lab Notes blog** — https://familia.riera.co.uk/projects/66
