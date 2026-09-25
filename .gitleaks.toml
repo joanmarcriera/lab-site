@@ -1,0 +1,18 @@
+title = "lab-site gitleaks config"
+
+[extend]
+useDefault = true
+
+# The Cloudflare Web Analytics beacon token in layouts/_default/baseof.html is
+# public-by-design: it ships in the HTML to every visitor's browser as a site
+# identifier, not a credential. Committing it is correct, not a leak — the only
+# exposure is someone posting junk events to the analytics property, which is
+# inherent to the product. See Vikunja task #1880.
+[[allowlists]]
+description = "Cloudflare Web Analytics beacon token (public-by-design, ships to every visitor)"
+paths = [
+  '''layouts/_default/baseof\.html''',
+]
+regexes = [
+  '''data-cf-beacon=.\{"token": "[0-9a-f]{32}"\}.''',
+]
