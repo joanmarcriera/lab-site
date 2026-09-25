@@ -8,11 +8,8 @@ useDefault = true
 # identifier, not a credential. Committing it is correct, not a leak — the only
 # exposure is someone posting junk events to the analytics property, which is
 # inherent to the product. See Vikunja task #1880.
-[[allowlists]]
+[allowlist]
 description = "Cloudflare Web Analytics beacon token (public-by-design, ships to every visitor)"
 paths = [
   '''layouts/_default/baseof\.html''',
-]
-regexes = [
-  '''data-cf-beacon=.\{"token": "[0-9a-f]{32}"\}.''',
 ]
