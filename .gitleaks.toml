@@ -10,6 +10,8 @@ useDefault = true
 # inherent to the product. See Vikunja task #1880.
 [allowlist]
 description = "Cloudflare Web Analytics beacon token (public-by-design, ships to every visitor)"
-paths = [
-  '''layouts/_default/baseof\.html''',
+# Scoped to the token value itself, not the file, so any other secret that
+# lands in the template is still caught.
+regexes = [
+  '''38132c2e2015480686f8b15f3b8f7cd3''',
 ]
