@@ -1,0 +1,9 @@
+{{/* Archive index: posts grouped by year, newest first, with date and language. */}}
+{{ define "main" }}<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ range .Pages.GroupByDate "2006" }}<h2>{{ .Key }}</h2>
+<ul class="postlist">{{ range .Pages }}{{ $lang := .Params.post_lang | default "en" }}
+<li><a href="{{ .RelPermalink }}" lang="{{ $lang }}">{{ .Title }}</a>
+{{ if ne $lang "en" }}<span class="series">{{ $lang }}</span>{{ end }}
+<span class="meta">{{ .Date.Format "2 Jan" }}</span></li>{{ end }}</ul>
+{{ end }}{{ end }}

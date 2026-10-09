@@ -1,0 +1,8 @@
+{{/* Archive post (2009–2014 WordPress blog). Unlike the rest of the site it shows its date:
+     the year is the point. post_lang (en|es|ca) sets the lang attribute and the badge. */}}
+{{ define "main" }}{{ $lang := .Params.post_lang | default "en" }}<article lang="{{ $lang }}"><h1>{{ .Title }}</h1>
+<p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time> &nbsp;
+{{ if ne $lang "en" }}<span class="series">{{ index (dict "es" "Español" "ca" "Català") $lang }}</span> &nbsp; {{ end }}{{ range (.GetTerms "tags") }}<a class="series" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> &nbsp; {{ end }}</p>
+<aside class="archived" lang="en">Archived from my old blog, written in {{ .Date.Format "2006" }}. Kept as it was, apart from removed identifiers and fixed formatting. <a href="/archive/">About the archive</a>.</aside>
+{{ .Content }}
+</article>{{ end }}

@@ -17,7 +17,7 @@
 </head><body>
 <header class="site">
 <a class="brand" href="/">{{ .Site.Title }}</a>
-<nav><a href="/">Home</a>{{ range .Site.Sections }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+<nav><a href="/">Home</a>{{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
 <a href="/disclaimer/">Disclaimer</a>
 <a href="https://github.com/joanmarcriera/lab-site">Lab repo</a></nav>
 </header>

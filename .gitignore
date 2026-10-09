@@ -1,0 +1,5 @@
+# local build artefacts and the CI-pinned Hugo binary (see CLAUDE.md)
+.bin/
+public/
+resources/
+.hugo_build.lock

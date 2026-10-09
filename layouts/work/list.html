@@ -1,0 +1,7 @@
+{{/* Work catalogue: the hand-written overview from _index.md, then one card per deep-dive page. */}}
+{{ define "main" }}<h1>{{ .Title }}</h1>
+<div class="catalogue">{{ .Content }}</div>
+{{ with .Pages }}<h2>Deep dives</h2>
+<div class="cards">{{ range . }}<a class="card" href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong>
+<span>{{ .Params.summary }}</span>{{ with .Params.stack }}<span class="meta">{{ . }}</span>{{ end }}</a>{{ end }}</div>{{ end }}
+{{ end }}

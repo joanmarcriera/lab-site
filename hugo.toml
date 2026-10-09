@@ -1,7 +1,40 @@
 baseURL = "https://blog.riera.co.uk/"
 languageCode = "en-gb"
 title = "Marc Riera — Lab Notes"
+
 [taxonomies]
   tag = "tags"
+
+# Archive posts keep their original year and their old WordPress slug (= the file name) in the URL.
+# :contentbasename, not :slug - :slug falls back to the title, which is not the old slug.
+[permalinks.page]
+  archive = "/archive/:year/:contentbasename/"
+
 [params]
-  description = "Technology leadership and self-hosted AI infrastructure — no hype, just things that work."
+  description = "Hands-on infrastructure engineering — HPC, storage, Linux and self-hosted AI. Things I built and ran, 2009 to now."
+
+# Explicit nav order (engineering first). A new section needs an entry here to appear in the nav.
+[[menu.main]]
+  name = "Work"
+  url = "/work/"
+  weight = 10
+[[menu.main]]
+  name = "Lab"
+  url = "/lab/"
+  weight = 20
+[[menu.main]]
+  name = "Field notes"
+  url = "/field-notes/"
+  weight = 30
+[[menu.main]]
+  name = "Archive 2009–14"
+  url = "/archive/"
+  weight = 40
+[[menu.main]]
+  name = "Leadership"
+  url = "/leadership/"
+  weight = 50
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 60

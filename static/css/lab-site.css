@@ -132,3 +132,27 @@ footer {
   border-top: 1px solid var(--line);
   color: var(--muted); font-size: .85rem;
 }
+
+/* ---- Tables (work catalogue, archive posts) ---- */
+table { border-collapse: collapse; width: 100%; margin: 1.2rem 0; font-size: .9rem; display: block; overflow-x: auto; }
+th, td { text-align: left; vertical-align: top; padding: .45rem .7rem .45rem 0; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }
+
+/* ---- Archive banner (layouts/archive/single.html) ---- */
+.archived {
+  margin: 1.2rem 0; padding: .6rem .9rem;
+  background: var(--accent-soft); border-radius: 6px;
+  color: var(--muted); font-size: .85rem;
+}
+
+/* ---- Work catalogue (layouts/work/list.html) and home-page cards ---- */
+.catalogue h2 { border-bottom: 1px solid var(--line); padding-bottom: .3rem; }
+.catalogue li { margin: .3rem 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .8rem; margin: 1.2rem 0; }
+.card {
+  display: flex; flex-direction: column; gap: .3rem;
+  padding: .8rem .9rem; border: 1px solid var(--line); border-radius: 6px;
+  text-decoration: none; color: var(--ink); font-size: .9rem; line-height: 1.45;
+}
+.card:hover { border-color: var(--accent); }
+.card strong { color: var(--accent); }
