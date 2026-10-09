@@ -1,6 +1,6 @@
 baseURL = "https://blog.riera.co.uk/"
 languageCode = "en-gb"
-title = "Marc Riera — Lab Notes"
+title = "Marc Riera, Lab Notes"
 
 [taxonomies]
   tag = "tags"
@@ -11,7 +11,7 @@ title = "Marc Riera — Lab Notes"
   archive = "/archive/:year/:contentbasename/"
 
 [params]
-  description = "Hands-on infrastructure engineering — HPC, storage, Linux and self-hosted AI. Things I built and ran, 2009 to now."
+  description = "Hands-on infrastructure engineering: HPC, storage, Linux and self-hosted AI. Things I built and ran, 2009 to now."
 
 # Explicit nav order (engineering first). A new section needs an entry here to appear in the nav.
 [[menu.main]]
