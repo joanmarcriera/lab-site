@@ -1,20 +1,28 @@
 {{ define "main" }}<h1>{{ .Site.Title }}</h1><p>{{ .Site.Params.description }}</p>
 <section class="intro">
-<p><strong>Marc Riera</strong> — technology and infrastructure leader. Former Deputy Head of Operations at a large publicly funded research institute. Large-scale data platforms, identity, observability, service management and infrastructure transformation.</p>
-<p><strong>Selected outcomes</strong> (each has a post behind it): a research archive grown from 15 to 125 PB with a team of eight &middot; storage disaster-recovery cost per petabyte cut by more than an order of magnitude &middot; thirty-plus transfer endpoints retired &middot; organisation-wide identity lifecycle tied to HR, proven when every credential was rotated in one week &middot; a data-centre migration with zero downtime.</p>
-<p class="links"><a href="mailto:marc@riera.co.uk">CV on request</a> &middot; <a href="https://www.linkedin.com/in/joanmarcriera/">LinkedIn</a> &middot; <a href="https://github.com/joanmarcriera">GitHub</a> &middot; <a href="mailto:marc@riera.co.uk">marc@riera.co.uk</a></p>
+<p><strong>Marc Riera</strong>, infrastructure engineer and architect. I have installed GPU clusters node by node, moved petabyte file systems while they were in use, rebuilt a 700-node cluster from bare metal in 16 minutes a pass, and run an archive past 150 PB. I still build: a ZFS fleet, a shared GPU, simulated InfiniBand fabrics and software I ship myself.</p>
+<p class="links"><a href="/work/">What I have built</a> &middot; <a href="https://riera.co.uk/">CV</a> &middot; <a href="https://github.com/joanmarcriera">GitHub</a> &middot; <a href="https://www.linkedin.com/in/joanmarcriera/">LinkedIn</a> &middot; <a href="mailto:marc@riera.co.uk">marc@riera.co.uk</a></p>
 </section>
-<h2>Start here</h2>
-<p>Five pieces that, together, say what I do: scale, commercial judgement, people, delegation, and what I got wrong.</p>
+<div class="cards">
+<a class="card" href="/work/"><strong>Work</strong><span>The catalogue: clusters, storage, automation, identity and shipped software, 2003 to now.</span></a>
+<a class="card" href="/lab/"><strong>Lab</strong><span>Build logs from current projects, with the commands that were actually run.</span></a>
+<a class="card" href="/archive/"><strong>Archive 2009&ndash;14</strong><span>My first blog, recovered: Linux and HPC notes in three languages.</span></a>
+</div>
+<h2>From the lab</h2>
+<ul class="postlist">{{ range first 6 (where .Site.RegularPages "Section" "lab") }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ range (.GetTerms "tags") }}<a class="series" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</li>{{ end }}</ul>
+<h2>Running it at scale</h2>
+<p>Field notes from a decade of operating large services, and what they taught me about leading the people who run them.</p>
 <ul class="postlist">
-<li><a href="/field-notes/fifteen-to-125-petabytes/">The first 15 petabytes took ten years. The next 110 took eight.</a> <span class="series">scale &amp; organisation</span></li>
+<li><a href="/field-notes/fifteen-to-125-petabytes/">The first 15 petabytes took ten years. The next 110 took eight.</a> <span class="series">scale</span></li>
+<li><a href="/field-notes/the-rebalance-nobody-could-post-mortem/">A month-long rebalance, and the post-mortem we weren't ready to hold</a> <span class="series">storage</span></li>
+<li><a href="/field-notes/rotating-every-password/">The week we rotated every password</a> <span class="series">identity</span></li>
 <li><a href="/field-notes/the-tender-refund-clause/">The tender clause nobody had used before</a> <span class="series">commercial judgement</span></li>
-<li><a href="/field-notes/retaining-the-engineer/">I kept my best engineer for £250 a month</a> <span class="series">people</span></li>
-<li><a href="/leadership/cto-programme-06-stop-handing-down-answers/">The leader who answers every question becomes the bottleneck</a> <span class="series">delegation</span></li>
-<li><a href="/field-notes/the-negotiation-i-lost/">The negotiation I lost was my own promotion</a> <span class="series">self-awareness</span></li>
+<li><a href="/leadership/">More on leadership</a></li>
 </ul>
-<h2>Latest</h2>
-<ul class="postlist">{{ range first 30 .Site.RegularPages }}
+<h2>Latest field notes and leadership</h2>
+<ul class="postlist">{{ range first 20 (where (where .Site.RegularPages "Section" "ne" "archive") "Section" "ne" "lab") }}
 <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
 {{ with .Params.series }}<span class="series">{{ . }}</span>{{ end }}
 {{ range (.GetTerms "tags") }}<a class="series" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</li>{{ end }}</ul>
