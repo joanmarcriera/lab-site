@@ -9,8 +9,8 @@ accepted node by node, storage migrated while in use, fleets rebuilt from bare m
 these days GPUs, fabrics and software I ship myself. This page is the catalogue. Every line
 is something I did with my own hands or designed and saw through to handover.
 
-Employer names for the most recent decade are on my [CV](https://riera.co.uk/); the
-[field notes](/field-notes/) on this site are deliberately not about a named organisation.
+This page is about the work, not about who paid for it, so employers and customers are not
+named. They are on my [CV](https://riera.co.uk/).
 
 ## Now (2026)
 
@@ -78,11 +78,12 @@ of operations. More than 4,500 Linux servers and VMs.
 - Puppet, Ansible and SaltStack with source control, peer review and tests; Rundeck for
   delegated actions; external link upgrades from 2×10 to 100 Gbps.
 
-## 2011–2016: HPC clusters and automation (Bull, then Atos)
+## 2011–2016: HPC clusters and automation
 
-L3 HPC engineer and trainer, then technical lead for managed services, then solutions architect.
+L3 HPC engineer and trainer at an HPC vendor, then technical lead for managed services, then
+solutions architect.
 
-- **MinoTauro, a GPU cluster at the Barcelona Supercomputing Center**, was my first full
+- **A GPU cluster for a national supercomputing centre** was my first full
   installation: racks and water-cooled rear doors in, blades racked and flashed, Ethernet
   bonding, InfiniBand and GPU cabling, CUDA drivers, firmware and BIOS problems resolved,
   Slurm with a highly available controller, then acceptance node by node and across the
@@ -105,7 +106,7 @@ L3 HPC engineer and trainer, then technical lead for managed services, then solu
   [a Data Guard-alike in bash and cron](/archive/2014/dataguard-alike-using-bash-and-cron/),
   [scripts that become functions](/archive/2014/the-scripts-that-become-functions-and-the-functions-that-belong-to-a-library/).
 
-## 2007–2011: infrastructure for a research centre (Barcelona Media)
+## 2007–2011: infrastructure for a research centre
 
 - Linux, identity, mail, monitoring, backup and a compute grid for an organisation that
   grew from about 50 to 250 people. Puppet and SVN for provisioning, Ganglia and Zabbix for
