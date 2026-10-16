@@ -14,6 +14,16 @@ named. They are on my [CV](https://riera.co.uk/).
 
 ## Now (2026)
 
+- **DGX SuperPOD as code.** A 504-GPU H200 pod, a GB300 NVL72 unit and a mixed liquid-cooled
+  hall designed from NVIDIA's public reference architecture, written as YAML and generated into
+  NetBox, draw.io, rack elevations, a BOM, a cable map and Blender renders, with tests that hold
+  it to the reference: [dgx-superpod-as-code](https://github.com/joanmarcriera/dgx-superpod-as-code),
+  the [Fabric Atlas](https://joanmarcriera.github.io/dgx-superpod-as-code/) configurator and
+  [the write-up](/lab/a-dgx-superpod-that-draws-itself/).
+- **Two H100 nodes on a real InfiniBand fabric.** 2×8 H100 with eight 400 Gb/s rails: per-rail
+  line rate, NCCL all_reduce across nodes, and what one rail or no InfiniBand does to it:
+  [gpu-fleet-ops](https://github.com/joanmarcriera/gpu-fleet-ops) and
+  [the write-up](/lab/two-h100-nodes-eight-rails-what-the-fabric-actually-does/).
 - **GPU and AI infrastructure lab.** One 8 GB RTX 4060 shared between Ollama, WhisperX and
   ComfyUI containers on TrueNAS, with Prometheus and Grafana GPU telemetry.
   Code: [whisperx-gpu-queue](https://github.com/joanmarcriera/whisperx-gpu-queue) (one
