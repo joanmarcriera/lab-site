@@ -35,6 +35,8 @@ a yardstick that makes different GPU counts comparable. It is not wire speed.
 I also ran a ResNet-50 DDP job (synthetic data) on 1, 8 and 16 GPUs, which is the least
 interesting result and is in the repo.
 
+![What a tenant can see: each GPU's PCIe-local adapter, one rail each, and a switch layer that stays invisible](/img/lab/rail_topology.png)
+
 ## What I measured
 
 Raw files and scripts are in [gpu-fleet-ops](https://github.com/joanmarcriera/gpu-fleet-ops/tree/main/results/2026-10-12-2x8xH100-ib);
@@ -55,6 +57,8 @@ case. 480 is above the roughly 450 GB/s per-direction NVLink 4 bandwidth that ca
 Forcing the algorithm on one node shows what: NVLS (reduction inside the NVSwitch) 481.0,
 Ring 368.4, Tree 298.1 GB/s. Across two nodes a forced Ring gave 332.1.
 
+![all_reduce busbw at 8 GiB with NCCL_ALGO forced, against the NVLink 4 ring ceiling](/img/lab/algorithms.png)
+
 **Breaking it.** Same two nodes, same binary, same correctness check (`#wrong` is 0 in every
 run):
 
@@ -63,6 +67,8 @@ run):
 | eight rails (default) | 1 GiB | 444 to 446 GB/s | `NET/SPCX_v10 ... GDRDMA` |
 | one rail (`mlx5_0`) | 1 GiB | 91.5 GB/s | same plugin, one adapter |
 | InfiniBand off | 256 MiB | 1.93 GB/s | `NET/Socket` over `eth0` |
+
+![The same three configurations at one message size, 256 MiB: 388, 90 and 1.93 GB/s](/img/lab/degradation_ladder.png)
 
 ![all_reduce bus bandwidth against message size: one node, two nodes, one rail, TCP](/img/lab/busbw_vs_size.png)
 
