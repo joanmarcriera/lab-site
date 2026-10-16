@@ -3,7 +3,7 @@ title: "Two H100 nodes, eight rails: what the fabric actually does"
 date: 2026-10-12
 draft: true
 tags: [infiniband, nccl, h100, hpc, networking]
-summary: "A few hours on two rented 8-GPU InfiniBand nodes: 98.8% of line rate on every rail, then the same all_reduce on eight rails, one rail and plain TCP. The job completes correctly every time and runs about 200 times slower."
+summary: "A few hours on two rented 8-GPU InfiniBand nodes: 98.8% of line rate on every rail, then the same all_reduce on eight rails, one rail and plain TCP. The job completes correctly every time; over TCP it runs about 200 times slower."
 ---
 
 *Part 2 of 2. [Part 1](/lab/an-infiniband-fabric-with-no-infiniband-hardware/) covers the
@@ -46,10 +46,12 @@ all eight rails, 98.8% of 400 Gb/s
 
 ![ib_write_bw per rail against the 400 Gb/s line rate](/img/lab/perftest_rails.png)
 
-**The fabric costs about 3%.** all_reduce at 8 GiB: 480.5 GB/s busbw inside one node
-(three runs, spread under 0.1%) and 466.8 to 468.0 GB/s across two
+**At 8 GiB, the second node costs about 3%.** all_reduce busbw is 480.2 to 480.5 GB/s inside
+one node (three runs) and 466.8 to 468.0 GB/s across two
 ([`nccl/41-*`, `42-*`](https://github.com/joanmarcriera/gpu-fleet-ops/tree/main/results/2026-10-12-2x8xH100-ib/nccl)).
-480 is above what a plain ring over NVLink 4 can reach, so something else is helping.
+At smaller sizes the gap widens: about 5% at 1 GiB and 8% at 256 MiB. And two nodes is the easy
+case. 480 is above the roughly 450 GB/s per-direction NVLink 4 bandwidth that caps a ring's busbw
+(a forced Ring here gives 368), so something else is helping.
 Forcing the algorithm on one node shows what: NVLS (reduction inside the NVSwitch) 481.0,
 Ring 368.4, Tree 298.1 GB/s. Across two nodes a forced Ring gave 332.1.
 
@@ -66,9 +68,12 @@ run):
 
 The TCP row is at a smaller size than I would like, because that run used a shorter sweep (up to 256 MiB, fewer iterations); the healthy two-node figure at the same 256 MiB is 388 GB/s, so the gap is roughly
 200 times. One rail leaves about a fifth of the healthy figure. Its algbw is 48.8 GB/s, close to
-what a single 395 Gb/s adapter carries (49.4 GB/s), which is what you would expect if all the
-cross-node traffic of 16 GPUs is squeezed through one adapter. I did not instrument that, so
-read it as consistent with the explanation, not proof of it.
+what a single 395 Gb/s adapter carries (49.4 GB/s). That fits an NVLS or Tree style algorithm,
+which moves each byte across the node boundary about once per direction, with the cross-node
+traffic of all 16 GPUs squeezed through one adapter. A ring would push nearly twice the data
+through that adapter and land nearer 26 GB/s. I did not instrument which algorithm NCCL picked,
+so read it as consistent with the explanation, not proof of it. The adapter also sits badly
+for most GPUs: `mlx5_0` is on GPU4's PCIe switch and a socket hop (SYS) away from GPUs 0 to 3.
 
 **Other collectives.** all_gather 318 GB/s busbw and all-to-all 72 GB/s on 16 GPUs at 4 GiB.
 All-to-all is the weak one: NVLS does not help, and half of each GPU's data has to leave the
@@ -76,8 +81,9 @@ node. That is the pattern mixture-of-experts models put on a fabric.
 
 ## What broke and what that taught me
 
-**A degraded fabric does not fail. It gets slower.** Every constrained run finished, validated
-and exited cleanly. For a tenant, "one adapter is down" or "someone left `NCCL_IB_DISABLE=1`
+**A degraded fabric does not fail. It gets slower.** Every constrained run finished and passed
+its correctness check. The TCP run exited 0; the one-rail run printed a correct table, then hit
+the same teardown segfault as every default run (more on that below). For a tenant, "one adapter is down" or "someone left `NCCL_IB_DISABLE=1`
 in the environment" looks like a training job that is simply slow. This is why a rail-optimised
 design matters to the people renting it: each GPU has its own adapter on its own rail, the
 loss of one rail is a visible, bounded loss, and the topology tells NCCL which adapter belongs
@@ -103,7 +109,8 @@ rerun. Compare driver, CUDA, NCCL and HPC-X on both nodes before any MPI run.
 
 **The tenant view stops at the endpoint.** `sminfo`, `ibnetdiscover`, `iblinkinfo`,
 `ibqueryerrors` and `ibdiagnet` could not open a management port inside the VM, and
-`ibdiagnet` reported zero nodes. Everything here is endpoint-side. The error counters in
+`ibdiagnet` reported zero nodes. That is by design: `ibstat` reports CA type MT4126, a ConnectX
+virtual function (SR-IOV), and a VF gets no subnet-management access. Everything here is endpoint-side. The error counters in
 sysfs read zero since boot on node0, which is the only fabric-health evidence I have.
 
 ## What I did not test
@@ -119,9 +126,9 @@ sysfs read zero since boot on node0, which is the only fabric-health evidence I 
   TCP, all_gather and all-to-all. No confidence intervals.
 - The first perftest sweep failed with a remote access error just above 1 MiB. The rerun
   completed to 8 MiB. I did not chase the first failure.
-- ResNet-50 on random tensors is a gentle load: about 100 MB of gradients per step. It scaled
-  94.9% from 1 to 16 GPUs, 95.2% of that already inside one node, which says little about a
-  large model.
+- ResNet-50 on random tensors is a gentle load: about 100 MB of gradients per step. Scaling
+  efficiency was 95.2% at 8 GPUs and 94.9% at 16, which says little about a large model. That
+  job used the NCCL bundled with PyTorch (2.28.9), not the 2.26.2 above.
 
 I ran this with Claude: I chose the setup and operated the VMs and first benchmarks, and
 Claude read the nodes over SSH at my request, ran the later NCCL experiments from node0 and
