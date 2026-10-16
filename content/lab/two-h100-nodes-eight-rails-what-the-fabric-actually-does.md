@@ -1,7 +1,7 @@
 ---
 title: "Two H100 nodes, eight rails: what the fabric actually does"
 date: 2026-10-12
-draft: true
+draft: false
 tags: [infiniband, nccl, h100, hpc, networking]
 summary: "A few hours on two rented 8-GPU InfiniBand nodes: 98.8% of line rate on every rail, then the same all_reduce on eight rails, one rail and plain TCP. The job completes correctly every time; over TCP it runs about 200 times slower."
 ---

@@ -1,7 +1,7 @@
 ---
 title: "An InfiniBand fabric with no InfiniBand hardware"
 date: 2026-10-09
-draft: true
+draft: false
 tags: [infiniband, hpc, networking]
 summary: "A simulated four-switch InfiniBand fabric in one Docker container, run by a real subnet manager. Cut a link and watch the forwarding tables change."
 ---
@@ -150,6 +150,8 @@ timeouts were.
 - **Restored routes are not the old routes.** Relink the cable and OpenSM computes a valid
   set of routes again, but not necessarily the set you started with. Do not write a check
   that expects them to be identical.
+
+I built infiniband-lab with Claude Code as a pair programmer.
 
 ## Further reading
 
