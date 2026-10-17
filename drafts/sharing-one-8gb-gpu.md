@@ -1,5 +1,5 @@
 ---
-title: "Six containers, one 8 GB graphics card, and a model that spilled onto the CPU"
+title: "Nine containers, one 8 GB graphics card, and a model that spilled onto the CPU"
 date: 2026-10-16
 draft: true
 tags: [gpu, homelab, ollama, docker]
@@ -8,10 +8,10 @@ summary: "A consumer GPU cannot be partitioned, so sharing it is a matter of man
 
 ## Problem
 
-My storage server has one graphics card, an RTX 4060 with 8 GB of memory. Six containers want
-it: a local LLM server (Ollama), a photo-library machine-learning service, two speech
-transcription services, an image-generation pipeline (ComfyUI), and the media server's video
-encoder.
+My storage server has one graphics card, an RTX 4060 with 8 GB of memory. Nine containers have
+it mapped: a local LLM server (Ollama), the photo library's server and its machine-learning
+service, two speech transcription services, an embedding batch job, an image-generation
+pipeline (ComfyUI), and two media servers that use its video encoder.
 
 A data-centre GPU can be cut into hard slices. A consumer one cannot. The driver will
 time-slice compute between processes, so *access* is never the problem. **Memory is.** If the
@@ -129,13 +129,11 @@ keeps that placement until its five-minute timer unloads the model.
 - **Flash attention and a quantised KV cache** (`OLLAMA_FLASH_ATTENTION`, `OLLAMA_KV_CACHE_TYPE=q8_0`)
   shrink the context's memory so a 7B model has a better chance of fitting beside something else.
   They make the fit easier, not guaranteed.
-- **The honest fix for many resident models is more memory.** I decided to keep the 8 GB card,
-  so the answer here is stricter queueing, not hardware.
+- **The honest fix for many resident models is more memory.** For now the answer here is
+  stricter queueing, not hardware.
 
 ## Further reading
 
 - [Ollama FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md), for keep-alive and the
   loaded-model API.
 - `man flock`, for the lock semantics.
-- A rough sizing table and the checks above are in
-  [homelab-ai-skills](https://github.com/joanmarcriera/homelab-ai-skills).

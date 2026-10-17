@@ -1,6 +1,6 @@
 ---
 title: "My backup audit said everything was fine. It was only looking at half of it."
-date: 2026-10-09
+date: 2026-10-12
 draft: true
 tags: [zfs, backup, homelab, reliability]
 summary: "A ZFS replication audit that derives its dataset list from the replication tasks themselves, tiers staleness by schedule, and treats a disabled task as a failure."
@@ -13,7 +13,7 @@ had a script that checked it: for each dataset, find the newest snapshot that ex
 sides and print how old it is. It printed a tidy table and exited 0.
 
 The list of datasets was an array at the top of the script. I wrote it when there were
-eleven. By the time I looked again I was replicating more than twice that, and the script
+eleven. By the time I looked again I was replicating nearly twice that, and the script
 was still reporting "all current" about eleven. Nothing in the output said that the other
 datasets had never been checked.
 
@@ -79,28 +79,28 @@ no limit for manual, and zero for disabled.
 
 ## Verify
 
-Run around midday against the real fleet. Dataset names are changed and the
+Run on the evening of 12 October against the real fleet, as the baseline before a round of storage upgrades. Dataset names are changed and the
 repeating rows trimmed; the tiers, snapshot names, lags and the summary line are as printed.
 
 ```
 DATASET                                    TIER      NEWEST COMMON SNAPSHOT       LAG(h)
-fast/apps                                  daily     @auto-2026-10-09_02-00           10
-fast/applications                          daily     @auto-2026-10-09_02-00           10
-tank/photos                                daily     @auto-2026-10-09_02-00           10
-tank/timemachine                           daily     @auto-2026-10-09_03-00            9
-tank/media                                 monthly   @auto-2026-10-01_02-30          201
-tank/videos                                monthly   @auto-2026-10-01_02-30          201
-tank/windows                               manual    @manual-copy-2026-07-13        2101  (manual tier — informational)
-tank/vm-images                             manual    @manual-copy-2026-07-13        2101  (manual tier — informational)
-tank/old-app                               DISABLED  @pre_reinstall_final           3362  <-- TASK DISABLED
-tank/isos                                  DISABLED  @pre_reinstall_final           3362  <-- TASK DISABLED
+fast/apps                                  daily     @auto-2026-10-12_02-00           21
+fast/applications                          daily     @auto-2026-10-12_02-00           21
+tank/photos                                daily     @auto-2026-10-12_02-00           21
+tank/timemachine                           daily     @auto-2026-10-12_03-00           20
+tank/media                                 monthly   @auto-2026-10-01_02-30          285
+tank/videos                                monthly   @auto-2026-10-01_02-30          285
+tank/windows                               manual    @manual-copy-2026-07-13        2184  (manual tier — informational)
+tank/vm-images                             manual    @manual-copy-2026-07-13        2184  (manual tier — informational)
+tank/old-app                               DISABLED  @pre_reinstall_final           3445  <-- TASK DISABLED
+tank/isos                                  DISABLED  @pre_reinstall_final           3445  <-- TASK DISABLED
 
 SUMMARY: 26 tracked · 21 current · 2 stale/missing/disabled · 3 manual-tier
 Replication NOT fully current — do NOT run risky storage operations.
 ```
 
-The exit code was 1. Twenty-one datasets are ten hours old, which is last night. Four
-monthly ones are 201 hours old and correctly not flagged. And two tasks are disabled, their newest common snapshot a `pre_reinstall_final` from 140 days
+The exit code was 1. Seventeen daily datasets are 20 or 21 hours old, which is that
+morning's run. Four monthly ones are 285 hours old and correctly not flagged. And two tasks are disabled, their newest common snapshot a `pre_reinstall_final` from 143 days
 ago. An audit working from a hand-kept list only tells you about what is on the list; this
 one found them because it asked the tasks.
 

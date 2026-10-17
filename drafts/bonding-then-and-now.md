@@ -144,7 +144,8 @@ The `pre-up ifconfig ... up` ceremony is gone, because networkd brings the links
 - **`miimon` only sees the local link.** If the switch behind the port dies and the cable stays
   up, MII still says up. `arp_ip_target` with `arp_interval` is the answer to that.
 - **A link must be down before it is enslaved.** The `ip link set ... down` lines are not
-  decoration. Without them the kernel refuses.
+  decoration. Without them the kernel refuses with
+  `Error: Device can not be enslaved while up.`
 - **Round-robin (`mode=0`) can reorder packets**, which TCP dislikes. For switches that support
   it, `802.3ad` (LACP) is what most people want today.
 - **Netplan's `primary:` is not a promise.** It prefers eth1 whenever eth1 is back, which means a
