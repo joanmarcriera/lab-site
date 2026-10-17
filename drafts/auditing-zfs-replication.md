@@ -126,7 +126,9 @@ have to answer it, by re-enabling the task or deleting it, and not leave it swit
 
 ## Further reading
 
-- The runbooks around this, written so an AI assistant can execute them:
+- The script this post describes, with the host names stripped out:
+  [replication-audit.sh](https://github.com/joanmarcriera/homelab-ai-skills/blob/main/truenas-replication-audit/scripts/replication-audit.sh),
+  from a set of runbooks written so an AI assistant can execute them:
   [homelab-ai-skills](https://github.com/joanmarcriera/homelab-ai-skills).
 - `man zfs-list`, for `-H`, `-p` and `-d`.
 - In 2014 I solved the same problem for an Oracle database with rsync and cron:
