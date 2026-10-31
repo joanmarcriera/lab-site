@@ -81,9 +81,12 @@ the design fails before anyone opens a drawing:
 
 Rail-optimised means one thing above all: GPU *n* in every node talks to GPU *n* in every
 other node through its own leaf. The eight-cables-to-eight-leaves test is that sentence
-written as code, and it is the same property I watched from the other side on the [rented
-H100 nodes](/lab/two-h100-nodes-eight-rails-what-the-fabric-actually-does/), where taking seven
-rails away left a job running at a fifth of its speed without an error.
+written as code. On the [rented
+H100 nodes](/lab/two-h100-nodes-eight-rails-what-the-fabric-actually-does/) I could only see
+the endpoint side of it, one adapter per GPU: the switches were hidden from the tenant VM, so
+the rail-optimised fabric there was assumed, not observed. Taking seven rails away left a job
+running at about a fifth of its speed. It printed a correct result, then segfaulted at
+teardown with exit code 139, like every default two-node run.
 
 ## Fabric Atlas
 
