@@ -64,16 +64,16 @@ run):
 
 | Two nodes, all_reduce | Size | busbw | What NCCL reported |
 |---|---|---|---|
-| eight rails (default) | 1 GiB | 444 to 446 GB/s | `NET/SPCX_v10 ... GDRDMA` |
-| one rail (`mlx5_0`) | 1 GiB | 91.5 GB/s | same plugin, one adapter |
+| eight rails (default) | 256 MiB | 388.4 GB/s (median of three) | `NET/SPCX_v10 ... GDRDMA` |
+| one rail (`mlx5_0`) | 256 MiB | 90.3 GB/s | same plugin, one adapter |
 | InfiniBand off | 256 MiB | 1.93 GB/s | `NET/Socket` over `eth0` |
 
 ![The same three configurations at one message size, 256 MiB: 388, 90 and 1.93 GB/s](/img/lab/degradation_ladder.png)
 
 ![all_reduce bus bandwidth against message size: one node, two nodes, one rail, TCP](/img/lab/busbw_vs_size.png)
 
-The TCP row is at a smaller size than I would like, because that run used a shorter sweep (up to 256 MiB, fewer iterations); the healthy two-node figure at the same 256 MiB is 388 GB/s, so the gap is roughly
-200 times. One rail leaves about a fifth of the healthy figure. Its algbw is 48.8 GB/s, close to
+Over TCP the gap is roughly 200 times. One rail is 4.3 times slower at 256 MiB, and leaves
+about a fifth of the healthy figure at 1 GiB (91.5 against 444 to 446 GB/s). There its algbw is 48.8 GB/s, close to
 what a single 395 Gb/s adapter carries (49.4 GB/s). That fits an NVLS or Tree style algorithm,
 which moves each byte across the node boundary about once per direction, with the cross-node
 traffic of all 16 GPUs squeezed through one adapter. A ring would push nearly twice the data
