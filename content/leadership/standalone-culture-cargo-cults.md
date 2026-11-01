@@ -1,6 +1,7 @@
 ---
 title: "You can't copy a culture, only its furniture"
 date: 2026-07-19T19:00:00+01:00
+draft: false
 tags: [leadership]
 ---
 

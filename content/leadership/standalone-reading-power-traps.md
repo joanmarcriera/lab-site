@@ -1,6 +1,7 @@
 ---
 title: "The day people stopped telling me the truth"
 date: 2026-07-19T17:00:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

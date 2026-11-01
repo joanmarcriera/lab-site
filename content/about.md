@@ -1,5 +1,6 @@
 ---
 title: "About"
+draft: false
 description: "Marc Riera: infrastructure engineer and architect. HPC, storage, Linux, identity and self-hosted AI infrastructure."
 ---
 

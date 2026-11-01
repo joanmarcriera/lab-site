@@ -1,6 +1,7 @@
 ---
 title: "Your project portfolio is not a stock portfolio"
 date: 2026-07-19T21:40:00+01:00
+draft: false
 tags: [leadership]
 ---
 

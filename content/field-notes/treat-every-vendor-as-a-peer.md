@@ -1,6 +1,7 @@
 ---
 title: "Treat every vendor as a peer — even the ones who treat you badly"
 date: 2026-07-20
+draft: false
 tags: [leadership]
 aliases: ["/war-stories/treat-every-vendor-as-a-peer/"]
 ---

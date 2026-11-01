@@ -1,6 +1,7 @@
 ---
 title: "The tender clause nobody had used before"
 date: 2026-07-22
+draft: false
 tags: [finance, operations]
 aliases: ["/war-stories/the-tender-refund-clause/"]
 ---

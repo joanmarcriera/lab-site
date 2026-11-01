@@ -1,6 +1,7 @@
 ---
 title: "Scott, Amundsen, and the myth of the motivated team"
 date: 2026-07-19T18:20:00+01:00
+draft: false
 tags: [leadership]
 ---
 

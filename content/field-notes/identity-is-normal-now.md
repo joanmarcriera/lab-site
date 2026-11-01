@@ -1,6 +1,7 @@
 ---
 title: "On my first day I was given a second-hand account"
 date: 2026-07-22
+draft: false
 tags: [leadership, operations]
 aliases: ["/war-stories/identity-is-normal-now/"]
 ---

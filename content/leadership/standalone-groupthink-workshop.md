@@ -1,6 +1,7 @@
 ---
 title: "How I ran a creativity workshop for infrastructure engineers (and nobody rolled their eyes)"
 date: 2026-07-19T18:10:00+01:00
+draft: false
 tags: [leadership]
 ---
 

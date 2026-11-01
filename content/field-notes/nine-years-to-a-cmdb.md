@@ -1,6 +1,7 @@
 ---
 title: "What nine and a half years of arguing for a CMDB taught me"
 date: 2026-07-22
+draft: false
 tags: [leadership]
 aliases: ["/war-stories/nine-years-to-a-cmdb/"]
 ---

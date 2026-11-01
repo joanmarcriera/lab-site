@@ -1,6 +1,7 @@
 ---
 title: "The contract sets the price; control rights set the future"
 date: 2026-07-19T21:00:00+01:00
+draft: false
 tags: [leadership]
 ---
 

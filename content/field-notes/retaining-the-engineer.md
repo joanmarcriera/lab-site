@@ -1,6 +1,7 @@
 ---
 title: "I kept my best engineer for £250 a month"
 date: 2026-07-20
+draft: false
 tags: [leadership, finance]
 aliases: ["/war-stories/retaining-the-engineer/"]
 ---

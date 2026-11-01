@@ -1,6 +1,7 @@
 ---
 title: "A warning ignored becomes an accepted risk"
 date: 2026-07-20
+draft: false
 tags: [leadership, operations]
 aliases: ["/war-stories/a-warning-ignored/"]
 ---

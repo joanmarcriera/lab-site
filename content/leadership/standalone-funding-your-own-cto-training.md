@@ -1,6 +1,7 @@
 ---
 title: "How I got my employer to help fund a five-figure executive programme"
 date: 2026-07-19T17:25:00+01:00
+draft: false
 tags: [leadership, finance]
 ---
 

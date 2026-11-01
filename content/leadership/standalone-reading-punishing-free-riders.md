@@ -1,6 +1,7 @@
 ---
 title: "Why cooperation needs someone willing to punish the free-rider"
 date: 2026-07-19T16:20:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

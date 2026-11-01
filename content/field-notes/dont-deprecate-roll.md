@@ -1,6 +1,7 @@
 ---
 title: "Don't deprecate — roll"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/dont-deprecate-roll/"]
 ---

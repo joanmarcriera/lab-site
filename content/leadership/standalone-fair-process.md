@@ -1,6 +1,7 @@
 ---
 title: "People accept decisions they dislike, if the process was fair"
 date: 2026-07-19T19:10:00+01:00
+draft: false
 tags: [leadership]
 ---
 

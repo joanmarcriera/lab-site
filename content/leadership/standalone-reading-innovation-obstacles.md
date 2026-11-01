@@ -1,6 +1,7 @@
 ---
 title: "The biggest obstacle to innovation is not budget — it is turf"
 date: 2026-07-19T16:50:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

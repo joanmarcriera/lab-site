@@ -1,6 +1,7 @@
 ---
 title: "The certificate inventory I failed to sell"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/the-certificate-inventory-i-couldnt-build/"]
 ---

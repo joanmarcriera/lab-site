@@ -1,6 +1,7 @@
 ---
 title: "NPV for engineers: why your build-vs-buy gut feeling needs a discount rate"
 date: 2026-07-19T20:40:00+01:00
+draft: false
 tags: [finance, leadership]
 ---
 

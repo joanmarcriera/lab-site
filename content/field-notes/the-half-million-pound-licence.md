@@ -1,6 +1,7 @@
 ---
 title: "The six-figure licence I didn't buy"
 date: 2026-07-20
+draft: false
 tags: [finance]
 aliases: ["/war-stories/the-half-million-pound-licence/"]
 ---

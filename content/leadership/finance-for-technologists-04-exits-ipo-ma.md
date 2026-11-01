@@ -1,6 +1,7 @@
 ---
 title: "The IPO pop and the poison pill: exit mechanics every senior engineer should know"
 date: 2026-07-19T20:10:00+01:00
+draft: false
 tags: [finance, leadership]
 ---
 

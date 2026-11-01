@@ -1,6 +1,7 @@
 ---
 title: "Nobody owns all of innovation — not even the CTO"
 date: 2026-07-19T22:00:00+01:00
+draft: false
 tags: [leadership]
 ---
 

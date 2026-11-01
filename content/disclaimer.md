@@ -1,5 +1,6 @@
 ---
 title: "About these notes — please read"
+draft: false
 aliases: ["/disclaimer/"]
 ---
 

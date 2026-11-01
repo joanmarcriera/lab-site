@@ -1,6 +1,7 @@
 ---
 title: "Debt, equity and the 3% rule: why software companies borrow almost nothing"
 date: 2026-07-19T20:20:00+01:00
+draft: false
 tags: [finance, leadership]
 ---
 

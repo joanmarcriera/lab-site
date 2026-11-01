@@ -1,6 +1,7 @@
 ---
 title: "Put your aces on page one: what reviewing a fellow executive's CV taught me about mine"
 date: 2026-07-19T17:55:00+01:00
+draft: false
 tags: [leadership]
 ---
 

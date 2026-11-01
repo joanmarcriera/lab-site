@@ -1,6 +1,7 @@
 ---
 title: "Gravitas is not a personality trait — it is a set of behaviours you can change"
 date: 2026-07-19T17:10:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

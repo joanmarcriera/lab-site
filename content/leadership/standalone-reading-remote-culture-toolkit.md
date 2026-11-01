@@ -1,6 +1,7 @@
 ---
 title: "It was never about the watercooler"
 date: 2026-07-19T16:30:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

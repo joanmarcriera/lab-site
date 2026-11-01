@@ -1,6 +1,7 @@
 ---
 title: "Leadership runs on emotion, even in a room full of engineers"
 date: 2026-07-19T21:20:00+01:00
+draft: false
 tags: [leadership]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "The week we rotated every password"
 date: 2026-07-20
+draft: false
 tags: [leadership, operations]
 aliases: ["/war-stories/rotating-every-password/"]
 ---

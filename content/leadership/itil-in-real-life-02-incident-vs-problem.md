@@ -1,6 +1,7 @@
 ---
 title: "Incidents get you praised. Problems get you peace."
 date: 2026-07-19T19:30:00+01:00
+draft: false
 series: "ITIL in real life · 2/3"
 tags: [operations, leadership]
 ---

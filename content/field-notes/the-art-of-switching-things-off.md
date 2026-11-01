@@ -1,6 +1,7 @@
 ---
 title: "The oldest thing I ever switched off"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/the-art-of-switching-things-off/"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Change enablement beats the change freeze"
 date: 2026-07-19T19:40:00+01:00
+draft: false
 series: "ITIL in real life · 1/3"
 tags: [operations, leadership]
 ---

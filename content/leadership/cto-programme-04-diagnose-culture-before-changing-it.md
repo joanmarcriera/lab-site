@@ -1,6 +1,7 @@
 ---
 title: "Diagnose the culture before you try to change it"
 date: 2026-07-19T21:30:00+01:00
+draft: false
 tags: [leadership]
 ---
 

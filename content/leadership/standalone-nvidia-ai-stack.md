@@ -1,6 +1,7 @@
 ---
 title: "Two NVIDIA courses later: what the AI stack looks like from the infrastructure side"
 date: 2026-07-19T17:30:00+01:00
+draft: false
 tags: [leadership]
 ---
 

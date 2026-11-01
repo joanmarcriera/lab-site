@@ -1,6 +1,7 @@
 ---
 title: "The recession playbook that makes the recession worse"
 date: 2026-07-19T17:20:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "I'm an ESTJ, apparently. Here is what an MBTI report is actually for."
 date: 2026-07-19T17:45:00+01:00
+draft: false
 tags: [leadership]
 ---
 

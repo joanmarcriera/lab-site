@@ -1,6 +1,7 @@
 ---
 title: "Nobody claps for the fire that never started"
 date: 2026-07-20
+draft: false
 tags: [leadership]
 aliases: ["/war-stories/nobody-claps-for-the-fire-that-never-started/"]
 ---

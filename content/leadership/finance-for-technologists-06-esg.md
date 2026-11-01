@@ -1,6 +1,7 @@
 ---
 title: "ESG without the halo: correlation, causation and why I still picked the boring index"
 date: 2026-07-19T19:50:00+01:00
+draft: false
 tags: [finance, leadership]
 ---
 
