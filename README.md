@@ -21,6 +21,9 @@ hugo server -D  # includes drafts; http://localhost:1313
 
 # Build for production
 hugo --minify  # outputs to ./public
+
+# Pre-push checks: alias guard, unit tests, content lint (if present), Hugo build (if found)
+make check
 ```
 
 ## Writing a post
