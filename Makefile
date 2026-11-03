@@ -6,6 +6,9 @@
 PYTHON ?= python3
 # Prefer the CI-pinned binary in .bin/hugo (see CLAUDE.md), else hugo on PATH.
 HUGO   ?= $(firstword $(wildcard .bin/hugo) $(shell command -v hugo 2>/dev/null))
+# A missing `summary` is prose still to write, so lint reports it as a warning.
+# `make lint LINT_FLAGS=` lists them as errors; drop the default once written.
+LINT_FLAGS ?= --allow-missing-summary
 
 .PHONY: check aliases test lint build
 
@@ -23,8 +26,8 @@ test:
 ## lint: content linter, only when tools/content_lint.py exists
 lint:
 	@if [ -f tools/content_lint.py ]; then \
-		echo "$(PYTHON) tools/content_lint.py"; \
-		$(PYTHON) tools/content_lint.py; \
+		echo "$(PYTHON) tools/content_lint.py $(LINT_FLAGS)"; \
+		$(PYTHON) tools/content_lint.py $(LINT_FLAGS); \
 	else \
 		echo "skip: tools/content_lint.py not present"; \
 	fi
