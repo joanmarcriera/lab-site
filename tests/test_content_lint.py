@@ -63,6 +63,13 @@ class LintTest(unittest.TestCase):
     def test_section_index_needs_only_title(self):
         self.assertEqual(self.lint(), [])
 
+    def test_top_level_page_needs_no_date(self):
+        # about.md and disclaimer.md stay undated; a date, if given, is still checked.
+        self.write("content/about.md", '---\ntitle: "About"\ndraft: false\n---\n')
+        self.assertEqual(self.lint(), [])
+        self.write("content/about.md", '---\ntitle: "About"\ndate: 2026-13-01\ndraft: false\n---\n')
+        self.assertTrue(any("malformed date" in e for e in self.lint()))
+
     def test_malformed_date_and_draft(self):
         self.write("content/lab/a.md", GOOD_LAB.replace("2026-10-09", "2026-13-09")
                    .replace("draft: false", "draft: no"))

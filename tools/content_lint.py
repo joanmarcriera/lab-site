@@ -6,9 +6,11 @@ Usage:
 
 Checks every Markdown file under <root>/content/:
   1. Front matter: `title`, ISO `date`, boolean `draft` on every page
-     (section `_index.md` pages need only `title`); a `summary` on the
-     children of lab/, field-notes/, leadership/ and work/; `post_lang`
-     (en|es|ca) and `original_url` on archive posts.
+     (section `_index.md` pages need only `title`; top-level pages such as
+     about.md need no `date`, since a date can put them in the home page's
+     date-sorted "Latest" list); a `summary` on the children of lab/,
+     field-notes/, leadership/ and work/; `post_lang` (en|es|ca) and
+     `original_url` on archive posts.
   2. Internal links: every `/path/` or relative Markdown link resolves to a
      page, section, alias, tag page or file under static/. Archive posts live
      at /archive/<year>/<file-name>/, the year taken from the front-matter date.
@@ -157,7 +159,8 @@ def check_front_matter(p, report, allow_missing_summary):
     if p.is_index:
         return
     if "date" not in fm:
-        report.error(p, 1, "front-matter", "missing date")
+        if p.section:  # top-level pages stay undated (see the docstring)
+            report.error(p, 1, "front-matter", "missing date")
     elif not valid_date(fm["date"]):
         report.error(p, 1, "front-matter", "malformed date %r" % fm["date"])
     if "draft" not in fm:
