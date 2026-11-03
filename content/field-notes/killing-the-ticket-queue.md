@@ -1,6 +1,7 @@
 ---
 title: "We killed the Aspera ticket queue by teaching the service desk"
 date: 2026-07-20
+draft: false
 tags: [leadership, operations]
 aliases: ["/war-stories/killing-the-ticket-queue/"]
 ---

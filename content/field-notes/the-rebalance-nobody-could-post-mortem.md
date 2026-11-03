@@ -1,6 +1,7 @@
 ---
 title: "A month-long rebalance, and the post-mortem we weren't ready to hold"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/the-rebalance-nobody-could-post-mortem/"]
 ---

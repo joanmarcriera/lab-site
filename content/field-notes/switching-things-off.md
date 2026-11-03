@@ -1,6 +1,7 @@
 ---
 title: "Why I spent my last three years switching things off"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/switching-things-off/"]
 ---

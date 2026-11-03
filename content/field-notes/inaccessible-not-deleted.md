@@ -1,6 +1,7 @@
 ---
 title: "\"Inaccessible\", not \"deleted\" — the word that saved 12 petabytes of work"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/inaccessible-not-deleted/"]
 ---

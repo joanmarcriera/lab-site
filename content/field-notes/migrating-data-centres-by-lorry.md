@@ -1,6 +1,7 @@
 ---
 title: "We used to migrate data centres by lorry"
 date: 2026-07-22
+draft: false
 tags: [operations]
 aliases: ["/war-stories/migrating-data-centres-by-lorry/"]
 ---

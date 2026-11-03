@@ -1,6 +1,7 @@
 ---
 title: "Your internal platform is a product. Your users just can't churn."
 date: 2026-07-19T20:55:00+01:00
+draft: false
 tags: [leadership]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "1,000 machines in a day, or 3,000 unfinished a month later"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/automation-vs-doing-it-by-hand/"]
 ---

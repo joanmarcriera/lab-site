@@ -1,6 +1,7 @@
 ---
 title: "A new technology never transformed an industry on its own"
 date: 2026-07-19T16:40:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

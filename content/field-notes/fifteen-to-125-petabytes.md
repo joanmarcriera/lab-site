@@ -1,6 +1,7 @@
 ---
 title: "The first 15 petabytes took ten years. The next 110 took eight."
 date: 2026-07-22
+draft: false
 tags: [operations, finance]
 aliases: ["/war-stories/fifteen-to-125-petabytes/"]
 ---

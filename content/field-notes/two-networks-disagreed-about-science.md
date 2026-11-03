@@ -1,6 +1,7 @@
 ---
 title: "The ports wouldn't open because two networks disagreed about what \"science\" was"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/two-networks-disagreed-about-science/"]
 ---

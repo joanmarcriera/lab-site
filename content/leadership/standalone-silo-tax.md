@@ -1,6 +1,7 @@
 ---
 title: "The silo tax: why your smartest engineers produce less than they should"
 date: 2026-07-19T18:50:00+01:00
+draft: false
 tags: [leadership]
 ---
 

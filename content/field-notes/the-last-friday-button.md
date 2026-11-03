@@ -1,6 +1,7 @@
 ---
 title: "Pressing the button on your last Friday"
 date: 2026-07-20
+draft: false
 tags: [leadership, operations]
 aliases: ["/war-stories/the-last-friday-button/"]
 ---

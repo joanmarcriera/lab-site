@@ -1,6 +1,7 @@
 ---
 title: "What chemical-industry crisis planning taught me about on-call"
 date: 2026-07-19T17:50:00+01:00
+draft: false
 tags: [leadership, operations]
 ---
 

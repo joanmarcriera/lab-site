@@ -1,6 +1,7 @@
 ---
 title: "Risk, return and the hurdle rate: what engineers get wrong about 'safe' choices"
 date: 2026-07-19T20:30:00+01:00
+draft: false
 tags: [finance, leadership]
 ---
 

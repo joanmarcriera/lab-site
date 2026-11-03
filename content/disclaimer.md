@@ -1,6 +1,6 @@
 ---
 title: "About these notes — please read"
-aliases: ["/disclaimer/"]
+draft: false
 ---
 
 These are personal reflections on a career in infrastructure and technology

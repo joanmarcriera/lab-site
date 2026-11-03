@@ -1,6 +1,7 @@
 ---
 title: "A decade of identity debt, and how we paid it down"
 date: 2026-07-19T18:30:00+01:00
+draft: false
 tags: [leadership, operations]
 ---
 

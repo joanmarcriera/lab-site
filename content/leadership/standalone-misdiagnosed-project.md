@@ -1,6 +1,7 @@
 ---
 title: "The most expensive project mistake is made on day one"
 date: 2026-07-19T18:40:00+01:00
+draft: false
 tags: [leadership]
 ---
 

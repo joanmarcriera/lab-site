@@ -1,6 +1,7 @@
 ---
 title: "Agency costs in the machine room: governance lessons from boardrooms, open source and my homelab"
 date: 2026-07-19T20:00:00+01:00
+draft: false
 tags: [finance, leadership]
 ---
 

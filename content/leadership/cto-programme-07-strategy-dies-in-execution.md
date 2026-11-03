@@ -1,6 +1,7 @@
 ---
 title: "Strategy dies at the operational level (unless you cascade it)"
 date: 2026-07-19T21:05:00+01:00
+draft: false
 tags: [leadership]
 ---
 

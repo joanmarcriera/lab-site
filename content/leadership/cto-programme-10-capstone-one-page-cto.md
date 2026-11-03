@@ -1,6 +1,7 @@
 ---
 title: "The one-page plan I ask every technology leader to write"
 date: 2026-07-19T20:50:00+01:00
+draft: false
 tags: [leadership]
 ---
 

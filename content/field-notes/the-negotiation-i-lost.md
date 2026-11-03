@@ -1,6 +1,7 @@
 ---
 title: "The negotiation I lost was my own promotion"
 date: 2026-07-20
+draft: false
 tags: [leadership]
 aliases: ["/war-stories/the-negotiation-i-lost/"]
 ---

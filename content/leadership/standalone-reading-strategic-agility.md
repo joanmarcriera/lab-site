@@ -1,6 +1,7 @@
 ---
 title: "Agility is not a process — it is knowing what to unlearn"
 date: 2026-07-19T16:10:00+01:00
+draft: false
 series: "Reading reflections"
 tags: [leadership]
 ---

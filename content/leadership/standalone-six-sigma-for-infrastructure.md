@@ -1,6 +1,7 @@
 ---
 title: "Six Sigma thinking for infrastructure teams (no belts required)"
 date: 2026-07-19T17:40:00+01:00
+draft: false
 tags: [leadership, operations]
 ---
 

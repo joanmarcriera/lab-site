@@ -1,6 +1,7 @@
 ---
 title: "Closing the same ticket forty times is not service"
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/closing-the-same-ticket-forty-times/"]
 ---

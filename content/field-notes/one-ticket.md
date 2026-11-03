@@ -1,6 +1,7 @@
 ---
 title: "An important GitHub org had no reachable admin. I opened one ticket."
 date: 2026-07-20
+draft: false
 tags: [operations]
 aliases: ["/war-stories/one-ticket/"]
 ---

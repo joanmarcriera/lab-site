@@ -1,6 +1,7 @@
 ---
 title: "How I learned to make governance work for change"
 date: 2026-07-20
+draft: false
 tags: [leadership]
 aliases: ["/war-stories/the-committees-they-invented/"]
 ---
