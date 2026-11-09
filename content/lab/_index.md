@@ -1,5 +1,6 @@
 ---
 title: "Lab"
+description: "Build logs from Marc Riera's current projects: self-hosted infrastructure, GPU fabrics, ZFS, simulated InfiniBand and software shipped end to end."
 ---
 
 Build logs from current work — self-hosted infrastructure, product engineering, and the odd

@@ -1,6 +1,6 @@
 ---
 title: "Work: what I have built and run"
-description: "A catalogue of Marc Riera's hands-on technical work from 2003 to now: HPC clusters, petabyte storage, Linux automation, identity, self-hosted AI infrastructure and shipped software."
+description: "Marc Riera's hands-on technical work, 2003 to now: HPC clusters, petabyte storage, Linux automation, identity, self-hosted AI and shipped software."
 ---
 
 I have been building and running infrastructure since 2007, and writing about it since 2009.
