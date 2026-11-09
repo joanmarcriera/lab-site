@@ -36,7 +36,7 @@ generated from, and tests that fail when the design stops matching the reference
 The design is YAML. A generator turns it into a desired-state model, and everything else
 is an output of that model:
 
-```
+```text
 spec/*.yaml  ->  topology generator  ->  NetBox (optional source of truth)
                                      ->  draw.io pages and rack elevations
                                      ->  bill of materials, cable map, IP plan

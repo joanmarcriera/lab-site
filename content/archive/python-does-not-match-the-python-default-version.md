@@ -10,7 +10,7 @@ draft: false
 
 Today I had to install mod_python and I've got the following error:
 
-```
+```text
 The following NEW packages will be installed:
 
 libapache2-mod-python

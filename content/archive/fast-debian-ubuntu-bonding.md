@@ -25,7 +25,7 @@ options bonding mode=0 miimon=100
 root@host01:~# cat /etc/network/interfaces|grep -v ^#
 ```
 
-```
+```text
 auto lo
 iface lo inet loopback
 

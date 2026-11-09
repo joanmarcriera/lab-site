@@ -10,7 +10,7 @@ draft: false
 
 I've just upgraded a development server and I've found myself with this issue: Starting Varnish
 
-```
+```text
 Internal error: cc(1) complained:
 
 /usr/bin/ld: crti.o: No such file: No such file or directory
@@ -26,7 +26,7 @@ apt-get install libc6-dev
 
 And that's all folks, just a group of libraries changing it's version.
 
-```
+```text
 libc6-dev linux-libc-dev
 ```
 

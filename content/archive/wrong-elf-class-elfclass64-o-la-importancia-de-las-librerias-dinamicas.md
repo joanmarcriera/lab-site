@@ -11,7 +11,7 @@ draft: false
 Hemos cambiado unos ejecutables de un server a otro y ahora no quieren funcionar, no tenemos opción de recompilar por algun motivo que no viene al caso. Un problema que debemos solucionar, eso esta claro. Primer diagnostico:
 
 
-```
+```console
 server# ldd -d /home/user/tools/symmetrize
 undefined symbol: _ZSt4cout, version GLIBCPP_3.2 (/home/user/tools/symmetrize)
 undefined symbol: _ZSt4cerr, version GLIBCPP_3.2 (/home/user/tools/symmetrize)
@@ -30,7 +30,7 @@ libc.so.6 => /lib32/libc.so.6 (0xf7e34000)
 Hay librerias que el programa necesita y no sabe donde encontrarlas. Pero las buscamos, y tenemos la primera sorpresa, estan ahí!!!
 
 
-```
+```console
 server# locate ibstdc++.so.5
 /opt/vendor/lib64/support/libstdc++.so.5
 /opt/vendor/lib64/support/libstdc++.so.5.0.3
@@ -43,7 +43,7 @@ server# locate ibstdc++.so.5
 Que sucede entonces? Deberiamos recompilar la aplicación agregando las librerias de /usr/lib, o como minimo el path, en el compilado resultante. Pero ya habiamos descartado eso, no podemos hacerlo. La segunda opción es poner las librerias directamente en el path, y es que los ejecutables van a un sitio concreto ha buscar ciertas librerias mientras se ejecutan. Ponemos los path de las liberias en /etc/ld.so.conf, a mi me quedan de la siguiente manera:
 
 
-```
+```console
 server# cat /etc/ld.so.conf.d/*
 # libc default configuration
 /usr/local/lib
