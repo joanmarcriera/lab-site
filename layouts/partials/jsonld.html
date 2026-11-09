@@ -1,0 +1,18 @@
+{{- /* Structured data from site config and front matter only. */ -}}
+{{- $p := .page -}}
+{{- $author := site.Params.author -}}
+{{- $person := dict "@type" "Person" "@id" (printf "%s#person" site.BaseURL) "name" $author.name "url" $author.url "sameAs" $author.sameAs -}}
+{{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" site.BaseURL) "url" site.BaseURL "name" site.Title "description" site.Params.description "inLanguage" site.LanguageCode "publisher" (dict "@id" (index $person "@id")) -}}
+{{- $graph := slice $website $person -}}
+{{- $isPost := and $p.IsPage (in (slice "lab" "field-notes" "leadership" "archive") $p.Section) -}}
+{{- if $isPost -}}
+  {{- $post := dict "@type" "BlogPosting" "@id" (printf "%s#article" $p.Permalink) "headline" $p.Title "description" .desc "url" $p.Permalink "mainEntityOfPage" $p.Permalink "image" .image "inLanguage" ($p.Params.post_lang | default site.LanguageCode) "author" (dict "@id" (index $person "@id")) "publisher" (dict "@id" (index $person "@id")) "isPartOf" (dict "@id" (index $website "@id")) -}}
+  {{- if not $p.Date.IsZero }}{{ $post = merge $post (dict "datePublished" ($p.Date.Format "2006-01-02")) }}{{ end -}}
+  {{- with $p.Params.tags }}{{ $post = merge $post (dict "keywords" (delimit . ", ")) }}{{ end -}}
+  {{- $graph = $graph | append $post -}}
+{{- else if and $p.File (eq $p.File.Path "about.md") -}}
+  {{- $graph = $graph | append (dict "@type" "ProfilePage" "@id" (printf "%s#webpage" $p.Permalink) "url" $p.Permalink "name" .title "description" .desc "mainEntity" (dict "@id" (index $person "@id")) "isPartOf" (dict "@id" (index $website "@id"))) -}}
+{{- else if not $p.IsHome -}}
+  {{- $graph = $graph | append (dict "@type" (cond $p.IsPage "WebPage" "CollectionPage") "@id" (printf "%s#webpage" $p.Permalink) "url" $p.Permalink "name" .title "description" .desc "isPartOf" (dict "@id" (index $website "@id"))) -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>
