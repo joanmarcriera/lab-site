@@ -1,5 +1,5 @@
 ---
-title: "Export X to windows"
+title: "Export X to windows, revisited"
 date: 2009-04-15
 post_lang: en
 tags: [linux, windows]

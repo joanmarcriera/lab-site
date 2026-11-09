@@ -1,6 +1,7 @@
 baseURL = "https://blog.riera.co.uk/"
 languageCode = "en-gb"
 title = "Marc Riera, Lab Notes"
+enableRobotsTXT = true
 
 [taxonomies]
   tag = "tags"
@@ -12,6 +13,12 @@ title = "Marc Riera, Lab Notes"
 
 [params]
   description = "Hands-on infrastructure engineering: HPC, storage, Linux and self-hosted AI. Things I built and ran, 2009 to now."
+
+# Used by layouts/partials/jsonld.html (Person). Same links as the home page.
+[params.author]
+  name = "Marc Riera"
+  url = "https://riera.co.uk/"
+  sameAs = ["https://github.com/joanmarcriera", "https://www.linkedin.com/in/joanmarcriera/", "https://riera.co.uk/"]
 
 # Explicit nav order (engineering first). A new section needs an entry here to appear in the nav.
 [[menu.main]]
