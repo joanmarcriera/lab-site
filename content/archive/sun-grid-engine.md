@@ -63,13 +63,13 @@ My SGE installation process.      
 
 1.  Create the new role `sgeadmin`:
 
-    ```
+    ```bash
     roleadd -c "Grid Engine SMF Administrator" -g <group> -d <home_dir> -u <UID> -s <profile_shell> -P "solaris.smf.manage.sge" "sgeadmin"
     ```
 
 1.  Assign the just-created role sgeadmin to the user:
 
-    ```
+    ```bash
     usermod -R "sgeadmin" <login>
     ```
 
@@ -77,7 +77,7 @@ My SGE installation process.      
 
 - Create the new role `sgeadmin` and assign it to the user:
 
-  ```
+  ```bash
   /usr/sadm/bin/smrole add -D <domain_name> - -n "sgeadmin" -a "normal_user" -d <home_dir> -c "Grid Engine SMF Administrator" -p "solaris.smf.manage.sge"
   ```
 
@@ -85,7 +85,7 @@ My SGE installation process.      
 
 Determine whether your site's network services are defined in an NIS database or in an `/etc/services` file that is local to each workstation. If your site uses NIS, determine the host name of your NIS server so that you can add entries to the NIS services map. The Grid Engine system services are `sge_execd` and `sge_qmaster`. To add the services to your NIS map, choose reserved, unused port numbers. The following examples show `sge_qmaster` and `sge_execd` entries.
 
-```
+```text
 sge_qmaster 6444/tcp
 sge_execd 6445/tcp
 ```
@@ -110,7 +110,7 @@ sge_execd 6445/tcp
 
 - server
 
-  ```
+  ```bash
   apt-get -y install nfs-kernel-server nfs-common portmap
   echo "/var/nfs        10.0.0.0/24(rw,sync,no_subtree_check)" >> /etc/exports
   exportsfs -a
@@ -118,7 +118,7 @@ sge_execd 6445/tcp
 
 - client
 
-  ```
+  ```bash
   apt-get -y install nfs-common portmap
   echo "10.0.0.21:/var/nfs /mnt/nfs/var/nfs  nfs     rw,sync,hard,intr       0      0" >> /etc/fstab
   mkdir -p /mnt/nfs/var/nfs ; mount -a
@@ -126,7 +126,7 @@ sge_execd 6445/tcp
 
 - permisions
 
-  ```
+  ```bash
   addgroup sgeadmin
   adduser -c "Grid Engine SMF Administrator" --home /home/sgeadmin -g sgeadmin  sgeadmin
   chown -R sgeadmin.sgeadmin /var/nfs/sgeroot
@@ -136,11 +136,11 @@ sge_execd 6445/tcp
 
 ###### Edició de hostnames
 
-```
+```bash
 HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 ```
 
-```
+```bash
  sudo sed -i "s/kickseed/$HOSTNAME/g" /etc/hosts
  sudo sed -i "s/kickseed/$HOSTNAME/g" /etc/hostname
  sudo hostname -v $HOSTNAME
@@ -150,7 +150,7 @@ HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 
 - Entorn: \*\* Variables entorn
 
-  ```
+  ```bash
   echo "
   SGE_ROOT=/mnt/nfs/var/nfs/sgeroot
   export SGE_ROOT" >> /home/sgeadmin/.bashrc
@@ -158,13 +158,13 @@ HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 
   \*\* hostname
 
-  ```
+  ```bash
   sed -i "/`hostname`/s/127.0.1.1/`ifconfig | awk '/Bcast/ {print $2}'|cut -d: -f2`/g" /etc/hosts
   ```
 
 - Descomprimir:
 
-  ```
+  ```bash
   gzip -dc ../sge/ge-6.2u5-common.tar.gz | tar xvpf -
   gzip -dc ../sge/ge-6.2u5-bin-lx24-amd64.tar.gz |tar xvpf -
   gzip -dc ../sge/ge-6.2u5-bin-lx24-x86.tar.gz |tar xvpf -
@@ -173,20 +173,20 @@ HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 
 - Software necessari per a la intalació
 
-  ```
+  ```bash
   apt-get install binutils sun-java6-jre
   ```
 
 - Iniciar la instalació (as root)
 
-  ```
+  ```bash
   cd $SGE_ROOT
   ./inst_sge -m
   ```
 
 - JMX MBean server config
 
-  ```
+  ```text
   Using the following JMX MBean server settings.
      libjvm_path              >/usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server/libjvm.so<
      Additional JVM arguments >-Xmx256m<
@@ -199,7 +199,7 @@ HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 
 - Berkeley Database spooling parameters
 
-  ```
+  ```text
   Berkeley Database spooling parameters
   -------------------------------------
 
@@ -235,7 +235,7 @@ HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 
 - Using Grid Engine
 
-  ```
+  ```text
   Using Grid Engine
   -----------------
 
@@ -262,7 +262,7 @@ HOSTNAME=%NOMMAQUINA% ; export HOSTNAME
 
 - autostart qmaster y bdb on boot as sgeadmin (dona un warning pero no passa res perque només ens interessa el runlevel 2 i en un futur potser el 5)
 
-  ```
+  ```bash
   echo "sudo -u sgemaster /etc/init.d/sgemaster.MYCLUSTER " >> /etc/rc.local
   echo "sudo -u sgemaster /etc/init.d/sgebdb start " >> /etc/rc.local
   sed -i "s/exit 0//g" /etc/rc.local

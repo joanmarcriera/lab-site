@@ -10,7 +10,7 @@ draft: false
 
 Un server que estuvo en su momento un poco en desuso ha sido recuperado para nuevas funciones y debe ser actualizado pero no se deja por un tema de llaves. La solución es sencilla, ya que la llave no esta donde debería se le manda buscarla.
 
-```
+```console
 # apt-get update
 Get: 1 http://ftp.fr.debian.org stable Release.gpg [386B]
 ...

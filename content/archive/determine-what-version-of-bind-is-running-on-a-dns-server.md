@@ -13,7 +13,7 @@ There is a bug on bind9, like [this one](http://www.cyberciti.biz/tips/bind-dyna
 
 So, how to know if you can exploit it?
 
-```
+```bash
 dig -t txt -c chaos VERSION.BIND @<SERVER_IP>
 ```
 

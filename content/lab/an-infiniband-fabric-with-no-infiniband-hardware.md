@@ -30,7 +30,7 @@ I packaged this as [infiniband-lab](https://github.com/joanmarcriera/infiniband-
 container, two topologies and 14 exercises. The interesting topology is a diamond, with two
 paths between the left and right hosts:
 
-```
+```text
 HCA01 ─┐         ┌─ SW02 ─┐         ┌─ HCA03
        ├─ SW01 ──┤        ├── SW04 ─┤
 HCA02 ─┘         └─ SW03 ─┘         └─ HCA04
@@ -45,7 +45,7 @@ scripts/lab shell         # a prompt inside the container
 reset-lab.sh redundant    # start the diamond fabric and OpenSM on HCA01
 ```
 
-```
+```text
 ibsim up with topology 'redundant'. Next: start-opensm.sh
 OpenSM on HCA01 (0x0002c90000000011): SUBNET UP
 ```
@@ -53,7 +53,7 @@ OpenSM on HCA01 (0x0002c90000000011): SUBNET UP
 `SUBNET UP` is the line that matters. It means OpenSM has swept the fabric, assigned LIDs
 and programmed the switches. Now ask the fabric what it is:
 
-```
+```console
 $ ibnetdiscover -l
 Ca	 : 0x0002c90000000040 ports 1 devid 0x1017 vendid 0x2c9 "HCA04"
 Ca	 : 0x0002c90000000030 ports 1 devid 0x1017 vendid 0x2c9 "HCA03"
@@ -70,7 +70,7 @@ sminfo: sm lid 1 sm guid 0x2c90000000011, activity count 190 priority 0 state 3 
 
 The subnet manager is the master, at LID 1. Trace a packet from HCA01 (LID 1) to HCA04 (LID 8):
 
-```
+```console
 $ ibtracert 1 8
 From ca {0x0002c90000000010} portnum 1 lid 1-1 "HCA01"
 [1] -> switch port {0x0002c90000000100}[1] lid 2-2 "SW01"
@@ -84,7 +84,7 @@ It goes through SW03. The reason is in SW01's linear forwarding table, which is 
 than "for destination LID x, send out of port y". `ibroute` prints it; a small helper in the
 repo draws it as a table:
 
-```
+```console
 $ ibroute 2 | lft-table.py
 SW01  (LID 2, GUID 0x0002c90000000100)
 ┌──────┬─────────────┬─────────────┐
@@ -108,7 +108,7 @@ port 3 towards SW02. OpenSM has spread the two hosts across the two paths.
 
 Unplug SW01 port 4, the link to SW03, and give the subnet manager a sweep to notice:
 
-```
+```console
 $ simcmd 'Unlink "S-0002c90000000100"[4]'
 $ sleep 15
 $ ibtracert 1 8
@@ -123,7 +123,7 @@ To ca {0x0002c90000000040} portnum 1 lid 8-8 "HCA04"
 The route now goes through SW02. Nobody reconfigured anything. OpenSM logged an off-schedule
 sweep, recomputed the routes and rewrote the table. These are the two rows that changed:
 
-```
+```console
 $ ibroute 2 | lft-table.py
 │ 4    │ 3           │ SW03        │
 │ 8    │ 3           │ HCA04       │
